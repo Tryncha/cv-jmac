@@ -1,0 +1,65 @@
+[
+  {
+    "id": 0,
+    "date": "12/07/2006 - 12/01/2007",
+    "duration": "7 meses",
+    "location": "Universidad Nacional de Colombia",
+    "job": "Ingeniero Especializado en I+D para Proyectos Tecnológicos"
+  },
+  {
+    "id": 1,
+    "date": "01/10/2007 - 28/02/2009",
+    "duration": "4 años y 2 meses",
+    "location": "Universidad Nacional de Colombia",
+    "job": "Ingeniero Especializado en Gestión de Calidad"
+  },
+  {
+    "id": 2,
+    "date": "10/03/2009 - 24/11/2009",
+    "duration": "9 meses",
+    "location": "Universidad Nacional de Colombia",
+    "job": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales"
+  },
+  {
+    "id": 3,
+    "date": "14/12/2009 - 10/02/2009",
+    "duration": "3 meses",
+    "location": "Universidad Nacional de Colombia",
+    "job": "Ingeniero Químico Analista de Laboratorio"
+  },
+  {
+    "id": 4,
+    "date": "29/01/2010 - 26/02/2011",
+    "duration": "1 año y 1 mes",
+    "location": "Universidad Nacional de Colombia",
+    "job": "Ingeniero Técnico en Instrumentación Fisicoquímica"
+  },
+  {
+    "id": 5,
+    "date": "08/02/2010 - 14/02/2020",
+    "duration": "10 años",
+    "location": "Universidad de Caldas",
+    "job": "Profesor Universitario con Título de Máster"
+  },
+  {
+    "id": 6,
+    "date": "31/07/2015 - 13/06/2020",
+    "duration": "5 años",
+    "location": "Universidad Católica de Manizales",
+    "job": "Profesor Universitario con Título de Máster"
+  },
+  {
+    "id": 7,
+    "date": "01/09/2019 - 23/07/2024",
+    "duration": "4 años",
+    "location": "Universidad de Granada",
+    "job": "Doctorando"
+  },
+  {
+    "id": 8,
+    "date": "11/12/2024",
+    "duration": "Actual",
+    "location": "Universidad de Castilla-La Mancha",
+    "job": "Investigación posdoctoral"
+  }
+]

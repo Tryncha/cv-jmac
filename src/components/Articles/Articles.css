@@ -1,0 +1,58 @@
+.Articles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--sectionBackgroundColor);
+  padding: 50px 200px;
+}
+
+.Articles-title {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.Articles-articleCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ArticleCard {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  background-color: var(--articleBackgroundColor);
+  font-family: 'Roboto Slab';
+  color: black;
+  padding: 30px;
+  border: 1px solid var(--sectionBorderColor);
+  border-radius: 10px;
+}
+
+.ArticleCard-img {
+  width: 100%;
+  height: 45%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.ArticleCard-title {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+}
+
+.ArticleCard-footer {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}

@@ -1,0 +1,30 @@
+.CurrentJobInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--sectionBackgroundColor);
+  padding: 50px 200px;
+}
+
+.CurrentJobInfo-title {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+}
+
+.CurrentJobInfo h3 {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.CurrentJobInfo p {
+  font-family: 'IBM Plex Serif';
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 40px;
+}

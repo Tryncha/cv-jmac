@@ -1,0 +1,48 @@
+.PreviousJobs {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--sectionBackgroundColor);
+  padding: 50px 200px;
+}
+
+.PreviousJobs-title {
+  font-family: 'Roboto Slab';
+  font-weight: bold;
+  font-size: 26px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.PreviousJobs-jobCards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+.JobCard {
+  font-family: 'Roboto Slab';
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.JobCard-date,
+.JobCard-duration {
+  width: 210px;
+  text-align: center;
+}
+
+.JobCard-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.JobCard-location {
+  font-weight: bold;
+}
+
+.JobCard-job {
+  font-family: 'IBM Plex Serif';
+}
