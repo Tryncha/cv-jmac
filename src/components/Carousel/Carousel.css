@@ -1,0 +1,46 @@
+.Carousel {
+  position: relative;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    90deg,
+    var(--heroBackgroundColor) 10%,
+    transparent 20%,
+    transparent 80%,
+    var(--heroBackgroundColor) 90%
+  );
+}
+
+.Carousel-button {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 9999px;
+}
+
+.Carousel--prevButton {
+  left: 26.5vw;
+}
+
+.Carousel--nextButton {
+  right: 26.5vw;
+}
+
+.Carousel-img {
+  height: 100%;
+  box-shadow: 0 0 20px 10px var(--heroShadowColor);
+  z-index: -1;
+}
+
+.Carousel-number {
+  position: absolute;
+  bottom: 0;
+  width: 50px;
+  background-color: black;
+  text-align: center;
+  font-size: 50px;
+}

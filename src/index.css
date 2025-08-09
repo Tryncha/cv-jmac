@@ -25,6 +25,7 @@ body {
   background-color: var(--bodyBackgroundColor);
   font-family: system-ui;
   color: var(--fontColor);
+  margin-top: 80px;
 }
 
 main {
@@ -62,30 +63,6 @@ main {
   color: var(--fontColor);
   text-decoration: none;
   margin-inline: 10px;
-}
-
-/* --- Hero --- */
-
-.Hero {
-  height: calc(100vh - 80px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(
-    90deg,
-    var(--heroBackgroundColor) 10%,
-    transparent 20%,
-    transparent 80%,
-    var(--heroBackgroundColor) 90%
-  );
-  margin-top: 80px;
-}
-
-.Hero-img {
-  position: relative;
-  height: calc(100vh - 80px);
-  box-shadow: 0 0 20px 10px var(--heroShadowColor);
-  z-index: -1;
 }
 
 /* --- Footer --- */
