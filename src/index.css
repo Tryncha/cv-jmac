@@ -1,5 +1,5 @@
 :root {
-  --body-backgroundColor: #434244;
+  --body-backgroundColor: #f8f5f2;
   --body-borderColor: black;
   --body-fontFamily: 'Work Sans';
   --body--main-fontColor: black;
@@ -11,9 +11,9 @@
   --Header-backgroundColor: #e6e3e1;
   --Header-fontFamily: 'Work Sans';
   --Header--title-fontFamily: 'IBM Plex Serif';
-  --Header-fontColor: black;
+  --Header-fontColor: #000000;
 
-  --main-backgroundColor: #f8f5f2;
+  --main-backgroundColor: #ffffff;
 }
 
 * {
@@ -23,26 +23,43 @@
 }
 
 body {
+  background-color: var(--body-backgroundColor);
   font-family: var(--body-fontFamily);
 }
 
-#root {
-  display: flex;
-  background-color: var(--main-backgroundColor);
-}
-
-.u-mainInfo {
+main {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 50px 140px;
-  margin-top: var(--Header-height);
-  margin-left: var(--aside-width);
+  background-color: var(--main-backgroundColor);
+  padding: calc(var(--Header-height) + 50px) 70px 50px;
+  border-inline: 1px solid var(--body-borderColor);
+  margin: 0 200px;
+}
 
-  hr {
-    margin: 10px 0;
-  }
+hr {
+  margin: 10px 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+  border-top: 1px solid var(--body-borderColor);
+}
+
+footer div {
+  display: flex;
+  gap: 20px;
+}
+
+footer a {
+  font-size: 2rem;
+  color: var(--body--main-fontColor);
+  text-decoration: none;
 }
 
 .u-sectionTitle {
