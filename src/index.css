@@ -1,5 +1,19 @@
 :root {
-  --headerHeight: 70px;
+  --body-backgroundColor: #434244;
+  --body-borderColor: black;
+  --body-fontFamily: 'Work Sans';
+  --body--main-fontColor: black;
+  --body--secondary-fontColor: #494949;
+
+  --aside-width: 300px;
+
+  --Header-height: 120px;
+  --Header-backgroundColor: #e6e3e1;
+  --Header-fontFamily: 'Work Sans';
+  --Header--title-fontFamily: 'IBM Plex Serif';
+  --Header-fontColor: black;
+
+  --main-backgroundColor: #f8f5f2;
 }
 
 * {
@@ -8,83 +22,37 @@
   margin: 0;
 }
 
-header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: var(--headerHeight);
-  padding: 10px 20px;
-  border-block: 1px solid black;
-  background-color: black;
-  color: white;
-  z-index: 10;
+body {
+  font-family: var(--body-fontFamily);
 }
 
-main {
+#root {
   display: flex;
-  background-color: antiquewhite;
-}
-
-aside {
-  position: fixed;
-  width: 300px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 30px;
-  border-right: 1px solid black;
-  margin-top: var(--headerHeight);
-  background-color: black;
-}
-
-.u-flexRow {
-  display: flex;
-  flex-direction: row;
-}
-
-.u-flexColumn {
-  display: flex;
-  flex-direction: column;
+  background-color: var(--main-backgroundColor);
 }
 
 .u-mainInfo {
   position: relative;
-  width: 100%;
-  padding: 80px 30px;
-  margin-left: 300px;
-}
-
-.u-asideInfo {
   display: flex;
   flex-direction: column;
-}
-
-.u-aboutInfo {
-  display: flex;
-}
-
-.WorkExperience {
-  width: 100%;
-}
-
-.WorkExperience-job {
-  display: flex;
   gap: 20px;
+  padding: 50px 140px;
+  margin-top: var(--Header-height);
+  margin-left: var(--aside-width);
+
+  hr {
+    margin: 10px 0;
+  }
 }
 
-.WorkExperience-jobMainInfo {
-  width: 500px;
+.u-sectionTitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }
 
 .u-circle {
   width: 200px;
   height: 200px;
-  border: 1px solid white;
+  border: 1px solid var(--body-backgroundColor);
   border-radius: 9999px;
-}
-
-.u-links {
-  color: white;
 }

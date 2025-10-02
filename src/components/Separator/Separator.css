@@ -1,0 +1,30 @@
+.Separator {
+  width: 20px;
+  height: 115%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4px;
+}
+
+.Separator-dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.Separator-line {
+  width: 2px;
+  height: 100%;
+  background-color: black;
+}
+
+.Separator-dottedLine {
+  width: 2px;
+  height: 10px;
+  margin-top: 3px;
+  background-color: black;
+}

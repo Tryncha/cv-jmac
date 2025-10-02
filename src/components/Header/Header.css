@@ -1,0 +1,47 @@
+.Header {
+  position: fixed;
+  top: 0;
+  left: var(--aside-width);
+  width: calc(100% - var(--aside-width));
+  height: var(--Header-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  border-bottom: 1px solid var(--body-borderColor);
+  background-color: var(--Header-backgroundColor);
+  font-family: var(--Header-fontFamily);
+  color: var(--Header-fontColor);
+  box-shadow: 0 2px 10px 0 #6e6e6e;
+  z-index: 1;
+}
+
+.Header h1 {
+  font-family: var(--Header--title-fontFamily);
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.Header h2 {
+  font-family: var(--Header--title-fontFamily);
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  color: var(--body--secondary-fontColor);
+}
+
+.Header-contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Header-contactInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Header-contactInfo div {
+  display: flex;
+  gap: 5px;
+}

@@ -1,0 +1,13 @@
+.Aside {
+  position: fixed;
+  width: var(--aside-width);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px;
+  border-right: 1px solid var(--body-borderColor);
+  background-color: var(--body-backgroundColor);
+  z-index: 2;
+}
