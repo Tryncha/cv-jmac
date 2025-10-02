@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "institution": "Universidad Nacional de Colombia",
+    "degree": "Grado en Ingeniería Química",
+    "city": "Manizales, Colombia",
+    "date": "19/08/2005"
+  },
+  {
+    "id": 1,
+    "institution": "Universidad Nacional de Colombia",
+    "degree": "Máster en Ingeniería Química",
+    "city": "Granada, España",
+    "date": "18/12/2008"
+  },
+  {
+    "id": 2,
+    "institution": "Universidad de Granada",
+    "degree": "Doctorado en Química",
+    "city": "Granada, España",
+    "date": "23/07/2024"
+  }
+]

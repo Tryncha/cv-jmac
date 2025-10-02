@@ -1,0 +1,24 @@
+{
+  "firstName": "Jhon Mauricio",
+  "lastName": "Aguirre Cortés",
+  "nie": "Y8312481L",
+  "orcid": "0000-0002-9700-3544",
+  "birthDate": "17/01/1976",
+  "gender": "Hombre",
+  "nationality": "Colombiana",
+  "birthCity": "Manizales, Colombia",
+  "address": "Calle Colombicultura, Número 8. Piso 2. Puerta 3",
+  "postalCode": "46200",
+  "residence": "Paiporta, España",
+  "landlinePhone": "(+34) 610104351",
+  "mobilePhone": "(+34) 677367320",
+  "email": "jmacor7@gmail.com",
+  "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
+  "socialNetworks": {
+    "facebook": "http://www.facebook.com",
+    "twitter": "http://www.x.com",
+    "instagram": "http://www.instagram.com",
+    "youtube": "http://www.youtube.com",
+    "linkedin": "http://www.linkedin.com"
+  }
+}

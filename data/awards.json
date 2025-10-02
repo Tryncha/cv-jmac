@@ -1,0 +1,18 @@
+[
+  {
+    "id": 0,
+    "description": "Distinción de Tesis de Doctorado CUM LAUDE",
+    "awardingEntity": "Universidad de Granada",
+    "entityType": "Universidad",
+    "city": "Granada, España",
+    "date": "29/07/2024"
+  },
+  {
+    "id": 1,
+    "description": "Mención de Tesis de Maestría Meritoria",
+    "awardingEntity": "Universidad Nacional de Colombia",
+    "entityType": "Universidad",
+    "city": "Manizales, Colombia",
+    "date": "25/11/2008"
+  }
+]

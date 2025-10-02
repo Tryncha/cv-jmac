@@ -1,0 +1,73 @@
+[
+  {
+    "id": 0,
+    "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos",
+    "date": "12/07/2006 - 12/01/2007",
+    "duration": "7 meses",
+    "location": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 1,
+    "name": "Ingeniero Especializado en Gestión de Calidad",
+    "date": "01/10/2007 - 28/02/2009",
+    "duration": "4 años y 2 meses",
+    "location": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 2,
+    "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
+    "date": "10/03/2009 - 24/11/2009",
+    "duration": "9 meses",
+    "location": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 3,
+    "name": "Ingeniero Químico Analista de Laboratorio",
+    "date": "14/12/2009 - 10/02/2009",
+    "duration": "3 meses",
+    "location": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 4,
+    "name": "Ingeniero Técnico en Instrumentación Fisicoquímica",
+    "date": "29/01/2010 - 26/02/2011",
+    "duration": "1 año y 1 mes",
+    "location": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 5,
+    "name": "Profesor Universitario con Título de Máster",
+    "date": "08/02/2010 - 14/02/2020",
+    "duration": "10 años",
+    "location": "Universidad de Caldas",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 6,
+    "name": "Profesor Universitario con Título de Máster",
+    "date": "31/07/2015 - 13/06/2020",
+    "duration": "5 años",
+    "location": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia"
+  },
+  {
+    "id": 7,
+    "name": "Doctorando",
+    "date": "01/09/2019 - 23/07/2024",
+    "duration": "4 años",
+    "location": "Universidad de Granada",
+    "city": "Granada, España"
+  },
+  {
+    "id": 8,
+    "name": "Investigación posdoctoral",
+    "date": "11/12/2024 - Actual",
+    "location": "Universidad de Castilla-La Mancha",
+    "city": "Castilla-La Mancha, España"
+  }
+]

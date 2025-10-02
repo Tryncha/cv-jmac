@@ -1,0 +1,353 @@
+[
+  {
+    "id": 0,
+    "name": "Capacitación en Habilidades Laborales. Cómo Preparar una Entrevista en Inglés",
+    "type": "Capacitación",
+    "institution": "Fundación Valencia Activa",
+    "city": "Valencia, España",
+    "duration": "3 horas",
+    "date": "30/09/2024"
+  },
+  {
+    "id": 1,
+    "name": "V Simposio de la Unidad de Excelencia de Química Aplicada",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "8 horas",
+    "date": "20/01/2023"
+  },
+  {
+    "id": 2,
+    "name": "I Jornada de Jóvenes Investigadores del Grupo Español del Carbón",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "24 horas",
+    "date": "02/12/2022"
+  },
+  {
+    "id": 3,
+    "name": "El Maravilloso Mundo de los Materiales Basados en Carbono",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "20 horas",
+    "date": "30/11/2022"
+  },
+  {
+    "id": 4,
+    "name": "XXXVIII Reunión Bienal de la Sociedad Española de Química",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "32 horas",
+    "date": "30/06/2022"
+  },
+  {
+    "id": 5,
+    "name": "To Be Visible, or Not to Be, That is the Question: Difusión de Publicaciones",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "30/05/2022"
+  },
+  {
+    "id": 6,
+    "name": "Inteligencia Artificial 360°",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "16 horas",
+    "date": "20/05/2022"
+  },
+  {
+    "id": 7,
+    "name": "XV Reunión del Grupo Español del Carbón",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "32 horas",
+    "date": "17/04/2022"
+  },
+  {
+    "id": 8,
+    "name": "Gestión de Residuos, Economía Circular y Emprendimiento",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "50 horas",
+    "date": "24/04/2022"
+  },
+  {
+    "id": 9,
+    "name": "Programa Mentor de Doctorandos",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "01/04/2022"
+  },
+  {
+    "id": 10,
+    "name": "Introducción a las Expresiones Regulares",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "18/02/2022"
+  },
+  {
+    "id": 11,
+    "name": "Colaboración y Movilidad en el Doctorado",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "11/02/2022"
+  },
+  {
+    "id": 12,
+    "name": "Congreso Anual Internacional de Estudiantes de Doctorado",
+    "type": "Curso",
+    "institution": "Universidad Miguel Hernández",
+    "city": "Granada, España",
+    "duration": "16 horas",
+    "date": "04/02/2022"
+  },
+  {
+    "id": 13,
+    "name": "Visualización de Resultados (figuras) en Artículos Científicos",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "04/02/2022"
+  },
+  {
+    "id": 14,
+    "name": "Tips for successful grant applications: experiences from the applicant and the reviewer point of view",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "21/12/2021"
+  },
+  {
+    "id": 15,
+    "name": "Breve Introducción a la Ciencia de Datos y sus Técnicas",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "03/12/2021"
+  },
+  {
+    "id": 16,
+    "name": "Taller de Revisión de la Literatura para Estudiantes de Doctorado",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "26/11/2021"
+  },
+  {
+    "id": 17,
+    "name": "Escritura de Documentos",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "1 hora",
+    "date": "28/10/2021"
+  },
+  {
+    "id": 18,
+    "name": "Divulgación Científica",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "20 horas",
+    "date": "14/10/2021"
+  },
+  {
+    "id": 19,
+    "name": "Escritura y Publicación de Artículos Científicos",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "3 horas",
+    "date": "18/06/2021"
+  },
+  {
+    "id": 20,
+    "name": "Herramientas para el Desarrollo de la Investigación",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "9 horas",
+    "date": "27/05/2021"
+  },
+  {
+    "id": 21,
+    "name": "La Ruta Emprendedora de los Investigadores en Formación",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "30 horas",
+    "date": "16/03/2021"
+  },
+  {
+    "id": 22,
+    "name": "Mapeando la Ciencia con VOSviewer",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "01/03/2021"
+  },
+  {
+    "id": 23,
+    "name": "Elaboración del Plan de Investigación",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "17/02/2021"
+  },
+  {
+    "id": 24,
+    "name": "Formación de un Documento de Word para la Tesis",
+    "type": "Curso",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "duration": "2 horas",
+    "date": "17/02/2021"
+  },
+  {
+    "id": 25,
+    "name": "3a Jornada Técnica de Ingeniería Ambiental",
+    "type": "Curso",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "duration": "16 horas",
+    "date": "29/10/2015"
+  },
+  {
+    "id": 26,
+    "name": "Calorimetría Diferencial de Barrido. Fundamentos y Aplicaciones",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "12 horas",
+    "date": "13/11/2009"
+  },
+  {
+    "id": 27,
+    "name": "Gestión del Mejoramiento Continuo",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "8 horas",
+    "date": "09/10/2009"
+  },
+  {
+    "id": 28,
+    "name": "Catálisis Heterogénea. Principios y Aplicaciones",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "16 horas",
+    "date": "13/02/2009"
+  },
+  {
+    "id": 29,
+    "name": "Auditorías Internas Aplicadas a la Norma ISO/IEC 17025",
+    "type": "Curso",
+    "institution": "SENA: Servicio Nacional de Aprendizaje",
+    "city": "Manizales, Colombia",
+    "duration": "24 horas",
+    "date": "28/11/2007"
+  },
+  {
+    "id": 30,
+    "name": "Espectroscopia de Impedancia Electroquímica",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "20 horas",
+    "date": "02/11/2007"
+  },
+  {
+    "id": 31,
+    "name": "Fundamentos de la Norma ISO/IEC 17025:2005",
+    "type": "Curso",
+    "institution": "SENA: Servicio Nacional de Aprendizaje",
+    "city": "Manizales, Colombia",
+    "duration": "20 horas",
+    "date": "24/10/2007"
+  },
+  {
+    "id": 32,
+    "name": "Simposio Nacional de Nanotecnología. La revolución del Siglo XXI",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "20 horas",
+    "date": "16/09/2006"
+  },
+  {
+    "id": 33,
+    "name": "Congreso Colombiano de Ingeniería Química",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "24 horas",
+    "date": "26/08/2005"
+  },
+  {
+    "id": 34,
+    "name": "Investigación, Desarrollo y Aplicación de Métodos Heliofotocatalíticos",
+    "type": "Curso",
+    "institution": "Universidad de Caldas",
+    "city": "Manizales, Colombia",
+    "duration": "12 horas",
+    "date": "12/06/2004"
+  },
+  {
+    "id": 35,
+    "name": "Primera Jornada Técnica de Ingeniería Química",
+    "type": "Curso",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "duration": "24 horas",
+    "date": "29/11/2001"
+  },
+  {
+    "id": 36,
+    "name": "Diplomado en Ambientes de Aprendizaje Flexibles Apoyados por NTIC",
+    "type": "Diplomado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "duration": "144 horas",
+    "date": "01/03/2018 - 06/06/2018"
+  },
+  {
+    "id": 37,
+    "name": "Diplomado en Docencia Universitaria",
+    "type": "Diplomado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "duration": "120 horas",
+    "date": "26/08/2015 - 25/11/2015"
+  },
+  {
+    "id": 38,
+    "name": "Diplomado en Docencia Universitaria",
+    "type": "Diplomado",
+    "institution": "Universidad de Caldas",
+    "city": "Manizales, Colombia",
+    "duration": "160 horas",
+    "date": "23/05/2012 - 27/08/2012"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": 0,
+    "name": "Extracción Líquido - Sólido y Encapsulación de Compuestos Bioactivos del Jengibre",
+    "type": "Trabajo de fin de máster",
+    "institution": "Universidad Nacional de Colombia",
+    "city": "Manizales, Colombia",
+    "student": "Normal Lucia Medina Pimentel",
+    "date": "11/11/2024"
+  },
+  {
+    "id": 1,
+    "name": "Desarrollo de fotocatalizadores activos bajo luz visible basados en nanopartículas de óxidos metálicos para la descontaminación",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad de Granada",
+    "city": "Granada, España",
+    "student": "Álvaro Munguía Ubernia",
+    "date": "01/02/2023"
+  },
+  {
+    "id": 2,
+    "name": "Síntesis de un Material Nanoestructurado Mixto Tipo Hidrotalcita-Hidroxisal, y Evaluación de su Capacidad de Remoción",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "Tatiana Velásquez Montoya",
+    "date": "01/04/2020"
+  },
+  {
+    "id": 3,
+    "name": "Valorización de un Residuo Industrial por la Síntesis y Caracterización de Materiales Nanoestructurados con Potencial Bactericida",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "Greeidy Yeimison Cárdenas Vera",
+    "date": "01/12/2018"
+  },
+  {
+    "id": 4,
+    "name": "Valoración de la Actividad Bactericida de Hidroxisales Laminares",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "Daniela Gil Ramírez",
+    "date": "01/06/2018"
+  },
+  {
+    "id": 5,
+    "name": "Evaluación Preliminar para la Valoración de Residuos en la Obtención de Materiales Nanoestructurados Tipo Hidrotalcita",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "María Teresa Romero Orozco",
+    "date": "01/03/2018"
+  },
+  {
+    "id": 6,
+    "name": "Valoración Preliminar para la Adsorción de Colorantes por Medio de Hidroxisales Laminares",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "Juliana Cetina Marín",
+    "date": "01/03/2018"
+  },
+  {
+    "id": 7,
+    "name": "Valorización de un Residuo Industrial Usado como Materia Prima para la Preparación y Evaluación de un Posible Coagulante, Floculante Sobre Aguas Turbias",
+    "type": "Trabajo de fin de grado",
+    "institution": "Universidad Católica de Manizales",
+    "city": "Manizales, Colombia",
+    "student": "Andry Julieth Matiz García",
+    "date": "01/01/2018"
+  }
+]
