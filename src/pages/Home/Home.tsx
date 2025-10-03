@@ -1,4 +1,4 @@
-import articlesData from '../../../data/articles.json';
+import articlesData from '../../data/articles.json';
 import Article from '../../components/Article/Article';
 import Section from '../../components/Section/Section';
 import useLanguage from '../../hooks/useLanguage';
@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <main className="Home">
-      <Section title={homeTraslation[language].articlesTitle}>
+      {/* <Section title={homeTraslation[language].articlesTitle}>
         <div className="Articles">
           {articles.map((art) => (
             <Article
@@ -34,7 +34,7 @@ const Home = () => {
             />
           ))}
         </div>
-      </Section>
+      </Section> */}
     </main>
   );
 };

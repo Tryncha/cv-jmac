@@ -1,7 +1,7 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router';
-import { LanguageProvider } from './context/Language/languageContext.tsx';
+import { LanguageProvider } from './context/Language/LanguageContext.tsx';
 import App from './App.tsx';
 import './index.css';
 

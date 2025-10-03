@@ -1,4 +1,5 @@
-import aboutInfoData from '../../../data/aboutInfo.json';
+import { useId } from 'react';
+import aboutInfoData from '../../data/aboutInfo.json';
 import useLanguage from '../../hooks/useLanguage';
 import type { Language } from '../../types';
 import { EmailIcon, LocationIcon, PhoneIcon } from '../Icons';
@@ -18,7 +19,14 @@ const headerTranslation = {
 };
 
 const Header = () => {
-  const { language, setLanguage } = useLanguage();
+  const { language, changeLanguage } = useLanguage();
+
+  const selectId = useId();
+
+  function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
+    const newLanguage = event.target.value as Language;
+    changeLanguage(newLanguage);
+  }
 
   return (
     <header className="Header">
@@ -27,10 +35,9 @@ const Header = () => {
         <h2>{headerTranslation[language].title}</h2>
       </div>
       <select
-        onChange={(event) => {
-          const newLanguage = event.target.value as Language;
-          setLanguage(newLanguage);
-        }}
+        id={selectId}
+        value={language}
+        onChange={handleChange}
       >
         <option value="es">Español</option>
         <option value="en">English</option>

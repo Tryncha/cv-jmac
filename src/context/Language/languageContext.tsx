@@ -1,27 +1,37 @@
-import { createContext, useState } from 'react';
-import type { Language } from '../../types';
+import { createContext, useEffect, useState } from 'react';
+import { getLanguageFromStorage, saveLanguageInStorage } from '../../utils';
+import type { Language } from '../../types.d';
 
 interface LanguageContextType {
   language: Language;
-  setLanguage: React.Dispatch<React.SetStateAction<Language>>;
+  changeLanguage: (newLanguage: Language) => void;
 }
 
 interface LanguageProps {
   children: React.ReactNode;
 }
 
-const initialLanguage = 'es';
+const initialLanguage = getLanguageFromStorage() || 'es';
+
 const LanguageContext = createContext<LanguageContextType>({
   language: initialLanguage,
-  setLanguage: () => {}
+  changeLanguage: () => {}
 });
 
 export const LanguageProvider = ({ children }: LanguageProps) => {
   const [language, setLanguage] = useState<Language>(initialLanguage);
 
+  useEffect(() => {
+    saveLanguageInStorage(language);
+  }, [language]);
+
+  function changeLanguage(newLanguage: Language) {
+    setLanguage(newLanguage);
+  }
+
   const languageValue = {
     language,
-    setLanguage
+    changeLanguage
   };
 
   return <LanguageContext.Provider value={languageValue}>{children}</LanguageContext.Provider>;

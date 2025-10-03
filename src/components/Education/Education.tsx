@@ -1,4 +1,4 @@
-import educationData from '../../../data/education.json';
+import educationData from '../../data/education.json';
 import useLanguage from '../../hooks/useLanguage';
 import Section from '../Section/Section';
 import './Education.css';
