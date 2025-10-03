@@ -1,9 +1,10 @@
 import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useLanguage from '../../hooks/useLanguage';
-import type { Language } from '../../types.d';
+import type { Theme, Language } from '../../types.d';
 import { EmailIcon, LocationIcon, PhoneIcon } from '../Icons';
 import './Header.css';
+import useTheme from '../../hooks/useTheme';
 
 const aboutInfo = aboutInfoData;
 
@@ -20,10 +21,17 @@ const headerTranslation = {
 
 const Header = () => {
   const { language, changeLanguage } = useLanguage();
+  const { theme, changeTheme } = useTheme();
 
-  const selectId = useId();
+  const themeSelectId = useId();
+  const languageSelectId = useId();
 
-  function handleChange(event: React.ChangeEvent<HTMLSelectElement>) {
+  function handleThemeChange(event: React.ChangeEvent<HTMLSelectElement>) {
+    const newTheme = event.target.value as Theme;
+    changeTheme(newTheme);
+  }
+
+  function handleLanguageChange(event: React.ChangeEvent<HTMLSelectElement>) {
     const newLanguage = event.target.value as Language;
     changeLanguage(newLanguage);
   }
@@ -35,9 +43,18 @@ const Header = () => {
         <h2>{headerTranslation[language].title}</h2>
       </div>
       <select
-        id={selectId}
+        id={themeSelectId}
+        value={theme}
+        onChange={handleThemeChange}
+      >
+        <option value="light">Claro</option>
+        <option value="dark">Oscuro</option>
+        <option value="test">Test</option>
+      </select>
+      <select
+        id={languageSelectId}
         value={language}
-        onChange={handleChange}
+        onChange={handleLanguageChange}
       >
         <option value="es">Español</option>
         <option value="en">English</option>

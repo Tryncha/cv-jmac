@@ -1,5 +1,47 @@
-:root {
+[data-theme='light'] {
   --body-backgroundColor: #c7c7b3;
+  --body-borderColor: #000000;
+  --body-fontFamily: 'Work Sans';
+  --body--main-fontColor: #000000;
+  --body--secondary-fontColor: #494949;
+
+  /* Components */
+  --Header-height: 120px;
+  --Header-backgroundColor: #fff8cf;
+  --Header-borderColor: #000000;
+  --Header-fontFamily: 'Work Sans';
+  --Header-fontColor: #000000;
+  --Header--secondary-fontColor: #494949;
+  --Header--h1-fontFamily: 'IBM Plex Serif';
+  --Header--h1-fontSize: 2.5rem;
+  --Header--h2-fontFamily: 'IBM Plex Serif';
+  --Header--h2-fontSize: 1.25rem;
+  --Header-boxShadow: 0 0 5px 0 #6e6e6e;
+
+  --Footer-backgroundColor: #fff8cf;
+  --Footer-borderColor: #000000;
+  --Footer-fontFamily: 'IBM Plex Serif';
+  --Footer-fontColor: #000000;
+  --Footer-fontWeight: 500;
+  --Footer-a-fontSize: 2rem;
+  --Footer-boxShadow: 0 0 5px 0 #000;
+
+  /* Pages */
+  --Vitae-backgroundColor: #fffdfc;
+  --Vitae-borderColor: #000000;
+  --Vitae-boxShadow: 0 0 5px 0 #404040;
+
+  /* Indexes */
+  --body-zIndex: 0;
+
+  --main-zIndex: 1;
+
+  --Header-zIndex: 2;
+  --Footer-zIndex: 2;
+}
+
+[data-theme='dark'] {
+  --body-backgroundColor: #000000;
   --body-borderColor: #000000;
   --body-fontFamily: 'Work Sans';
   --body--main-fontColor: #000000;
