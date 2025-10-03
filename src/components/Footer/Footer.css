@@ -1,11 +1,18 @@
 .Footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5px;
   padding: 5px 0;
-  border-top: 1px solid var(--body-borderColor);
+  border-top: 1px solid var(--Footer-borderColor);
+  background-color: var(--Footer-backgroundColor);
   font-family: var(--Footer-fontFamily);
+  box-shadow: var(--Footer-boxShadow);
+  z-index: var(--Footer-zIndex);
 }
 
 .Footer div {
@@ -14,10 +21,9 @@
 }
 
 .Footer a {
-  font-size: 2rem;
-  font-weight: 500;
-  color: var(--body--main-fontColor);
-
+  font-size: var(--Footer-a-fontSize);
+  font-weight: var(--Footer-fontWeight);
+  color: var(--Footer-fontColor);
   text-transform: uppercase;
   text-decoration: none;
 }

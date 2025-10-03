@@ -1,10 +1,11 @@
 .Vitae {
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 40px;
-  background-color: var(--main-backgroundColor);
-  padding: calc(var(--Header-height) + 50px) 70px 50px;
-  border-inline: 1px solid var(--body-borderColor);
+  background-color: var(--Vitae-backgroundColor);
+  padding: calc(var(--Header-height) + 50px) 70px 100px;
+  border-inline: 1px solid var(--Vitae-borderColor);
   margin: 0 200px;
+  box-shadow: var(--Vitae-boxShadow);
+  z-index: var(--main-zIndex);
 }

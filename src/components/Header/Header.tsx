@@ -1,7 +1,7 @@
 import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useLanguage from '../../hooks/useLanguage';
-import type { Language } from '../../types';
+import type { Language } from '../../types.d';
 import { EmailIcon, LocationIcon, PhoneIcon } from '../Icons';
 import './Header.css';
 

@@ -1,7 +1,7 @@
 import workExperienceData from '../../data/workExperience.json';
 import useLanguage from '../../hooks/useLanguage';
 import Section from '../Section/Section';
-import Separator from '../Separator/Separator';
+import Separator from './Separator/Separator';
 import './WorkExperience.css';
 
 const workExperience = workExperienceData.reverse();

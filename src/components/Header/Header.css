@@ -8,25 +8,25 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
-  border-bottom: 1px solid var(--body-borderColor);
+  border-bottom: 1px solid var(--Header-borderColor);
   background-color: var(--Header-backgroundColor);
   font-family: var(--Header-fontFamily);
   color: var(--Header-fontColor);
-  /* box-shadow: 0 1px 10px 0 #6e6e6e; */
-  z-index: 1;
+  box-shadow: var(--Header-boxShadow);
+  z-index: var(--Header-zIndex);
 }
 
 .Header h1 {
-  font-family: var(--Header--title-fontFamily);
-  font-size: 2.5rem;
+  font-family: var(--Header--h1-fontFamily);
+  font-size: var(--Header--h1-fontSize);
   text-transform: uppercase;
 }
 
 .Header h2 {
-  font-family: var(--Header--title-fontFamily);
-  font-size: 1.25rem;
+  font-family: var(--Header--h2-fontFamily);
+  font-size: var(--Header--h2-fontSize);
   text-transform: uppercase;
-  color: var(--body--secondary-fontColor);
+  color: var(--Header--secondary-fontColor);
 }
 
 .Header-contactInfo {
