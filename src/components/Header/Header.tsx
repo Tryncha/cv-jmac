@@ -1,16 +1,40 @@
 import aboutInfoData from '../../../data/aboutInfo.json';
+import useLanguage from '../../hooks/useLanguage';
+import type { Language } from '../../types';
 import { EmailIcon, LocationIcon, PhoneIcon } from '../Icons';
 import './Header.css';
 
 const aboutInfo = aboutInfoData;
 
+const headerTranslation = {
+  es: {
+    name: 'Jhon Mauricio Aguirre Cortés',
+    title: 'Doctor en Química'
+  },
+  en: {
+    name: 'Jhon Mauricio Aguirre Cortés',
+    title: 'PhD in Chemistry'
+  }
+};
+
 const Header = () => {
+  const { language, setLanguage } = useLanguage();
+
   return (
     <header className="Header">
       <div>
-        <h1>Jhon Mauricio Aguirre Cortés</h1>
-        <h2>Doctor en Química</h2>
+        <h1>{headerTranslation[language].name}</h1>
+        <h2>{headerTranslation[language].title}</h2>
       </div>
+      <select
+        onChange={(event) => {
+          const newLanguage = event.target.value as Language;
+          setLanguage(newLanguage);
+        }}
+      >
+        <option value="es">Español</option>
+        <option value="en">English</option>
+      </select>
       <div className="Header-contactInfo">
         <div>
           <LocationIcon size="20" />
