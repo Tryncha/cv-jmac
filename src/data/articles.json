@@ -1,14 +1,5 @@
 [
   {
-    "id": 0,
-    "title": "3D printing in photocatalysis: Methods and capabilities for the improved performance",
-    "keywords": ["3D printing", "Additive manufacture", "Reactor design", "Photocatalysis"],
-    "authors": "Jhon Mauricio Aguirre-Cortes, Adriana Isabel Moral-Rodriguez, Esther Bailon-Garcia, Arantxa Davo-Quinonero, Agustin Francisco Perez-Cadenas, Francisco Carrasco-Marin",
-    "abstract": "The continuous miniaturization of technologies demands of high precision techniques in the microdevice manufacture, where 3D printing arises as a powerful tool. 3D printing technologies are attracting an uprising interest and their constant development is bringing tremendous advances in the micro- to nano-scale material fabrication. Though 3D printing is yet considered a novel technology, it is being consolidated in the fabrication of chemical reactors with application in the catalytic field. In this scenario, photocatalysis is a type of catalysis activated by light and additional challenges must be tackled for the efficient implementation of 3D printing in photoreactors. This review article covers the state-of-the-art in the developments of 3D printing technologies in the photochemical reactor engineering and their downsizing opportunities. As reviewed, 3D printing enables to obtain new outperforming photocatalysts and photocatalytic supports of sophisticated configurations and geometries that were before unthinkable for traditional materials manufacture. The reactor and catalyst co-design has a tremendous impact on the photoreaction in terms of light harvesting efficiency, chemical conversion and flow regimes. In summary, the utilization of 3D printing in photocatalysis has a promising outlook given its freedom design in the macro but also in the low scale, the expansion of the family of printable materials and its integration with nanotechnology in the overall material design. Thus, through a precise control over the photocatalyst loading and its distribution, but also the substrates design in terms of volume, tortuosity and downsizing, 3D printing opens up a new horizon in the photocatalytic field.",
-    "date": "01/06/2023",
-    "link": "https://www.sciencedirect.com/science/article/pii/S2352940723001014"
-  },
-  {
     "id": 1,
     "imgSrc": "images/template.png",
     "imgAlt": "Template",

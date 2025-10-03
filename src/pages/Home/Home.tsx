@@ -20,7 +20,7 @@ const Home = () => {
 
   return (
     <main className="Home">
-      {/* <Section title={homeTraslation[language].articlesTitle}>
+      <Section title={homeTraslation[language].articlesTitle}>
         <div className="Articles">
           {articles.map((art) => (
             <Article
@@ -34,7 +34,7 @@ const Home = () => {
             />
           ))}
         </div>
-      </Section> */}
+      </Section>
     </main>
   );
 };
