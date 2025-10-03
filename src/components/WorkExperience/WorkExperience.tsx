@@ -1,4 +1,5 @@
 import workExperienceData from '../../../data/workExperience.json';
+import Section from '../Section/Section';
 import Separator from '../Separator/Separator';
 import './WorkExperience.css';
 
@@ -6,9 +7,7 @@ const workExperience = workExperienceData.reverse();
 
 const WorkExperience = () => {
   return (
-    <section className="WorkExperience">
-      <h2 className="u-sectionTitle">Experiencia Laboral</h2>
-      <hr />
+    <Section title="Experiencia Laboral">
       {workExperience.map((work) => (
         <div
           key={work.id}
@@ -31,7 +30,7 @@ const WorkExperience = () => {
           </div>
         </div>
       ))}
-    </section>
+    </Section>
   );
 };
 

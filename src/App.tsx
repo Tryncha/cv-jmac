@@ -1,28 +1,29 @@
-import Education from './components/Education/Education';
+import { Routes, Route } from 'react-router';
 import Header from './components/Header/Header';
-import Resume from './components/Resume/Resume';
-import WorkExperience from './components/WorkExperience/WorkExperience';
+import Home from './pages/Home/Home';
+import Vitae from './pages/Vitae/Vitae';
+import Contact from './pages/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
     <>
       <Header />
-      <main>
-        {/* <Aside /> */}
-        {/* <section className="u-mainInfo"> */}
-        <Resume />
-        <WorkExperience />
-        <Education />
-        {/* </section> */}
-      </main>
-      <footer>
-        <div>
-          <a href="">Home</a>
-          <a href="">Vitae</a>
-          <a href="">Contact</a>
-        </div>
-        <span>&copy; 2025 - Jhon Mauricio Aguirre Cortés</span>
-      </footer>
+      <Routes>
+        <Route
+          path="/"
+          element={<Home />}
+        />
+        <Route
+          path="/vitae"
+          element={<Vitae />}
+        />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+      </Routes>
+      <Footer />
     </>
   );
 };

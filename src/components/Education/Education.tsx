@@ -1,16 +1,15 @@
 import educationData from '../../../data/education.json';
+import Section from '../Section/Section';
 import './Education.css';
 
-const education = educationData;
+const education = educationData.reverse();
 
 const Education = () => {
   console.log(education);
   console.log(educationData);
 
   return (
-    <section className="Education">
-      <h2 className="u-sectionTitle">Educación</h2>
-      <hr />
+    <Section title="Educación">
       {education.map((edu) => (
         <div
           key={edu.id}
@@ -26,7 +25,7 @@ const Education = () => {
           </div>
         </div>
       ))}
-    </section>
+    </Section>
   );
 };
 

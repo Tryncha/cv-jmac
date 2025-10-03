@@ -14,6 +14,8 @@
   --Header-fontColor: #000000;
 
   --main-backgroundColor: #ffffff;
+
+  --Footer-fontFamily: 'IBM Plex Serif';
 }
 
 * {
@@ -27,44 +29,8 @@ body {
   font-family: var(--body-fontFamily);
 }
 
-main {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: var(--main-backgroundColor);
-  padding: calc(var(--Header-height) + 50px) 70px 50px;
-  border-inline: 1px solid var(--body-borderColor);
-  margin: 0 200px;
-}
-
 hr {
   margin: 10px 0;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  padding: 5px 0;
-  border-top: 1px solid var(--body-borderColor);
-}
-
-footer div {
-  display: flex;
-  gap: 20px;
-}
-
-footer a {
-  font-size: 2rem;
-  color: var(--body--main-fontColor);
-  text-decoration: none;
-}
-
-.u-sectionTitle {
-  font-size: 1.5rem;
-  text-transform: uppercase;
 }
 
 .u-circle {

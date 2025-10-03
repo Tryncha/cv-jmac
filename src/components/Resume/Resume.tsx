@@ -1,10 +1,9 @@
+import Section from '../Section/Section';
 import './Resume.css';
 
 const Resume = () => {
   return (
-    <section className="Resume">
-      <h2 className="u-sectionTitle">Resumen</h2>
-      <hr />
+    <Section title="Resumen">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit corporis cum neque similique debitis, hic
         nobis, ipsa amet reprehenderit nostrum a deserunt eaque dolorem doloribus tenetur soluta possimus sapiente unde!
@@ -12,7 +11,7 @@ const Resume = () => {
         tenetur recusandae maxime, perferendis magnam voluptates nostrum dolor tempora veniam facilis temporibus magni
         rem ratione!
       </p>
-    </section>
+    </Section>
   );
 };
 

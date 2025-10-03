@@ -1,0 +1,23 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 0;
+  border-top: 1px solid var(--body-borderColor);
+  font-family: var(--Footer-fontFamily);
+}
+
+.Footer div {
+  display: flex;
+  gap: 20px;
+}
+
+.Footer a {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--body--main-fontColor);
+
+  text-transform: uppercase;
+  text-decoration: none;
+}
