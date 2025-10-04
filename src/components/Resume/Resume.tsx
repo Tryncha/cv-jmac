@@ -20,6 +20,7 @@ const Resume = () => {
   return (
     <Section title={resumeTranslation[language].resumeTitle}>
       <p>{aboutInfo[language].resume}</p>
+      <p>{aboutInfo[language].currentActivity}</p>
     </Section>
   );
 };
