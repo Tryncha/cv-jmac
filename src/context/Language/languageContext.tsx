@@ -9,7 +9,10 @@ interface LanguageContextType {
   changeLanguage: (newLanguage: Language) => void;
 }
 
-const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+const LanguageContext = createContext<LanguageContextType>({
+  language: initialLanguage,
+  changeLanguage: () => {}
+});
 
 interface LanguageProps {
   children: React.ReactNode;

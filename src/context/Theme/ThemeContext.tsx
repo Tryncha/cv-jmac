@@ -9,7 +9,10 @@ interface ThemeContextType {
   changeTheme: (newTheme: Theme) => void;
 }
 
-const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+const ThemeContext = createContext<ThemeContextType>({
+  theme: initialTheme,
+  changeTheme: () => {}
+});
 
 interface ThemeProps {
   children: React.ReactNode;

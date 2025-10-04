@@ -7,7 +7,6 @@ function useLanguage() {
   if (!languageContext) {
     throw new Error('useLanguage must be used within a LanguageProvider');
   }
-
   return languageContext;
 }
 
