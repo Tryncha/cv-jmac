@@ -2,7 +2,7 @@ import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useLanguage from '../../hooks/useLanguage';
 import type { Theme, Language } from '../../types.d';
-import { LocationIcon, EmailIcon, LinkedInIcon, OrcidIcon } from '../Icons';
+import { LocationIcon, EmailIcon, OrcidIcon } from '../Icons';
 import './Header.css';
 import useTheme from '../../hooks/useTheme';
 
