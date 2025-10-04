@@ -2,21 +2,18 @@ import { createContext, useEffect, useState } from 'react';
 import { getThemeFromStorage, saveThemeInStorage } from '../../utils';
 import type { Theme } from '../../types.d';
 
+const initialTheme = getThemeFromStorage() || 'light';
+
 interface ThemeContextType {
   theme: Theme;
   changeTheme: (newTheme: Theme) => void;
 }
 
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
+
 interface ThemeProps {
   children: React.ReactNode;
 }
-
-const initialTheme = getThemeFromStorage() || 'light';
-
-const ThemeContext = createContext<ThemeContextType>({
-  theme: initialTheme,
-  changeTheme: () => {}
-});
 
 export const ThemeProvider = ({ children }: ThemeProps) => {
   const [theme, setTheme] = useState<Theme>(initialTheme);
