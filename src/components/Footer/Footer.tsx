@@ -6,12 +6,14 @@ const footerTranslation = {
   es: {
     home: 'Inicio',
     vitae: 'Vitae',
+    memories: 'Memorias',
     contact: 'Contacto',
     copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
   },
   en: {
     home: 'Home',
     vitae: 'Vitae',
+    memories: 'Memories',
     contact: 'Contact',
     copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
   }
@@ -34,6 +36,12 @@ const Footer = () => {
           reloadDocument
         >
           {footerTranslation[language].vitae}
+        </Link>
+        <Link
+          to="/memories"
+          reloadDocument
+        >
+          {footerTranslation[language].memories}
         </Link>
         <Link
           to="/contact"

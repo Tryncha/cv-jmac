@@ -34,11 +34,7 @@ const WorkExperience = () => {
           <Separator />
           <div className="WorkExperience-workDescription">
             <h3>{work[language].name}</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore cupiditate provident laborum
-              perspiciatis, quod id ab magni asperiores, ratione optio nam blanditiis delectus dolorum eaque ea mollitia
-              error eum voluptates?
-            </p>
+            <p></p>
           </div>
         </div>
       ))}

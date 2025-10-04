@@ -5,6 +5,7 @@ import Vitae from './pages/Vitae/Vitae';
 import Contact from './pages/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import NotFound from './pages/NotFound/NotFound';
+import Memories from './pages/Memories/Memories';
 
 const App = () => {
   return (
@@ -18,6 +19,10 @@ const App = () => {
         <Route
           path="/vitae"
           element={<Vitae />}
+        />
+        <Route
+          path="/memories"
+          element={<Memories />}
         />
         <Route
           path="/contact"
