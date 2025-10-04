@@ -2,46 +2,49 @@
   {
     "id": 0,
     "es": {
+      "degreeTitle": "Grado en Ingeniería Química",
       "institution": "Universidad Nacional de Colombia",
-      "degree": "Pregrado en Ingeniería Química",
+      "type": "General",
       "city": "Manizales, Colombia",
-      "date": "19/08/2005"
+      "date": "1999 - 2005"
     },
     "en": {
+      "degreeTitle": "Bachelor's DegreeTitle in Chemical Engineering",
       "institution": "National University of Colombia",
-      "degree": "Bachelor's Degree in Chemical Engineering",
       "city": "Manizales, Colombia",
-      "date": "08/19/2005"
+      "date": "1999 - 2005"
     }
   },
   {
     "id": 1,
     "es": {
+      "degreeTitle": "Maestría en Ingeniería Química",
       "institution": "Universidad Nacional de Colombia",
-      "degree": "Maestría en Ingeniería Química",
+      "type": "General",
       "city": "Manizales, Colombia",
-      "date": "18/12/2008"
+      "date": "2005 - 2008"
     },
     "en": {
+      "degreeTitle": "Master's DegreeTitle in Chemical Engineering",
       "institution": "National University of Colombia",
-      "degree": "Master's Degree in Chemical Engineering",
       "city": "Manizales, Colombia",
-      "date": "12/18/2008"
+      "date": "2005 - 2008"
     }
   },
   {
     "id": 2,
     "es": {
+      "degreeTitle": "Doctorado en Química",
       "institution": "Universidad de Granada",
-      "degree": "Doctorado en Química",
+      "type": "General",
       "city": "Granada, España",
-      "date": "23/07/2024"
+      "date": "2020 - 2024"
     },
     "en": {
+      "degreeTitle": "PhD in Chemistry",
       "institution": "University of Granada",
-      "degree": "PhD in Chemistry",
       "city": "Granada, Spain",
-      "date": "07/23/2024"
+      "date": "2020 - 2024"
     }
   }
 ]

@@ -6,12 +6,9 @@ import './Vitae.css';
 const Vitae = () => {
   return (
     <main className="Vitae">
-      {/* <Aside /> */}
-      {/* <section className="u-mainInfo"> */}
       <Resume />
       <WorkExperience />
       <Education />
-      {/* </section> */}
     </main>
   );
 };

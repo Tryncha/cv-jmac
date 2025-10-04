@@ -1,24 +1,51 @@
 {
-  "firstName": "Jhon Mauricio",
-  "lastName": "Aguirre Cortés",
-  "nie": "Y8312481L",
-  "orcid": "0000-0002-9700-3544",
-  "birthDate": "17/01/1976",
-  "gender": "Hombre",
-  "nationality": "Colombiana",
-  "birthCity": "Manizales, Colombia",
-  "address": "Calle Colombicultura, Número 8. Piso 2. Puerta 3",
-  "postalCode": "46200",
-  "residence": "Paiporta, España",
-  "landlinePhone": "(+34) 610104351",
-  "mobilePhone": "(+34) 677367320",
-  "email": "jmacor7@gmail.com",
-  "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
-  "socialNetworks": {
-    "facebook": "http://www.facebook.com",
-    "twitter": "http://www.x.com",
-    "instagram": "http://www.instagram.com",
-    "youtube": "http://www.youtube.com",
-    "linkedin": "http://www.linkedin.com"
+  "es": {
+    "firstName": "Jhon Mauricio",
+    "lastName": "Aguirre Cortés",
+    "title": "Doctor en Química, Magister en Ingeniería Química, Ingeniero Químico",
+    "resume": "Actualmente, trabajo como investigador postdoctoral desarrollando nuevos materiales para sensores que detectan gases en el aire. Mi objetivo es que estos sensores sean más precisos, rápidos y eficientes. Para lograrlo, modifico pequeñas superficies con nanopartículas de óxidos metálicos, lo que mejora su capacidad para detectar gases específicos.\nTambién me dedico a perfeccionar cómo se aplican estos materiales y a estudiar cómo reaccionan cuando se exponen a diferentes gases. Esto requiere que los gases estén bien mezclados, sean homogéneos y que podamos medirlos con gran precisión, incluso en cantidades muy pequeñas (como partes por millón o por billón).\nUn aspecto clave de mi trabajo es mejorar los tiempos de respuesta de los sensores, es decir, que puedan detectar un gas lo más rápido posible. Además, busco reducir el tiempo de recuperación, que es el período que necesita el sensor para volver a estar listo después de una medición. Todo esto es fundamental para que los sensores funcionen de forma continua, confiable y en tiempo real.",
+    "nie": "Y8312481L",
+    "orcid": "0000-0002-9700-3544",
+    "birthDate": "17/01/1976",
+    "gender": "Hombre",
+    "nationality": "Colombiana",
+    "birthCity": "Manizales, Colombia",
+    "address": "Paiporta, España",
+    "postalCode": "46200",
+    "residence": "Paiporta, España",
+    "landlinePhone": "(+34) 610104351",
+    "mobilePhone": "(+34) 677367320",
+    "email": "jmacor7@gmail.com",
+    "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
+    "socialNetworks": {
+      "facebook": "http://www.facebook.com",
+      "twitter": "http://www.x.com",
+      "instagram": "http://www.instagram.com",
+      "youtube": "http://www.youtube.com",
+      "linkedin": "http://www.linkedin.com"
+    }
+  },
+  "en": {
+    "firstName": "Jhon Mauricio",
+    "lastName": "Aguirre Cortés",
+    "title": "PhD in Chemistry, Master in Chemical Engineering, Chemical Engineering",
+    "resume": "Currently, I work as a postdoctoral researcher developing new materials for sensors that detect gases in the air. My goal is to make these sensors more accurate, faster, and efficient. To achieve this, I modify small surfaces with nanoparticles of metal oxides, which enhances their ability to detect specific gases.\nI also focus on improving how these materials are applied and studying how they react when exposed to different gases. This requires the gases to be well-mixed, homogeneous, and measurable with great precision, even in very small quantities (such as parts per million or billion).\nA key aspect of my work is improving the response times of the sensors, meaning they can detect a gas as quickly as possible. Additionally, I aim to reduce the recovery time, which is the period the sensor needs to be ready again after a measurement. All of this is essential for the sensors to function continuously, reliably, and in real-time.",
+    "orcid": "0000-0002-9700-3544",
+    "birthDate": "17/01/1976",
+    "gender": "Hombre",
+    "nationality": "Colombiana",
+    "birthCity": "Manizales, Colombia",
+    "address": "Paiporta, España",
+    "postalCode": "46200",
+    "residence": "Paiporta, España",
+    "landlinePhone": "(+34) 610104351",
+    "mobilePhone": "(+34) 677367320",
+    "email": "jmacor7@gmail.com",
+    "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
+    "socialNetworks": {
+      "twitter": "https://x.com/jhonmaguirrec?s=21",
+      "linkedin": "https://www.linkedin.com/in/jhon-mauricio-aguirre-cort%C3%A9s-b0452427b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "bluesky": "https://bsky.app/profile/jmacor7.bsky.social"
+    }
   }
 }

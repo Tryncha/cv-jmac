@@ -1,17 +1,16 @@
 import useLanguage from '../../hooks/useLanguage';
 import Section from '../Section/Section';
 import './Resume.css';
+import aboutInfoData from '../../data/aboutInfo.json';
+
+const aboutInfo = aboutInfoData;
 
 const resumeTranslation = {
   es: {
-    resumeTitle: 'Resumen',
-    resume:
-      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente exercitationem minima debitis neque nesciunt voluptate repellendus excepturi, ad, aut cum hic facilis voluptatum expedita distinctio ab eos, necessitatibus sunt delectus!\nLorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat a debitis beatae nihil odio, in vel incidunt harum dolor, est, laboriosam quaerat perspiciatis enim. Laborum vero fuga doloremque delectus quae?'
+    resumeTitle: 'Resumen'
   },
   en: {
-    resumeTitle: 'Resume',
-    resume:
-      'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat a debitis beatae nihil odio, in vel incidunt harum dolor, est, laboriosam quaerat perspiciatis enim. Laborum vero fuga doloremque delectus quae?\nLorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente exercitationem minima debitis neque nesciunt voluptate repellendus excepturi, ad, aut cum hic facilis voluptatum expedita distinctio ab eos, necessitatibus sunt delectus!'
+    resumeTitle: 'Resume'
   }
 };
 
@@ -20,7 +19,7 @@ const Resume = () => {
 
   return (
     <Section title={resumeTranslation[language].resumeTitle}>
-      <p>{resumeTranslation[language].resume}</p>
+      <p>{aboutInfo[language].resume}</p>
     </Section>
   );
 };

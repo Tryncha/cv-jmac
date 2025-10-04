@@ -1,0 +1,56 @@
+[
+  {
+    "id": 0,
+    "es": {
+      "graduateTitle": "Diplomado en Ambientes de Aprendizaje Flexibles Apoyados por NTIC",
+      "institution": "Universidad Católica de Manizales",
+      "type": "Diplomado",
+      "city": "Manizales, Colombia",
+      "duration": "144 horas",
+      "date": "Mar 2018 - Jun 2018"
+    },
+    "en": {
+      "graduateTitle": "Graduate in Flexible Learning Environments Supported by ICT",
+      "institution": "Catholic University of Manizales",
+      "city": "Manizales, Colombia",
+      "duration": "144 hours",
+      "date": "Mar 2018 - Jun 2018"
+    }
+  },
+  {
+    "id": 1,
+    "es": {
+      "graduateTitle": "Diplomado en Docencia Universitaria",
+      "institution": "Universidad Católica de Manizales",
+      "type": "Diplomado",
+      "city": "Manizales, Colombia",
+      "duration": "120 horas",
+      "date": "Ago 2015 - Nov 2015"
+    },
+    "en": {
+      "graduateTitle": "Graduate in University Teaching",
+      "institution": "Catholic University of Manizales",
+      "city": "Manizales, Colombia",
+      "duration": "120 hours",
+      "date": "Aug 2015 - Nov 2015"
+    }
+  },
+  {
+    "id": 2,
+    "es": {
+      "graduateTitle": "Diplomado en Docencia Universitaria",
+      "institution": "Universidad de Caldas",
+      "type": "Diplomado",
+      "city": "Manizales, Colombia",
+      "duration": "160 horas",
+      "date": "May 2012 - Ago 2012"
+    },
+    "en": {
+      "graduateTitle": "Graduate in University Teaching",
+      "institution": "University of Caldas",
+      "city": "Manizales, Colombia",
+      "duration": "160 hours",
+      "date": "May 2012 - Aug 2012"
+    }
+  }
+]
