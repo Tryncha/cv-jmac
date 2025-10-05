@@ -4,15 +4,15 @@ import useSettings from '../../hooks/useSettings';
 
 const footerTranslation = {
   es: {
-    home: 'Inicio',
     vitae: 'Vitae',
+    articles: 'Artículos',
     memories: 'Memorias',
     contact: 'Contacto',
     copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
   },
   en: {
-    home: 'Home',
     vitae: 'Vitae',
+    articles: 'Articles',
     memories: 'Memories',
     contact: 'Contact',
     copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
@@ -30,13 +30,13 @@ const Footer = () => {
           to="/"
           reloadDocument
         >
-          {footerTranslation[language].home}
+          {footerTranslation[language].vitae}
         </Link>
         <Link
-          to="/vitae"
+          to="/articles"
           reloadDocument
         >
-          {footerTranslation[language].vitae}
+          {footerTranslation[language].articles}
         </Link>
         <Link
           to="/memories"

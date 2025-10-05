@@ -14,11 +14,11 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Home />}
+          element={<Vitae />}
         />
         <Route
-          path="/vitae"
-          element={<Vitae />}
+          path="/articles"
+          element={<Home />}
         />
         <Route
           path="/memories"

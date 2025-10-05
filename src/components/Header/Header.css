@@ -48,3 +48,28 @@
   display: flex;
   gap: 5px;
 }
+
+.LanguageSelector {
+  font-family: var(--Header-fontFamily);
+  font-size: 1rem;
+  background-color: #c7dae6;
+  padding: 5px 10px;
+  border: 1px solid var(--Header-borderColor);
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 black;
+}
+
+.LanguageSelector-option {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.LanguageSelector-option:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.LanguageSelector-option.is-active {
+  font-weight: bold;
+}
