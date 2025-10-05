@@ -83,3 +83,8 @@ hr {
 .LanguageSelector button.is-active {
   font-weight: bold;
 }
+
+.u-emailInfo {
+  display: flex;
+  margin-block: 5px;
+}

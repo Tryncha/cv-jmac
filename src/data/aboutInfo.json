@@ -15,7 +15,28 @@
     "postalCode": "46200",
     "landlinePhone": "(+34) 610104351",
     "mobilePhone": "(+34) 677367320",
-    "email": "jmacor7@gmail.com",
+    "email": [
+      {
+        "id": 0,
+        "institutionName": "Universidad Nacional de Colombia",
+        "address": "jmaguirrec@unal.edu.co"
+      },
+      {
+        "id": 1,
+        "institutionName": "Universidad de Caldas",
+        "address": "jhon.aguirre@ucaldas.edu.co"
+      },
+      {
+        "id": 2,
+        "institutionName": "Universidad de Granada",
+        "address": "jmacor7@correo.ugr.es"
+      },
+      {
+        "id": 3,
+        "institutionName": "Universidad de Castilla-La Mancha",
+        "address": "JhonMauricio.Aguirre@uclm.es"
+      }
+    ],
     "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
     "socialNetworks": {
       "twitter": "https://x.com/JhonMAguirreC",
@@ -38,7 +59,28 @@
     "postalCode": "46200",
     "landlinePhone": "(+34) 610104351",
     "mobilePhone": "(+34) 677367320",
-    "email": "jmacor7@gmail.com",
+    "email": [
+      {
+        "id": 0,
+        "institutionName": "National University of Colombia",
+        "address": "jmaguirrec@unal.edu.co"
+      },
+      {
+        "id": 1,
+        "institutionName": "University of Caldas",
+        "address": "jhon.aguirre@ucaldas.edu.co"
+      },
+      {
+        "id": 2,
+        "institutionName": "University of Granada",
+        "address": "jmacor7@correo.ugr.es"
+      },
+      {
+        "id": 3,
+        "institutionName": "University of Castilla-La Mancha",
+        "address": "JhonMauricio.Aguirre@uclm.es"
+      }
+    ],
     "website": "https://jhonmauricioaguirrecortes.wordpress.com/",
     "socialNetworks": {
       "twitter": "https://x.com/JhonMAguirreC",

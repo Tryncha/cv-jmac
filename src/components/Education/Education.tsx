@@ -49,12 +49,12 @@ const Education = () => {
           >
             <div className="Education-mainInfo">
               <h3>{grd[language].graduateTitle}</h3>
-              <h4>{grd[language].institution}</h4>
-              <span>{grd[language].city}</span>
+              <h4>{grd[language].duration}</h4>
+              {/* <h4>{grd[language].institution}</h4>
+              <span>{grd[language].city}</span> */}
             </div>
             <div className="Education-dateInfo">
               <h3>{grd[language].date}</h3>
-              <h4>{grd[language].duration}</h4>
             </div>
           </div>
         ))}

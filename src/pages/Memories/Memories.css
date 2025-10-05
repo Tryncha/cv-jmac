@@ -1,4 +1,4 @@
-.Contact {
+.Memories {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -7,8 +7,4 @@
   padding: calc(var(--Header-height) + 50px) 70px 120px;
   border-inline: 1px solid var(--body-borderColor);
   margin: 0 200px;
-}
-
-.Contact strong {
-  width: 300px;
 }

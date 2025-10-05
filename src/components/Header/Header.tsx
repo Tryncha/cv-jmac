@@ -1,26 +1,29 @@
 // import { useId } from 'react';
+import { Link } from 'react-router';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
 // import type { Theme } from '../../types.d';
-import { LocationIcon, EmailIcon, OrcidIcon } from '../Icons';
+import { EmailIcon, LocationIcon, OrcidIcon } from '../Icons';
 import './Header.css';
 
 const aboutInfo = aboutInfoData;
 
-// const headerTranslation = {
-//   es: {
-//     themes: {
-//       light: 'Claro',
-//       dark: 'Oscuro'
-//     }
-//   },
-//   en: {
-//     themes: {
-//       light: 'Light',
-//       dark: 'Dark'
-//     }
-//   }
-// };
+const headerTranslation = {
+  es: {
+    themes: {
+      light: 'Claro',
+      dark: 'Oscuro'
+    },
+    mail: 'Enviar un correo'
+  },
+  en: {
+    themes: {
+      light: 'Light',
+      dark: 'Dark'
+    },
+    mail: 'Send mail'
+  }
+};
 
 const LanguageSelector = () => {
   const { settings, changeLanguage } = useSettings();
@@ -83,10 +86,6 @@ const Header = () => {
           <span>{aboutInfo[language].address}</span>
         </div>
         <div>
-          <EmailIcon size="20" />
-          <span>{aboutInfo[language].email}</span>
-        </div>
-        <div>
           <OrcidIcon size="20" />
           <a
             href={`https://orcid.org/${aboutInfo[language].orcid}`}
@@ -94,6 +93,10 @@ const Header = () => {
           >
             {`https://orcid.org/${aboutInfo[language].orcid}`}
           </a>
+        </div>
+        <div>
+          <EmailIcon size="20" />
+          <Link to="/contact">{headerTranslation[language].mail}</Link>
         </div>
       </div>
     </header>

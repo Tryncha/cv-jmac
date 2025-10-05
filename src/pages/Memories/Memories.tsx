@@ -1,5 +1,7 @@
+import './Memories.css';
+
 const Memories = () => {
-  return <h1>Memories here...</h1>;
+  return <main className="Memories"></main>;
 };
 
 export default Memories;

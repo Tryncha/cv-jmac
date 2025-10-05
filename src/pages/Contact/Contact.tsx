@@ -1,12 +1,16 @@
+import Section from '../../components/Section/Section';
 import useSettings from '../../hooks/useSettings';
 import './Contact.css';
+import aboutInfoData from '../../data/aboutInfo.json';
+
+const aboutInfo = aboutInfoData;
 
 const contactTranslation = {
   es: {
-    placeholder: 'Contacto aquí...'
+    mailTitle: 'Enviar un correo'
   },
   en: {
-    placeholder: 'Contact here...'
+    mailTitle: 'Send mail'
   }
 };
 
@@ -14,7 +18,21 @@ const Contact = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
-  return <main className="Contact">{contactTranslation[language].placeholder}</main>;
+  return (
+    <main className="Contact">
+      <Section title={contactTranslation[language].mailTitle}>
+        {aboutInfo[language].email.map((email) => (
+          <div
+            key={email.id}
+            className="u-emailInfo"
+          >
+            <strong>{email.institutionName}: </strong>
+            {email.address}
+          </div>
+        ))}
+      </Section>
+    </main>
+  );
 };
 
 export default Contact;
