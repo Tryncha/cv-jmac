@@ -62,7 +62,7 @@ const Header = () => {
         <h1>{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</h1>
         <h2>{aboutInfo[language].title}</h2>
       </div>
-      <select
+      {/* <select
         id={themeSelectId}
         value={theme}
         onChange={handleThemeChange}
@@ -75,10 +75,8 @@ const Header = () => {
             {themeValue}
           </option>
         ))}
-      </select>
-      <div>
-        <LanguageSelector />
-      </div>
+      </select> */}
+      <LanguageSelector />
       <div className="Header-contactInfo">
         <div>
           <LocationIcon size="20" />
