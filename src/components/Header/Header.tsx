@@ -1,7 +1,7 @@
 import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useLanguage from '../../hooks/useLanguage';
-import type { Theme, Language } from '../../types.d';
+import type { Theme } from '../../types.d';
 import { LocationIcon, EmailIcon, OrcidIcon } from '../Icons';
 import './Header.css';
 import useTheme from '../../hooks/useTheme';
@@ -23,24 +23,38 @@ const headerTranslation = {
   }
 };
 
-const Header = () => {
+const LanguageSelector = () => {
   const { language, changeLanguage } = useLanguage();
+
+  return (
+    <div className="LanguageSelector">
+      <button
+        className={language === 'es' ? 'is-active' : ''}
+        onClick={() => changeLanguage('es')}
+      >
+        Español
+      </button>
+      {' / '}
+      <button
+        className={language === 'en' ? 'is-active' : ''}
+        onClick={() => changeLanguage('en')}
+      >
+        English
+      </button>
+    </div>
+  );
+};
+
+const Header = () => {
+  const { language } = useLanguage();
   const { theme, changeTheme } = useTheme();
 
   const themeSelectId = useId();
-  const languageSelectId = useId();
 
   function handleThemeChange(event: React.ChangeEvent<HTMLSelectElement>) {
     const newTheme = event.target.value as Theme;
     changeTheme(newTheme);
   }
-
-  function handleLanguageChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const newLanguage = event.target.value as Language;
-    changeLanguage(newLanguage);
-  }
-
-  console.log(Object.entries(headerTranslation[language].themes));
 
   return (
     <header className="Header">
@@ -62,14 +76,9 @@ const Header = () => {
           </option>
         ))}
       </select>
-      <select
-        id={languageSelectId}
-        value={language}
-        onChange={handleLanguageChange}
-      >
-        <option value="es">Español</option>
-        <option value="en">English</option>
-      </select>
+      <div>
+        <LanguageSelector />
+      </div>
       <div className="Header-contactInfo">
         <div>
           <LocationIcon size="20" />

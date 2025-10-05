@@ -98,3 +98,28 @@ hr {
   border: none;
   border-bottom: 1px solid var(--body-borderColor);
 }
+
+.LanguageSelector {
+  font-family: var(--Header-fontFamily);
+  font-size: 1rem;
+  background-color: #c4e1f2;
+  padding: 5px 10px;
+  border: 1px solid var(--Header-borderColor);
+  border-radius: 2px;
+  box-shadow: 0 0 2px 0 black;
+}
+
+.LanguageSelector button {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+}
+
+.LanguageSelector button:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.LanguageSelector button.is-active {
+  font-weight: bold;
+}
