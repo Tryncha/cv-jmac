@@ -1,13 +1,11 @@
+import { DEFAULT_SETTINGS } from '../constants';
 import type { Settings } from '../types.d';
 
 export function getSettingsFromStorage() {
   const savedSettings = localStorage.getItem('settings');
 
   if (!savedSettings) {
-    return {
-      theme: 'light',
-      language: 'es'
-    } as Settings;
+    return DEFAULT_SETTINGS;
   }
 
   return JSON.parse(savedSettings) as Settings;

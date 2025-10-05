@@ -1,26 +1,26 @@
-import { useId } from 'react';
+// import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
-import type { Theme } from '../../types.d';
+// import type { Theme } from '../../types.d';
 import { LocationIcon, EmailIcon, OrcidIcon } from '../Icons';
 import './Header.css';
 
 const aboutInfo = aboutInfoData;
 
-const headerTranslation = {
-  es: {
-    themes: {
-      light: 'Claro',
-      dark: 'Oscuro'
-    }
-  },
-  en: {
-    themes: {
-      light: 'Light',
-      dark: 'Dark'
-    }
-  }
-};
+// const headerTranslation = {
+//   es: {
+//     themes: {
+//       light: 'Claro',
+//       dark: 'Oscuro'
+//     }
+//   },
+//   en: {
+//     themes: {
+//       light: 'Light',
+//       dark: 'Dark'
+//     }
+//   }
+// };
 
 const LanguageSelector = () => {
   const { settings, changeLanguage } = useSettings();
@@ -46,15 +46,15 @@ const LanguageSelector = () => {
 };
 
 const Header = () => {
-  const { settings, changeTheme } = useSettings();
-  const { theme, language } = settings;
+  const { settings } = useSettings();
+  const { language } = settings;
 
-  const themeSelectId = useId();
+  // const themeSelectId = useId();
 
-  function handleThemeChange(event: React.ChangeEvent<HTMLSelectElement>) {
-    const newTheme = event.target.value as Theme;
-    changeTheme(newTheme);
-  }
+  // function handleThemeChange(event: React.ChangeEvent<HTMLSelectElement>) {
+  //   const newTheme = event.target.value as Theme;
+  //   changeTheme(newTheme);
+  // }
 
   return (
     <header className="Header">

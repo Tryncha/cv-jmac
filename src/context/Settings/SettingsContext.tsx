@@ -2,10 +2,7 @@ import { createContext, useState, useEffect } from 'react';
 import type { Theme, Language, Settings } from '../../types';
 import { getSettingsFromStorage, saveSettingsInStorage } from '../../utils';
 
-const initialSettings = getSettingsFromStorage() || {
-  theme: 'light',
-  language: 'es'
-};
+const initialSettings = getSettingsFromStorage();
 
 interface SettingsContextType {
   settings: {
