@@ -18,6 +18,8 @@ const Contact = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
+  const EMAIL_SUBJECT = 'Consulta';
+
   return (
     <main className="Contact">
       <Section title={contactTranslation[language].mailTitle}>
@@ -27,7 +29,12 @@ const Contact = () => {
             className="u-emailInfo"
           >
             <strong>{email.institutionName}: </strong>
-            {email.address}
+            <a
+              href={`https://mail.google.com/mail/?view=cm&fs=1&to=${email.address}&su=${EMAIL_SUBJECT}`}
+              target="_blank"
+            >
+              {email.address}
+            </a>
           </div>
         ))}
       </Section>
