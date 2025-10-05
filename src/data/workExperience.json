@@ -2,14 +2,14 @@
   {
     "id": 0,
     "es": {
-      "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos",
+      "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos - ODS 120",
       "date": "Jul 2006 - Ene 2007",
       "duration": "7 meses",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in R&D for Technological Projects",
+      "name": "Engineer Specialized in R&D for Technological Projects - ODS 120",
       "date": "Jul 2006 - Jan 2007",
       "duration": "7 months",
       "location": "National University of Colombia",
@@ -19,15 +19,15 @@
   {
     "id": 1,
     "es": {
-      "name": "Ingeniero Especializado en Gestión de Calidad",
-      "date": "Oct 2007 - Feb 2009",
+      "name": "Ingeniero Especializado en Gestión de Calidad - ODS 182",
+      "date": "Oct 2007 - Feb 2008",
       "duration": "4 años y 2 meses",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Quality Management",
-      "date": "Oct 2007 - Feb 2009",
+      "name": "Engineer Specialized in Quality Management - ODS 182",
+      "date": "Oct 2007 - Feb 2008",
       "duration": "4 years and 2 months",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -36,15 +36,15 @@
   {
     "id": 2,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "date": "Mar 2009 - Nov 2009",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 28",
+      "date": "Feb 2008 - Jul 2008",
       "duration": "9 meses",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "date": "Mar 2009 - Nov 2009",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 28",
+      "date": "Feb 2008 - Jul 2008",
       "duration": "9 months",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -53,16 +53,16 @@
   {
     "id": 3,
     "es": {
-      "name": "Ingeniero Químico Analista de Laboratorio",
-      "date": "Dic 2009 - Feb 2010",
-      "duration": "3 meses",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 129",
+      "date": "Jul 2008 - Oct 2008",
+      "duration": "9 meses",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Chemical Engineer Laboratory Analyst",
-      "date": "Dec 2009 - Feb 2010",
-      "duration": "3 months",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 129",
+      "date": "Jul 2008 - Oct 2008",
+      "duration": "9 months",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
     }
@@ -70,16 +70,16 @@
   {
     "id": 4,
     "es": {
-      "name": "Ingeniero Técnico en Instrumentación Fisicoquímica",
-      "date": "Ene 2010 - Feb 2011",
-      "duration": "1 año y 1 mes",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 216",
+      "date": "Oct 2008 - Feb 2009",
+      "duration": "9 meses",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Technical Engineer in Physicochemical Instrumentation",
-      "date": "Jan 2010 - Feb 2011",
-      "duration": "1 year and 1 month",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 216",
+      "date": "Oct 2008 - Feb 2009",
+      "duration": "9 months",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
     }
@@ -87,22 +87,73 @@
   {
     "id": 5,
     "es": {
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 31",
+      "date": "Mar 2009 - Nov 2009",
+      "duration": "9 meses",
+      "location": "Universidad Nacional de Colombia",
+      "city": "Manizales, Colombia"
+    },
+    "en": {
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 31",
+      "date": "Mar 2009 - Nov 2009",
+      "duration": "9 months",
+      "location": "National University of Colombia",
+      "city": "Manizales, Colombia"
+    }
+  },
+  {
+    "id": 6,
+    "es": {
+      "name": "Ingeniero Químico Analista de Laboratorio - ODS 199",
+      "date": "Dic 2009 - Feb 2010",
+      "duration": "3 meses",
+      "location": "Universidad Nacional de Colombia",
+      "city": "Manizales, Colombia"
+    },
+    "en": {
+      "name": "Chemical Engineer Laboratory Analyst - ODS 199",
+      "date": "Dec 2009 - Feb 2010",
+      "duration": "3 months",
+      "location": "National University of Colombia",
+      "city": "Manizales, Colombia"
+    }
+  },
+  {
+    "id": 7,
+    "es": {
+      "name": "Ingeniero Técnico en Instrumentación Fisicoquímica - ODS 21, OTROSÍ",
+      "date": "Dic 2010 - Feb 2011",
+      "duration": "1 año y 1 mes",
+      "location": "Universidad Nacional de Colombia",
+      "city": "Manizales, Colombia"
+    },
+    "en": {
+      "name": "Technical Engineer in Physicochemical Instrumentation - ODS 21, OTROSÍ",
+      "date": "Dec 2010 - Feb 2011",
+      "duration": "1 year and 1 month",
+      "location": "National University of Colombia",
+      "city": "Manizales, Colombia"
+    }
+  },
+  {
+    "id": 8,
+    "es": {
       "name": "Profesor Universitario con Título de Máster",
-      "date": "Feb 2010 - Feb 2020",
+      "date": "Feb 2010 - Abr 2020",
       "duration": "10 años",
       "location": "Universidad de Caldas",
       "city": "Manizales, Colombia"
     },
     "en": {
       "name": "University Professor with Master's Degree",
-      "date": "Feb 2010 - Feb 2020",
+      "date": "Feb 2010 - Apr 2020",
       "duration": "10 years",
       "location": "University of Caldas",
       "city": "Manizales, Colombia"
     }
   },
   {
-    "id": 6,
+    "id": 9,
     "es": {
       "name": "Profesor Universitario con Título de Máster",
       "date": "Jul 2015 - Jun 2020",
@@ -119,7 +170,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 10,
     "es": {
       "name": "Doctorando",
       "date": "Sep 2019 - Jul 2024",
@@ -136,7 +187,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 11,
     "es": {
       "name": "Investigación posdoctoral",
       "date": "Dic 2024 - Presente",
