@@ -12,12 +12,14 @@
     "url": "http://dx.doi.org/10.1590/S0103-50532011000300019",
     "es": {
       "title": "Simple route for the synthesis of copper hydroxy salts",
+      "abstract": "The current work introduces a new and rapid synthetic route for the in-laboratory preparation of copper hydroxy nitrate, through the reaction of magnesium hydroxide and copper nitrate aqueous solution. The material with the formula Cu2(OH)3NO3 and monoclinic phase was characterized by X-ray diffraction, atomic absorption, Fourier transform infrared and Raman spectroscopy, scanning electron microscopy with EDX, and thermal analysis.",
       "keywords": ["hydroxy salts", "anionic clay", "copper hydroxynitrate", "gerhardtite"],
       "language": "Inglés",
       "category": "Artículo científico",
       "date": "Mar, 2011"
     },
     "en": {
+      "title": "Simple route for the synthesis of copper hydroxy salts",
       "abstract": "The current work introduces a new and rapid synthetic route for the in-laboratory preparation of copper hydroxy nitrate, through the reaction of magnesium hydroxide and copper nitrate aqueous solution. The material with the formula Cu2(OH)3NO3 and monoclinic phase was characterized by X-ray diffraction, atomic absorption, Fourier transform infrared and Raman spectroscopy, scanning electron microscopy with EDX, and thermal analysis.",
       "keywords": ["hydroxy salts", "anionic clay", "copper hydroxynitrate", "gerhardtite"],
       "language": "English",
@@ -38,12 +40,14 @@
     "url": "http://dx.doi.org/10.37761/rsqp.v81i3.21",
     "es": {
       "title": "Propiedades dieléctricas de hidróxidos dobles laminares de Mg:Al",
+      "abstract": "Este trabajo describe la síntesis y caracterización de dos hidróxidos dobles laminares Mg2Al-NO3 sintetizados mediante el método de coprecipitación. El comportamiento eléctrico delos materiales fue evaluado por espectroscopía dieléctrica. Los resultados del análisis dedifracción de rayos X mostraron la formación de una estructura laminar; la presencia de todaslas especies en la estructura del material sintetizado se confirmó por absorción atómica yespectroscopía de infrarrojo. Por microscopía electrónica de transmisión se observó agregadosde partículas en forma de placas. Los resultados de espectroscopía dieléctrica obtenidosa temperatura ambiente muestran un comportamiento de polarización de orientación quesugiere la rotación de moléculas de agua a alta frecuencia y la rotación de aniones nitratoen el espacio interlaminar a baja frecuencia que puede ser responsable de la conductividadiónica observada en el material.",
       "keywords": ["hidróxidos dobles laminares", "propiedades dieléctricas", "conductividad iónica"],
       "language": "Español",
       "category": "Artículo científico",
       "date": "Jun, 2015"
     },
     "en": {
+      "title": "Propiedades dieléctricas de hidróxidos dobles laminares de Mg:Al",
       "abstract": "Este trabajo describe la síntesis y caracterización de dos hidróxidos dobles laminares Mg2Al-NO3 sintetizados mediante el método de coprecipitación. El comportamiento eléctrico delos materiales fue evaluado por espectroscopía dieléctrica. Los resultados del análisis dedifracción de rayos X mostraron la formación de una estructura laminar; la presencia de todaslas especies en la estructura del material sintetizado se confirmó por absorción atómica yespectroscopía de infrarrojo. Por microscopía electrónica de transmisión se observó agregadosde partículas en forma de placas. Los resultados de espectroscopía dieléctrica obtenidosa temperatura ambiente muestran un comportamiento de polarización de orientación quesugiere la rotación de moléculas de agua a alta frecuencia y la rotación de aniones nitratoen el espacio interlaminar a baja frecuencia que puede ser responsable de la conductividadiónica observada en el material.",
       "keywords": ["hidróxidos dobles laminares", "propiedades dieléctricas", "conductividad iónica"],
       "language": "Spanish",
@@ -66,7 +70,7 @@
     ],
     "doi": "10.15446/rev.colomb.quim.v46n2.63028",
     "eid": "2-s2.0-85027567632",
-    "issn": "01202804",
+    "issn": ["01202804"],
     "url": "http://dx.doi.org/10.15446/rev.colomb.quim.v46n2.63028",
     "es": {
       "title": "Nanopartículas de paladio soportadas en hidroxisales laminares: uso potencial en reacciones de Sonogashira",
@@ -114,7 +118,7 @@
     ],
     "doi": "10.15446/dyna.v85n206.68132",
     "eid": "2-s2.0-85060939579",
-    "issn": "00127353",
+    "issn": ["00127353"],
     "url": "http://dx.doi.org/10.15446/dyna.v85n206.68132",
     "es": {
       "title": "Nanopartículas de paladio a partir de una hidroxisal modificada con surfactante intercambiada con tetracloropaladato",
@@ -160,7 +164,7 @@
     ],
     "doi": "10.1016/j.apmt.2023.101831",
     "eid": "2-s2.0-85153683107",
-    "issn": "23529407",
+    "issn": ["23529407"],
     "url": "https://doi.org/10.1016/j.apmt.2023.101831",
     "es": {
       "title": "3D printing in photocatalysis: Methods and capabilities for the improved performance",
@@ -193,7 +197,8 @@
       "Agustín Francisco Pérez Cadenas"
     ],
     "doi": "10.3390/catal14080474",
-    "issn": "2073-4344",
+    "eid": "",
+    "issn": ["2073-4344"],
     "url": "http://dx.doi.org/10.3390/catal14080474",
     "es": {
       "title": "BiVO4-Based Photocatalysts for the Degradation of Antibiotics in Wastewater: Calcination Role after Solvothermal Synthesis",
@@ -227,7 +232,8 @@
       "E. Bailón García"
     ],
     "doi": "10.1016/j.apsusc.2024.160609",
-    "issn": "0169-4332",
+    "eid": "",
+    "issn": ["0169-4332"],
     "url": "http://dx.doi.org/10.1016/j.apsusc.2024.160609",
     "es": {
       "title": "Size-miniaturization of TiO2-ZrO2 coupled semiconductors to develop highly efficient visible-driven photocatalysts for the degradation of drugs in wastewater",
@@ -260,7 +266,8 @@
       "Jhon Mauricio Aguirre Cortés"
     ],
     "doi": "10.1016/j.mtchem.2024.102498",
-    "issn": "2468-5194",
+    "eid": "",
+    "issn": ["2468-5194"],
     "url": "http://dx.doi.org/10.1016/j.mtchem.2024.102498",
     "es": {
       "title": "Electrical performance of non-stoichiometry manganese oxides",
@@ -277,33 +284,6 @@
       "language": "English",
       "category": "Journal Article",
       "date": "Jan, 2025"
-    }
-  },
-  {
-    "id": 8,
-    "imgSrc": "images/template.png",
-    "imgAlt": "Template",
-    "journal": "The Conversation",
-    "editorial": "The Conversation",
-    "contributors": ["Jhon Mauricio Aguirre Cortés"],
-    "doi": "",
-    "issn": "2201-5639",
-    "url": "https://theconversation.com/tatuajes-que-salvaran-vidas-254947",
-    "es": {
-      "title": "Tatuajes que salvarán vidas",
-      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
-      "keywords": [],
-      "language": "Español",
-      "category": "Artículo de divulgación",
-      "date": "May, 2025"
-    },
-    "en": {
-      "title": "Tatuajes que salvarán vidas",
-      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
-      "keywords": [],
-      "language": "Spanish",
-      "category": "Divulgation article",
-      "date": "May, 2025"
     }
   }
 ]

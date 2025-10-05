@@ -1,10 +1,10 @@
 import articlesData from '../../data/articles.json';
-import Article from '../../components/Article/Article';
 import Section from '../../components/Section/Section';
 import useSettings from '../../hooks/useSettings';
 import './Home.css';
+import Article from '../../components/Article/Article';
 
-const articles = articlesData;
+const articles = articlesData.reverse();
 
 const homeTraslation = {
   es: {
@@ -22,19 +22,23 @@ const Home = () => {
   return (
     <main className="Home">
       <Section title={homeTraslation[language].articlesTitle}>
-        <div className="Articles">
+        <section className="Articles">
           {articles.map((art) => (
             <Article
               key={art.id}
               imgSrc={art.imgSrc}
               imgAlt={art.imgAlt}
-              title={art.title}
-              resume={art.resume}
-              date={art.date}
-              category={art.category}
+              title={art[language].title}
+              abstract={art[language].abstract}
+              journal={art.journal}
+              authors={art.contributors}
+              date={art[language].date}
+              doi={art.doi}
+              issn={art.issn}
+              url={art.url}
             />
           ))}
-        </div>
+        </section>
       </Section>
     </main>
   );
