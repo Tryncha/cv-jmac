@@ -16,17 +16,20 @@
   z-index: var(--Header-zIndex);
 }
 
-.Header h1 {
-  font-family: var(--Header--h1-fontFamily);
-  font-size: 2.5rem;
-  text-transform: uppercase;
-}
-
 .Header h2 {
   font-family: var(--Header--h2-fontFamily);
   font-size: 1.25rem;
   font-style: italic;
   color: var(--Header--secondary-fontColor);
+}
+
+.Header-banner a {
+  color: var(--Header-fontColor);
+  font-family: var(--Header--h1-fontFamily);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .Header-contactInfo {

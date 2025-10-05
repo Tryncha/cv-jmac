@@ -61,8 +61,8 @@ const Header = () => {
 
   return (
     <header className="Header">
-      <div>
-        <h1>{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</h1>
+      <div className="Header-banner">
+        <Link to="/vitae">{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</Link>
         <h2>{aboutInfo[language].title}</h2>
       </div>
       {/* <select
