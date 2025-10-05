@@ -1,10 +1,9 @@
 import { useId } from 'react';
 import aboutInfoData from '../../data/aboutInfo.json';
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import type { Theme } from '../../types.d';
 import { LocationIcon, EmailIcon, OrcidIcon } from '../Icons';
 import './Header.css';
-import useTheme from '../../hooks/useTheme';
 
 const aboutInfo = aboutInfoData;
 
@@ -24,7 +23,8 @@ const headerTranslation = {
 };
 
 const LanguageSelector = () => {
-  const { language, changeLanguage } = useLanguage();
+  const { settings, changeLanguage } = useSettings();
+  const { language } = settings;
 
   return (
     <div className="LanguageSelector">
@@ -46,8 +46,8 @@ const LanguageSelector = () => {
 };
 
 const Header = () => {
-  const { language } = useLanguage();
-  const { theme, changeTheme } = useTheme();
+  const { settings, changeTheme } = useSettings();
+  const { theme, language } = settings;
 
   const themeSelectId = useId();
 
@@ -67,12 +67,12 @@ const Header = () => {
         value={theme}
         onChange={handleThemeChange}
       >
-        {Object.entries(headerTranslation[language].themes).map(([key, theme]) => (
+        {Object.entries(headerTranslation[language].themes).map(([key, themeValue]) => (
           <option
             key={key}
             value={key}
           >
-            {theme}
+            {themeValue}
           </option>
         ))}
       </select>

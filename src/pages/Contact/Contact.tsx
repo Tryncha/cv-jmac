@@ -1,4 +1,4 @@
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import './Contact.css';
 
 const contactTranslation = {
@@ -11,7 +11,8 @@ const contactTranslation = {
 };
 
 const Contact = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return <main className="Contact">{contactTranslation[language].placeholder}</main>;
 };

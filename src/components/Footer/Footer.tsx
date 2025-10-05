@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import './Footer.css';
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 
 const footerTranslation = {
   es: {
@@ -20,7 +20,8 @@ const footerTranslation = {
 };
 
 const Footer = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return (
     <footer className="Footer">

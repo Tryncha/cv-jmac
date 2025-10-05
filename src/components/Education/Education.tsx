@@ -1,6 +1,6 @@
 import educationData from '../../data/education.json';
 import graduatesData from '../../data/graduates.json';
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import Section from '../Section/Section';
 import './Education.css';
 
@@ -19,7 +19,8 @@ const educationTranslation = {
 };
 
 const Education = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return (
     <>

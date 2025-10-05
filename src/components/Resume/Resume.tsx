@@ -1,4 +1,4 @@
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import Section from '../Section/Section';
 import './Resume.css';
 import aboutInfoData from '../../data/aboutInfo.json';
@@ -15,7 +15,8 @@ const resumeTranslation = {
 };
 
 const Resume = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return (
     <Section title={resumeTranslation[language].resumeTitle}>

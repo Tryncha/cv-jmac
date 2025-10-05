@@ -1,5 +1,5 @@
 import workExperienceData from '../../data/workExperience.json';
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import Section from '../Section/Section';
 import Separator from './Separator/Separator';
 import './WorkExperience.css';
@@ -16,7 +16,8 @@ const workExperienceTranslation = {
 };
 
 const WorkExperience = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return (
     <Section title={workExperienceTranslation[language].workExperienceTitle}>

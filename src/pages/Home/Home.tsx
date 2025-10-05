@@ -1,7 +1,7 @@
 import articlesData from '../../data/articles.json';
 import Article from '../../components/Article/Article';
 import Section from '../../components/Section/Section';
-import useLanguage from '../../hooks/useLanguage';
+import useSettings from '../../hooks/useSettings';
 import './Home.css';
 
 const articles = articlesData;
@@ -16,7 +16,8 @@ const homeTraslation = {
 };
 
 const Home = () => {
-  const { language } = useLanguage();
+  const { settings } = useSettings();
+  const { language } = settings;
 
   return (
     <main className="Home">
