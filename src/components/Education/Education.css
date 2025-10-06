@@ -1,10 +1,28 @@
-.Education-item {
+.Education {
   display: flex;
   justify-content: space-between;
+  gap: 5%;
+}
+
+.Education section {
+  width: 50%;
+}
+
+.Education h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.Education-item {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-block: 20px;
 }
 
 .Education-mainInfo {
+  width: 70%;
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +30,6 @@
 .Education-dateInfo {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
+  align-items: flex-end;
 }

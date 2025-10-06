@@ -1,11 +1,10 @@
 import educationData from '../../data/education.json';
 import graduatesData from '../../data/graduates.json';
 import useSettings from '../../hooks/useSettings';
-import Section from '../Section/Section';
 import './Education.css';
 
 const education = educationData.reverse();
-const graduates = graduatesData;
+const graduates = graduatesData.reverse();
 
 const educationTranslation = {
   es: {
@@ -23,8 +22,10 @@ const Education = () => {
   const { language } = settings;
 
   return (
-    <>
-      <Section title={educationTranslation[language].educationTitle}>
+    <article className="Education">
+      <section>
+        <h2>{educationTranslation[language].educationTitle}</h2>
+        <hr />
         {education.map((edu) => (
           <div
             key={edu.id}
@@ -40,8 +41,10 @@ const Education = () => {
             </div>
           </div>
         ))}
-      </Section>
-      <Section title={educationTranslation[language].graduatesTitle}>
+      </section>
+      <section>
+        <h2>{educationTranslation[language].graduatesTitle}</h2>
+        <hr />
         {graduates.map((grd) => (
           <div
             key={grd.id}
@@ -49,17 +52,17 @@ const Education = () => {
           >
             <div className="Education-mainInfo">
               <h3>{grd[language].graduateTitle}</h3>
-              <h4>{grd[language].duration}</h4>
-              {/* <h4>{grd[language].institution}</h4>
-              <span>{grd[language].city}</span> */}
+              <h4>{grd[language].institution}</h4>
+              <span>{grd[language].city}</span>
             </div>
             <div className="Education-dateInfo">
               <h3>{grd[language].date}</h3>
+              <span>{grd[language].duration}</span>
             </div>
           </div>
         ))}
-      </Section>
-    </>
+      </section>
+    </article>
   );
 };
 

@@ -57,6 +57,7 @@
 body {
   position: relative;
   background-color: var(--body-backgroundColor);
+  font-size: 0.95rem;
   font-family: var(--body-fontFamily);
   z-index: var(--body-zIndex);
 }

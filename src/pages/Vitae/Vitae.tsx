@@ -7,8 +7,8 @@ const Vitae = () => {
   return (
     <main className="Vitae">
       <Resume />
-      <WorkExperience />
       <Education />
+      <WorkExperience />
     </main>
   );
 };
