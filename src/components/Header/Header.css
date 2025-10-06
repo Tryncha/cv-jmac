@@ -3,10 +3,10 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 160px;
+  height: var(--Header-height);
   display: flex;
   flex-direction: column;
-  color: #000000;
+  color: var(--Header-fontColor);
   font-family: var(--Header-fontFamily);
   z-index: var(--Header-zIndex);
 }
@@ -18,19 +18,26 @@
   justify-content: space-between;
   padding: 0 40px;
   border-bottom: 1px solid var(--Header-borderColor);
-  background-color: #96b4c6;
+  background-color: var(--Header-front-backgroundColor);
   box-shadow: var(--Header-boxShadow);
+  z-index: var(--Header-front-zIndex);
 }
 
 .Header-back {
   height: 25%;
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 0 700px;
+  justify-content: center;
   border-bottom: 1px solid var(--Header-borderColor);
-  background-color: #c9d9e3;
+  background-color: var(--Header-back-backgroundColor);
   box-shadow: var(--Header-boxShadow);
+  z-index: var(--Header-back-zIndex);
+}
+
+.Header-back div {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .Header-front h2 {
@@ -61,7 +68,7 @@
 }
 
 .Header-back a {
-  color: #000000;
+  color: var(--Header-a-fontColor);
   font-family: var(--Header--h1-fontFamily);
   font-size: 1.25rem;
   font-weight: bold;
@@ -69,14 +76,18 @@
   text-decoration: none;
 }
 
+.Header-back a:hover {
+  color: var(--Header-a--isHovering-fontColor);
+}
+
 .LanguageSelector {
   font-family: var(--Header-fontFamily);
   font-size: 1rem;
-  background-color: #bdd7e7;
+  background-color: var(--Header-back-backgroundColor);
   padding: 5px 10px;
   border: 1px solid var(--Header-borderColor);
   border-radius: 2px;
-  box-shadow: 0 0 2px 0 black;
+  box-shadow: var(--LanguageSelector-boxShadow);
 }
 
 .LanguageSelector-option {
@@ -87,6 +98,7 @@
 
 .LanguageSelector-option:hover {
   cursor: pointer;
+  color: var(--Header-a--isHovering-fontColor);
   text-decoration: underline;
 }
 

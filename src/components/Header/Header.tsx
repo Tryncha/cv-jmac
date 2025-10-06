@@ -8,27 +8,18 @@ const aboutInfo = aboutInfoData;
 
 const headerTranslation = {
   es: {
-    mail: 'Enviar un correo'
-  },
-  en: {
-    mail: 'Send mail'
-  }
-};
-
-const footerTranslation = {
-  es: {
+    sendMail: 'Enviar un correo',
     vitae: 'Vitae',
     articles: 'Artículos',
     memories: 'Memorias',
-    contact: 'Contacto',
-    copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
+    contact: 'Contacto'
   },
   en: {
+    sendMail: 'Send mail',
     vitae: 'Vitae',
     articles: 'Articles',
     memories: 'Memories',
-    contact: 'Contact',
-    copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
+    contact: 'Contact'
   }
 };
 
@@ -83,35 +74,37 @@ const Header = () => {
           </div>
           <div>
             <EmailIcon size="20" />
-            <Link to="/contact">{headerTranslation[language].mail}</Link>
+            <Link to="/contact">{headerTranslation[language].sendMail}</Link>
           </div>
         </div>
       </div>
       <div className="Header-back">
-        <Link
-          to="/"
-          reloadDocument
-        >
-          {footerTranslation[language].vitae}
-        </Link>
-        <Link
-          to="/articles"
-          reloadDocument
-        >
-          {footerTranslation[language].articles}
-        </Link>
-        <Link
-          to="/memories"
-          reloadDocument
-        >
-          {footerTranslation[language].memories}
-        </Link>
-        <Link
-          to="/contact"
-          reloadDocument
-        >
-          {footerTranslation[language].contact}
-        </Link>
+        <div>
+          <Link
+            to="/"
+            reloadDocument
+          >
+            {headerTranslation[language].vitae}
+          </Link>
+          <Link
+            to="/articles"
+            reloadDocument
+          >
+            {headerTranslation[language].articles}
+          </Link>
+          <Link
+            to="/memories"
+            reloadDocument
+          >
+            {headerTranslation[language].memories}
+          </Link>
+          <Link
+            to="/contact"
+            reloadDocument
+          >
+            {headerTranslation[language].contact}
+          </Link>
+        </div>
       </div>
     </header>
   );

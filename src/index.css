@@ -7,14 +7,19 @@
 
   /* Components */
   --Header-height: 160px;
-  --Header-backgroundColor: #92c3e0;
   --Header-borderColor: #000000;
   --Header-fontFamily: 'Work Sans';
   --Header-fontColor: #000000;
   --Header--secondary-fontColor: #0e2027;
   --Header--h1-fontFamily: 'IBM Plex Serif';
   --Header--h2-fontFamily: 'IBM Plex Serif';
-  --Header-boxShadow: 0 0 5px 0 #6e6e6e;
+  --Header-boxShadow: 0 0 5px 0 #283d4a;
+  --Header-front-backgroundColor: #96b4c6;
+  --Header-back-backgroundColor: #c9d9e3;
+  --Header-a-fontColor: #000;
+  --Header-a--isHovering-fontColor: #1c5475;
+
+  --LanguageSelector-boxShadow: 0 0 3px 0 #283d4a inset;
 
   --Footer-backgroundColor: #96b4c6;
   --Footer-borderColor: #000000;
@@ -36,8 +41,11 @@
 
   --main-zIndex: 1;
 
-  --Header-zIndex: 2;
+  --Header-back-zIndex: 2;
   --Footer-zIndex: 2;
+
+  --Header-zIndex: 3;
+  --Header-front-zIndex: 3;
 }
 
 * {
