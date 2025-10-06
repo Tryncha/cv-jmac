@@ -15,6 +15,23 @@ const headerTranslation = {
   }
 };
 
+const footerTranslation = {
+  es: {
+    vitae: 'Vitae',
+    articles: 'Artículos',
+    memories: 'Memorias',
+    contact: 'Contacto',
+    copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
+  },
+  en: {
+    vitae: 'Vitae',
+    articles: 'Articles',
+    memories: 'Memories',
+    contact: 'Contact',
+    copyrightText: '2025 - Jhon Mauricio Aguirre Cortés'
+  }
+};
+
 const LanguageSelector = () => {
   const { settings, changeLanguage } = useSettings();
   const { language } = settings;
@@ -44,29 +61,57 @@ const Header = () => {
 
   return (
     <header className="Header">
-      <div className="Header-banner">
-        <Link to="/">{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</Link>
-        <h2>{aboutInfo[language].title}</h2>
+      <div className="Header-front">
+        <div className="Header-mainName">
+          <Link to="/">{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</Link>
+          <h2>{aboutInfo[language].title}</h2>
+        </div>
+        <LanguageSelector />
+        <div className="Header-contactInfo">
+          <div>
+            <LocationIcon size="20" />
+            <span>{aboutInfo[language].address}</span>
+          </div>
+          <div>
+            <OrcidIcon size="20" />
+            <a
+              href={`https://orcid.org/${aboutInfo[language].orcid}`}
+              target="_blank"
+            >
+              {`https://orcid.org/${aboutInfo[language].orcid}`}
+            </a>
+          </div>
+          <div>
+            <EmailIcon size="20" />
+            <Link to="/contact">{headerTranslation[language].mail}</Link>
+          </div>
+        </div>
       </div>
-      <LanguageSelector />
-      <div className="Header-contactInfo">
-        <div>
-          <LocationIcon size="20" />
-          <span>{aboutInfo[language].address}</span>
-        </div>
-        <div>
-          <OrcidIcon size="20" />
-          <a
-            href={`https://orcid.org/${aboutInfo[language].orcid}`}
-            target="_blank"
-          >
-            {`https://orcid.org/${aboutInfo[language].orcid}`}
-          </a>
-        </div>
-        <div>
-          <EmailIcon size="20" />
-          <Link to="/contact">{headerTranslation[language].mail}</Link>
-        </div>
+      <div className="Header-back">
+        <Link
+          to="/"
+          reloadDocument
+        >
+          {footerTranslation[language].vitae}
+        </Link>
+        <Link
+          to="/articles"
+          reloadDocument
+        >
+          {footerTranslation[language].articles}
+        </Link>
+        <Link
+          to="/memories"
+          reloadDocument
+        >
+          {footerTranslation[language].memories}
+        </Link>
+        <Link
+          to="/contact"
+          reloadDocument
+        >
+          {footerTranslation[language].contact}
+        </Link>
       </div>
     </header>
   );

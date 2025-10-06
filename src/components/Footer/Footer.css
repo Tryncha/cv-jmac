@@ -4,26 +4,10 @@
   left: 0;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-  padding: 5px 0;
+  justify-content: center;
   border-top: 1px solid var(--Footer-borderColor);
   background-color: var(--Footer-backgroundColor);
   font-family: var(--Footer-fontFamily);
   box-shadow: var(--Footer-boxShadow);
   z-index: var(--Footer-zIndex);
-}
-
-.Footer div {
-  display: flex;
-  gap: 40px;
-}
-
-.Footer a {
-  font-size: var(--Footer-a-fontSize);
-  font-weight: var(--Footer-fontWeight);
-  color: var(--Footer-fontColor);
-  text-transform: uppercase;
-  text-decoration: none;
 }

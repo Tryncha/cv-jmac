@@ -3,27 +3,44 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: var(--Header-height);
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  color: #000000;
+  font-family: var(--Header-fontFamily);
+  z-index: var(--Header-zIndex);
+}
+
+.Header-front {
+  height: 75%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 40px;
   border-bottom: 1px solid var(--Header-borderColor);
-  background-color: var(--Header-backgroundColor);
-  font-family: var(--Header-fontFamily);
-  color: var(--Header-fontColor);
+  background-color: #96b4c6;
   box-shadow: var(--Header-boxShadow);
-  z-index: var(--Header-zIndex);
 }
 
-.Header h2 {
+.Header-back {
+  height: 25%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 700px;
+  border-bottom: 1px solid var(--Header-borderColor);
+  background-color: #c9d9e3;
+  box-shadow: var(--Header-boxShadow);
+}
+
+.Header-front h2 {
   font-family: var(--Header--h2-fontFamily);
   font-size: 1.25rem;
   font-style: italic;
   color: var(--Header--secondary-fontColor);
 }
 
-.Header-banner a {
+.Header-mainName a {
   color: var(--Header-fontColor);
   font-family: var(--Header--h1-fontFamily);
   font-size: 2.5rem;
@@ -38,21 +55,24 @@
   gap: 5px;
 }
 
-.Header-contactInfo {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .Header-contactInfo div {
   display: flex;
   gap: 5px;
 }
 
+.Header-back a {
+  color: #000000;
+  font-family: var(--Header--h1-fontFamily);
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 .LanguageSelector {
   font-family: var(--Header-fontFamily);
   font-size: 1rem;
-  background-color: #c7dae6;
+  background-color: #bdd7e7;
   padding: 5px 10px;
   border: 1px solid var(--Header-borderColor);
   border-radius: 2px;
