@@ -27,7 +27,7 @@
   --Footer-fontColor: #000000;
   --Footer-fontWeight: 500;
   --Footer-a-fontSize: 2rem;
-  --Footer-boxShadow: 0 0 5px 0 #000;
+  --Footer-boxShadow: 0 0 5px 0 #283d4a;
 
   /* Pages */
   --Home-backgroundColor: #f6fbff;
@@ -71,4 +71,9 @@ hr {
 .u-emailInfo {
   display: flex;
   margin-block: 5px;
+}
+
+.u-vitaeSubtitle {
+  font-size: 1.5rem;
+  text-transform: uppercase;
 }

@@ -1,4 +1,3 @@
-import Section from '../../components/Section/Section';
 import useSettings from '../../hooks/useSettings';
 import './Contact.css';
 import aboutInfoData from '../../data/aboutInfo.json';
@@ -22,7 +21,9 @@ const Contact = () => {
 
   return (
     <main className="Contact">
-      <Section title={contactTranslation[language].mailTitle}>
+      <section>
+        <h2 className="u-vitaeSubtitle">{contactTranslation[language].mailTitle}</h2>
+        <hr />
         {aboutInfo[language].email.map((email) => (
           <div
             key={email.id}
@@ -37,7 +38,7 @@ const Contact = () => {
             </a>
           </div>
         ))}
-      </Section>
+      </section>
     </main>
   );
 };

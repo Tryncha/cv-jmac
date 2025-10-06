@@ -1,5 +1,4 @@
 import useSettings from '../../hooks/useSettings';
-import Section from '../Section/Section';
 import './Resume.css';
 import aboutInfoData from '../../data/aboutInfo.json';
 
@@ -19,10 +18,12 @@ const Resume = () => {
   const { language } = settings;
 
   return (
-    <Section title={resumeTranslation[language].resumeTitle}>
+    <section className="Resume">
+      <h2 className="u-vitaeSubtitle">{resumeTranslation[language].resumeTitle}</h2>
+      <hr />
       <p>{aboutInfo[language].resume}</p>
       <p>{aboutInfo[language].currentActivity}</p>
-    </Section>
+    </section>
   );
 };
 

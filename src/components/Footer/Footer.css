@@ -7,6 +7,8 @@
   justify-content: center;
   border-top: 1px solid var(--Footer-borderColor);
   background-color: var(--Footer-backgroundColor);
+  font-size: 1rem;
+  font-weight: bold;
   font-family: var(--Footer-fontFamily);
   box-shadow: var(--Footer-boxShadow);
   z-index: var(--Footer-zIndex);

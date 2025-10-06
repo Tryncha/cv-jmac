@@ -1,6 +1,5 @@
 import workExperienceData from '../../data/workExperience.json';
 import useSettings from '../../hooks/useSettings';
-import Section from '../Section/Section';
 import Separator from './Separator/Separator';
 import './WorkExperience.css';
 
@@ -20,7 +19,9 @@ const WorkExperience = () => {
   const { language } = settings;
 
   return (
-    <Section title={workExperienceTranslation[language].workExperienceTitle}>
+    <section>
+      <h2 className="u-vitaeSubtitle">{workExperienceTranslation[language].workExperienceTitle}</h2>
+      <hr />
       {workExperience.map((work) => (
         <div
           key={work.id}
@@ -30,7 +31,6 @@ const WorkExperience = () => {
             <h3>{work[language].location}</h3>
             <span>{work[language].city}</span>
             <span>{work[language].date}</span>
-            {/* {work.duration ? <div>{work.duration}</div> : null} */}
           </div>
           <Separator />
           <div className="WorkExperience-workDescription">
@@ -39,7 +39,7 @@ const WorkExperience = () => {
           </div>
         </div>
       ))}
-    </Section>
+    </section>
   );
 };
 

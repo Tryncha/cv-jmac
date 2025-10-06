@@ -1,5 +1,4 @@
 import articlesData from '../../data/articles.json';
-import Section from '../../components/Section/Section';
 import useSettings from '../../hooks/useSettings';
 import './Home.css';
 import Article from '../../components/Article/Article';
@@ -21,7 +20,9 @@ const Home = () => {
 
   return (
     <main className="Home">
-      <Section title={homeTraslation[language].articlesTitle}>
+      <section>
+        <h2 className="u-vitaeSubtitle">{homeTraslation[language].articlesTitle}</h2>
+        <hr />
         <section className="Articles">
           {articles.map((art) => (
             <Article
@@ -39,7 +40,7 @@ const Home = () => {
             />
           ))}
         </section>
-      </Section>
+      </section>
     </main>
   );
 };

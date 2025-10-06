@@ -8,11 +8,6 @@
   width: 50%;
 }
 
-.Education h2 {
-  font-size: 1.5rem;
-  text-transform: uppercase;
-}
-
 .Education-item {
   height: 55px;
   display: flex;
