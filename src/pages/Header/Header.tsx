@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
-import { EmailIcon, LocationIcon, OrcidIcon } from '../Icons';
+import { EmailIcon, LocationIcon, OrcidIcon } from '../../components/Icons';
 import './Header.css';
 
 const aboutInfo = aboutInfoData;
