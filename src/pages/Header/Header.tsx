@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
-import { EmailIcon, LocationIcon, OrcidIcon } from '../../components/Icons';
+import { EmailIcon, LocationIcon } from '../../components/Icons';
 import './Header.css';
 
 const aboutInfo = aboutInfoData;
@@ -54,7 +54,7 @@ const Header = () => {
     <header className="Header">
       <div className="Header-front">
         <div className="Header-mainName">
-          <Link to="/">{aboutInfo[language].firstName + ' ' + aboutInfo[language].lastName}</Link>
+          <Link to="/">{aboutInfo.firstName + ' ' + aboutInfo.lastName}</Link>
           <h2>{aboutInfo[language].title}</h2>
         </div>
         <LanguageSelector />
@@ -62,15 +62,6 @@ const Header = () => {
           <div>
             <LocationIcon size="20" />
             <span>{aboutInfo[language].address}</span>
-          </div>
-          <div>
-            <OrcidIcon size="20" />
-            <a
-              href={`https://orcid.org/${aboutInfo[language].orcid}`}
-              target="_blank"
-            >
-              {`https://orcid.org/${aboutInfo[language].orcid}`}
-            </a>
           </div>
           <div>
             <EmailIcon size="20" />
@@ -92,12 +83,12 @@ const Header = () => {
           >
             {headerTranslation[language].articles}
           </Link>
-          <Link
+          {/* <Link
             to="/memories"
             reloadDocument
           >
             {headerTranslation[language].memories}
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             reloadDocument

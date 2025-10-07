@@ -6,10 +6,12 @@ const aboutInfo = aboutInfoData;
 
 const contactTranslation = {
   es: {
-    mailTitle: 'Enviar un correo'
+    sendMailTitle: 'Enviar un correo',
+    mainLinksTitle: 'Enlaces principales'
   },
   en: {
-    mailTitle: 'Send mail'
+    sendMailTitle: 'Send mail',
+    mainLinksTitle: 'Main Links'
   }
 };
 
@@ -22,7 +24,7 @@ const Contact = () => {
   return (
     <main className="Contact">
       <section>
-        <h2 className="u-vitaeSubtitle">{contactTranslation[language].mailTitle}</h2>
+        <h2 className="u-vitaeSubtitle">{contactTranslation[language].sendMailTitle}</h2>
         <hr />
         {aboutInfo[language].email.map((email) => (
           <div
@@ -35,6 +37,24 @@ const Contact = () => {
               target="_blank"
             >
               {email.address}
+            </a>
+          </div>
+        ))}
+      </section>
+      <section>
+        <h2 className="u-vitaeSubtitle">{contactTranslation[language].mainLinksTitle}</h2>
+        <hr />
+        {aboutInfo.socialNetworks.map((net) => (
+          <div
+            key={net.id}
+            className="u-emailInfo"
+          >
+            <strong>{net.name}: </strong>
+            <a
+              href={net.link}
+              target="_blank"
+            >
+              {net.link}
             </a>
           </div>
         ))}
