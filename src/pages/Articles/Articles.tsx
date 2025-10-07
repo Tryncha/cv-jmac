@@ -1,11 +1,11 @@
 import articlesData from '../../data/articles.json';
 import useSettings from '../../hooks/useSettings';
-import './Home.css';
+import './Articles.css';
 import Article from '../../components/Article/Article';
 
 const articles = articlesData.reverse();
 
-const homeTraslation = {
+const articlesTraslation = {
   es: {
     articlesTitle: 'Artículos destacados'
   },
@@ -14,21 +14,21 @@ const homeTraslation = {
   }
 };
 
-const Home = () => {
+const Articles = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
   return (
-    <main className="Home">
+    <main className="Articles">
       <section>
-        <h2 className="u-vitaeSubtitle">{homeTraslation[language].articlesTitle}</h2>
+        <h2 className="u-vitaeSubtitle">{articlesTraslation[language].articlesTitle}</h2>
         <hr />
-        <section className="Articles">
+        <section className="Articles-container">
           {articles.map((art) => (
             <Article
               key={art.id}
-              imgSrc={art.imgSrc}
-              imgAlt={art.imgAlt}
+              imgSrc={`images/articles/${art.id}.jpg`}
+              imgAlt="Article Art"
               title={art[language].title}
               abstract={art[language].abstract}
               journal={art.journal}
@@ -45,4 +45,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Articles;

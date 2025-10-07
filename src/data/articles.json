@@ -1,8 +1,7 @@
 [
   {
     "id": 0,
-    "imgSrc": "images/template.png",
-    "imgAlt": "Template",
+    "imgSrc": "images/articles/0.jpg",
     "journal": "Journal of Brazilian Chemistry Society",
     "editorial": "Sociedade Brasileira de Quimica",
     "contributors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
@@ -29,8 +28,7 @@
   },
   {
     "id": 1,
-    "imgSrc": "images/template.png",
-    "imgAlt": "Template",
+    "imgSrc": "images/articles/1.jpg",
     "journal": "Revista de la Sociedad Química del Perú",
     "editorial": "Sociedad Peruana de Química",
     "contributors": ["Giraldo Osorio, O.H.", "Nayda Patricia Arias Duque", "Jhon Mauricio Aguirre Cortés"],
@@ -58,7 +56,6 @@
   {
     "id": 2,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "Revista Colombiana de Química",
     "editorial": "Revista Colombiana de Química",
     "contributors": [
@@ -106,7 +103,6 @@
   {
     "id": 3,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "DYNA (Colombia)",
     "editorial": "Universidad Nacional de Colombia",
     "contributors": [
@@ -150,7 +146,6 @@
   {
     "id": 4,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "Applied Materials Today",
     "editorial": "Elsevier",
     "contributors": [
@@ -186,7 +181,6 @@
   {
     "id": 5,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "Catalysts",
     "editorial": "Multidisciplinary Digital Publishing Institute (MDPI)",
     "contributors": [
@@ -220,7 +214,6 @@
   {
     "id": 6,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "Applied Surface Science",
     "editorial": "Elsevier",
     "contributors": [
@@ -255,7 +248,6 @@
   {
     "id": 7,
     "imgSrc": "images/template.png",
-    "imgAlt": "Template",
     "journal": "Materials Today Chemistry",
     "editorial": "Elsevier",
     "contributors": [

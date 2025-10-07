@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router';
 import Header from './pages/Header/Header';
-import Home from './pages/Home/Home';
+import Articles from './pages/Articles/Articles';
 import Vitae from './pages/Vitae/Vitae';
 import Memories from './pages/Memories/Memories';
 import Contact from './pages/Contact/Contact';
@@ -18,7 +18,7 @@ const App = () => {
         />
         <Route
           path="/articles"
-          element={<Home />}
+          element={<Articles />}
         />
         <Route
           path="/memories"

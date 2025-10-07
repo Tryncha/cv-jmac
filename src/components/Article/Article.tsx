@@ -13,28 +13,18 @@ interface ArticleProps {
   url: string;
 }
 
-const Article = ({
-  // imgSrc,
-  //  imgAlt,
-  title,
-  abstract,
-  journal,
-  authors,
-  date,
-  doi,
-  issn,
-  url
-}: ArticleProps) => {
+const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi, issn, url }: ArticleProps) => {
   const MAX_LENGTH = 500;
 
   return (
     <article className="Article">
-      {/* <img
+      <img
         src={imgSrc}
         alt={imgAlt}
-        height={300}
+        width={400}
+        height={250}
         loading="lazy"
-      /> */}
+      />
       <div className="Article-info">
         <div className="Article-secondaryInfo">
           <span>{date}</span>

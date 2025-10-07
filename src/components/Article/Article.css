@@ -10,8 +10,10 @@
 }
 
 .Article img {
+  min-width: 400px;
+  object-fit: fill;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 2px;
 }
 
 .Article strong {

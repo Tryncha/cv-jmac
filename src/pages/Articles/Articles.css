@@ -1,4 +1,4 @@
-.Home {
+.Articles {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -9,7 +9,7 @@
   margin: 0 50px;
 }
 
-.Articles {
+.Articles-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
