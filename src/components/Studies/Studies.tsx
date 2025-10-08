@@ -1,3 +1,4 @@
+import React from 'react';
 import educationData from '../../data/education.json';
 import graduatesData from '../../data/graduates.json';
 import otherStudiesData from '../../data/otherStudies.json';
@@ -28,7 +29,7 @@ const Studies = () => {
   return (
     <article className="Studies">
       <div className="Studies-mainStudies">
-        <section className="Studies-main">
+        <section className="Studies-titulation">
           <h2 className="u-vitaeSubtitle">{studiesTranslation[language].educationTitle}</h2>
           <hr />
           {education.map((edu) => (
@@ -36,15 +37,15 @@ const Studies = () => {
               key={edu.id}
               className="Studies-item"
             >
-              <div className="Studies-mainInfo">
+              <div className="Studies-itemMainInfo">
                 <h3>{edu[language].degreeTitle}</h3>
                 <h4>{edu[language].institution}</h4>
                 <span>{edu[language].city}</span>
               </div>
-              <div className="Studies-awards">
+              <div className="Studies-itemAwards">
                 <span>{edu[language].award}</span>
               </div>
-              <div className="Studies-dateInfo">
+              <div className="Studies-itemDateInfo">
                 <h3>{edu.date}</h3>
               </div>
             </div>
@@ -58,12 +59,12 @@ const Studies = () => {
               key={grd.id}
               className="Studies-item"
             >
-              <div className="Studies-mainInfo">
+              <div className="Studies-itemMainInfo">
                 <h3>{grd[language].graduateTitle}</h3>
                 <h4>{grd[language].institution}</h4>
                 <span>{grd[language].city}</span>
               </div>
-              <div className="Studies-dateInfo">
+              <div className="Studies-itemDateInfo">
                 <h3>{grd[language].date}</h3>
                 <span>{grd[language].duration}</span>
               </div>
@@ -73,22 +74,22 @@ const Studies = () => {
       </div>
       <details>
         <summary className="u-vitaeSubtitle">{studiesTranslation[language].otherStudiesTitle}</summary>
-        <hr />
+
         {otherStudies.map((edu) => (
-          <div
-            key={edu.id}
-            className="Studies-item"
-          >
-            <div className="Studies-mainInfo">
-              <h3>{edu[language].name}</h3>
-              <h4>{edu[language].institution}</h4>
-              <span>{edu[language].city}</span>
+          <React.Fragment key={edu.id}>
+            <hr />
+            <div className="Studies-item">
+              <div className="Studies-itemMainInfo">
+                <h3>{edu[language].name}</h3>
+                <h4>{edu[language].institution}</h4>
+                <span>{edu[language].city}</span>
+              </div>
+              <div className="Studies-itemDateInfo">
+                <h3>{edu[language].date}</h3>
+                <span>{edu[language].duration}</span>
+              </div>
             </div>
-            <div className="Studies-dateInfo">
-              <h3>{edu[language].date}</h3>
-              <span>{edu[language].duration}</span>
-            </div>
-          </div>
+          </React.Fragment>
         ))}
       </details>
       <hr />
