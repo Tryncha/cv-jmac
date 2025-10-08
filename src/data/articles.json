@@ -5,7 +5,6 @@
     "journal": "Journal of Brazilian Chemistry Society",
     "editorial": "Sociedade Brasileira de Quimica",
     "contributors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
-    "doi": "10.1590/S0103-50532011000300019",
     "eid": "2-s2.0-79951963651",
     "issn": ["16784790, 01035053"],
     "url": "http://dx.doi.org/10.1590/S0103-50532011000300019",
@@ -32,7 +31,6 @@
     "journal": "Revista de la Sociedad Química del Perú",
     "editorial": "Sociedad Peruana de Química",
     "contributors": ["Giraldo Osorio, O.H.", "Nayda Patricia Arias Duque", "Jhon Mauricio Aguirre Cortés"],
-    "doi": "10.37761/rsqp.v81i3.21",
     "eid": "2-s2.0-85027567632",
     "issn": ["2309-8740", "1810-634X"],
     "url": "http://dx.doi.org/10.37761/rsqp.v81i3.21",
@@ -65,7 +63,6 @@
       "Martínez Garzón, M.M.",
       "Aguirre Cortés, J.M."
     ],
-    "doi": "10.15446/rev.colomb.quim.v46n2.63028",
     "eid": "2-s2.0-85027567632",
     "issn": ["01202804"],
     "url": "http://dx.doi.org/10.15446/rev.colomb.quim.v46n2.63028",
@@ -112,7 +109,6 @@
       "Giraldo, O.",
       "Ríos-Vásquez, L.A."
     ],
-    "doi": "10.15446/dyna.v85n206.68132",
     "eid": "2-s2.0-85060939579",
     "issn": ["00127353"],
     "url": "http://dx.doi.org/10.15446/dyna.v85n206.68132",
@@ -157,7 +153,6 @@
       "Pérez-Cadenas, A.F.",
       "Carrasco-Marín, F."
     ],
-    "doi": "10.1016/j.apmt.2023.101831",
     "eid": "2-s2.0-85153683107",
     "issn": ["23529407"],
     "url": "https://doi.org/10.1016/j.apmt.2023.101831",
@@ -190,7 +185,6 @@
       "Francisco Carrasco Marín",
       "Agustín Francisco Pérez Cadenas"
     ],
-    "doi": "10.3390/catal14080474",
     "eid": "",
     "issn": ["2073-4344"],
     "url": "http://dx.doi.org/10.3390/catal14080474",
@@ -224,7 +218,6 @@
       "F. Carrasco Marín",
       "E. Bailón García"
     ],
-    "doi": "10.1016/j.apsusc.2024.160609",
     "eid": "",
     "issn": ["0169-4332"],
     "url": "http://dx.doi.org/10.1016/j.apsusc.2024.160609",
@@ -257,7 +250,6 @@
       "Sebastian Amaya Roncancio",
       "Jhon Mauricio Aguirre Cortés"
     ],
-    "doi": "10.1016/j.mtchem.2024.102498",
     "eid": "",
     "issn": ["2468-5194"],
     "url": "http://dx.doi.org/10.1016/j.mtchem.2024.102498",
@@ -276,6 +268,32 @@
       "language": "English",
       "category": "Journal Article",
       "date": "Jan, 2025"
+    }
+  },
+  {
+    "id": 8,
+    "imgSrc": "images/template.png",
+    "journal": "The Conversation",
+    "editorial": "The Conversation",
+    "contributors": ["Jhon Mauricio Aguirre Cortés"],
+    "eid": "",
+    "issn": ["2201-5639"],
+    "url": "http://dx.doi.org/10.64628/AAO.urjgeqn5s",
+    "es": {
+      "title": "Tatuajes que salvarán vidas",
+      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
+      "keywords": [],
+      "language": "Español",
+      "category": "Artículo de divulgación",
+      "date": "May, 2025"
+    },
+    "en": {
+      "title": "Tatuajes que salvarán vidas",
+      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
+      "keywords": [],
+      "language": "Spanish",
+      "category": "Divulgation article",
+      "date": "May, 2025"
     }
   }
 ]

@@ -10,12 +10,11 @@ interface ArticleProps {
   journal: string;
   authors: string[];
   date: string;
-  doi: string;
   issn: string[];
   url: string;
 }
 
-const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi, issn, url }: ArticleProps) => {
+const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn, url }: ArticleProps) => {
   const MAX_LENGTH = 500;
 
   return (
@@ -31,26 +30,29 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi,
           <span>{date}</span>
           <span>{journal}</span>
         </div>
-        <h2>{title}</h2>
+        <a
+          href={url}
+          target="_blank"
+        >
+          <h2>{title}</h2>
+        </a>
         <span className="Article-authors">{authors.join(', ')}</span>
         <p>{abstract.length > MAX_LENGTH ? `${abstract.slice(0, MAX_LENGTH)}...` : abstract}</p>
         <div className="Article-codes">
           <span>
-            <strong>DOI:</strong> {doi}
-          </span>
-          <span>
             <strong>ISSN:</strong> {issn.join(', ')}
           </span>
         </div>
-        <span>
-          <strong>URL:</strong>{' '}
+        <div>
+          <strong>URL: </strong>
           <a
             href={url}
             target="_blank"
           >
             {url}
           </a>
-        </span>
+          {/* <button>Copiar vínculo</button> */}
+        </div>
       </div>
     </article>
   );
@@ -87,7 +89,6 @@ const Articles = () => {
               journal={art.journal}
               authors={art.contributors}
               date={art[language].date}
-              doi={art.doi}
               issn={art.issn}
               url={art.url}
             />

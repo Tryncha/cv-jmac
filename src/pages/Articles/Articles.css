@@ -29,8 +29,8 @@
 .Article img {
   min-width: 400px;
   object-fit: fill;
-  border: 1px solid #000;
   border-radius: 2px;
+  box-shadow: 5px 5px 5px 0 #b0bec8;
 }
 
 .Article strong {

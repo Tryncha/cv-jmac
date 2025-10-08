@@ -54,7 +54,12 @@ const Header = () => {
     <header className="Header">
       <div className="Header-front">
         <div className="Header-mainName">
-          <Link to="/">{aboutInfo.firstName + ' ' + aboutInfo.lastName}</Link>
+          <Link
+            to="/"
+            reloadDocument
+          >
+            {aboutInfo.firstName + ' ' + aboutInfo.lastName}
+          </Link>
           <h2>{aboutInfo[language].title}</h2>
         </div>
         <LanguageSelector />

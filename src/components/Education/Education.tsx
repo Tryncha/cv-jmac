@@ -23,7 +23,7 @@ const Education = () => {
 
   return (
     <article className="Education">
-      <section>
+      <section className="Education-main">
         <h2 className="u-vitaeSubtitle">{educationTranslation[language].educationTitle}</h2>
         <hr />
         {education.map((edu) => (
@@ -45,7 +45,7 @@ const Education = () => {
           </div>
         ))}
       </section>
-      <section>
+      <section className="Education-graduates">
         <h2 className="u-vitaeSubtitle">{educationTranslation[language].graduatesTitle}</h2>
         <hr />
         {graduates.map((grd) => (

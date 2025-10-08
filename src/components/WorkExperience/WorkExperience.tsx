@@ -35,7 +35,7 @@ const WorkExperience = () => {
           <Separator />
           <div className="WorkExperience-workDescription">
             <h3>{work[language].name}</h3>
-            <p></p>
+            <ul></ul>
           </div>
         </div>
       ))}
