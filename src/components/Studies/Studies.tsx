@@ -6,7 +6,7 @@ import './Studies.css';
 
 const education = educationData.reverse();
 const graduates = graduatesData.reverse();
-const otherStudies = otherStudiesData;
+const otherStudies = otherStudiesData.reverse();
 
 const studiesTranslation = {
   es: {
@@ -75,22 +75,20 @@ const Studies = () => {
         <summary className="u-vitaeSubtitle">{studiesTranslation[language].otherStudiesTitle}</summary>
         <hr />
         {otherStudies.map((edu) => (
-          <>
-            <div
-              key={edu.id}
-              className="Studies-item"
-            >
-              <div className="Studies-mainInfo">
-                <h3>{edu.name}</h3>
-                <h4>{edu.institution}</h4>
-                <span>{edu.city}</span>
-              </div>
-              <div className="Studies-dateInfo">
-                <h3>{edu.date}</h3>
-                <span>{edu.duration}</span>
-              </div>
+          <div
+            key={edu.id}
+            className="Studies-item"
+          >
+            <div className="Studies-mainInfo">
+              <h3>{edu[language].name}</h3>
+              <h4>{edu[language].institution}</h4>
+              <span>{edu[language].city}</span>
             </div>
-          </>
+            <div className="Studies-dateInfo">
+              <h3>{edu[language].date}</h3>
+              <span>{edu[language].duration}</span>
+            </div>
+          </div>
         ))}
       </details>
       <hr />
