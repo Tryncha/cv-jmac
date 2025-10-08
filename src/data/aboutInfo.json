@@ -1,60 +1,10 @@
 {
   "firstName": "Jhon Mauricio",
   "lastName": "Aguirre Cortés",
-  "nie": "Y8312481L",
-  "postalCode": "46200",
-  "landlinePhone": "(+34) 610104351",
-  "mobilePhone": "(+34) 677367320",
-  "socialNetworks": [
-    {
-      "id": 0,
-      "name": "Twitter/X",
-      "link": "https://x.com/JhonMAguirreC"
-    },
-    {
-      "id": 1,
-      "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/jhon-mauricio-aguirre-cort%C3%A9s-b0452427b/"
-    },
-    {
-      "id": 2,
-      "name": "BlueSky",
-      "link": "https://bsky.app/profile/jmacor7.bsky.social"
-    },
-    {
-      "id": 3,
-      "name": "Google Scholar",
-      "link": "https://scholar.google.com/citations?user=Srkl6pcAAAAJ&hl=en&oi=ao"
-    },
-    {
-      "id": 4,
-      "name": "CVLac",
-      "link": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000462837"
-    },
-    {
-      "id": 5,
-      "name": "Research Gate",
-      "link": "https://www.researchgate.net/profile/Jhon-Aguirre-Cortes"
-    },
-    {
-      "id": 6,
-      "name": "Scopus",
-      "link": "https://www.scopus.com/authid/detail.uri?authorId=57195378601&origin=AuthorProfile"
-    },
-    {
-      "id": 6,
-      "name": "ORCID",
-      "link": "https://orcid.org/0000-0002-9700-3544"
-    }
-  ],
   "es": {
     "title": "Doctor en Química, Magister en Ingeniería Química, Ingeniero Químico",
     "resume": "Doctor en Química, Magíster en Ingeniería Química e Ingeniero Químico. Sistemas de fotocatálisis, síntesis y caracterización de nanomateriales, así como impresión 3D, desde conceptos teóricos hasta la implementación práctica y análisis fisicoquímico de la calidad del agua. Amplia experiencia como profesor universitario en ciencias básicas y de ingeniería.",
     "currentActivity": "Actualmente, trabajo como investigador postdoctoral desarrollando nuevos materiales para sensores que detectan gases en el aire. Mi objetivo es que estos sensores sean más precisos, rápidos y eficientes. Para lograrlo, modifico pequeñas superficies con nanopartículas de óxidos metálicos, lo que mejora su capacidad para detectar gases específicos. También me dedico a perfeccionar cómo se aplican estos materiales y a estudiar cómo reaccionan cuando se exponen a diferentes gases. Esto requiere que los gases estén bien mezclados, sean homogéneos y que podamos medirlos con gran precisión, incluso en cantidades muy pequeñas (como partes por millón o por billón). Un aspecto clave de mi trabajo es mejorar los tiempos de respuesta de los sensores, es decir, que puedan detectar un gas lo más rápido posible. Además, busco reducir el tiempo de recuperación, que es el período que necesita el sensor para volver a estar listo después de una medición. Todo esto es fundamental para que los sensores funcionen de forma continua, confiable y en tiempo real.",
-    "birthDate": "Ene 17, 1976",
-    "gender": "Hombre",
-    "nationality": "Colombiana",
-    "birthCity": "Manizales, Colombia",
     "address": "España | Colombia",
     "email": [
       {
@@ -83,10 +33,6 @@
     "title": "Chemistry PhD, Master in Chemical Engineering, Chemical Engineering",
     "resume": "Chemistry PhD, Master in Chemical Engineering and Chemical Engineer. Photocatalysis systems, synthesis, and characterization of nanomaterials, as well as 3D printing, from theoretical concepts to practical implementation and physicochemical analysis of water quality. Extensive experience as a university professor in basic and engineering sciences.",
     "currentActivity": "Currently, I work as a postdoctoral researcher developing new materials for sensors that detect gases in the air. My goal is to make these sensors more accurate, faster, and efficient. To achieve this, I modify small surfaces with nanoparticles of metal oxides, which enhances their ability to detect specific gases. I also focus on improving how these materials are applied and studying how they react when exposed to different gases. This requires the gases to be well-mixed, homogeneous, and measurable with great precision, even in very small quantities (such as parts per million or billion). A key aspect of my work is improving the response times of the sensors, meaning they can detect a gas as quickly as possible. Additionally, I aim to reduce the recovery time, which is the period the sensor needs to be ready again after a measurement. All of this is essential for the sensors to function continuously, reliably, and in real-time.",
-    "birthDate": "Jan 17, 1976",
-    "gender": "Male",
-    "nationality": "Colombian",
-    "birthCity": "Manizales, Colombia",
     "address": "Spain | Colombia",
     "email": [
       {

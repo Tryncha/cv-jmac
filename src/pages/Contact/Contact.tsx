@@ -1,8 +1,10 @@
 import useSettings from '../../hooks/useSettings';
 import './Contact.css';
 import aboutInfoData from '../../data/aboutInfo.json';
+import contactData from '../../data/contact.json';
 
 const aboutInfo = aboutInfoData;
+const contact = contactData;
 
 const contactTranslation = {
   es: {
@@ -44,17 +46,17 @@ const Contact = () => {
       <section>
         <h2 className="u-vitaeSubtitle">{contactTranslation[language].mainLinksTitle}</h2>
         <hr />
-        {aboutInfo.socialNetworks.map((net) => (
+        {contact.map((cont) => (
           <div
-            key={net.id}
+            key={cont.id}
             className="u-emailInfo"
           >
-            <strong>{net.name}: </strong>
+            <strong>{cont.name}: </strong>
             <a
-              href={net.link}
+              href={cont.link}
               target="_blank"
             >
-              {net.link}
+              {cont.link}
             </a>
           </div>
         ))}

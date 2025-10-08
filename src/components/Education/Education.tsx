@@ -36,8 +36,11 @@ const Education = () => {
               <h4>{edu[language].institution}</h4>
               <span>{edu[language].city}</span>
             </div>
+            <div className="Education-awards">
+              <span>{edu[language].award}</span>
+            </div>
             <div className="Education-dateInfo">
-              <h3>{edu[language].date}</h3>
+              <h3>{edu.date}</h3>
             </div>
           </div>
         ))}

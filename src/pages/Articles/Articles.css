@@ -14,3 +14,55 @@
   flex-direction: column;
   gap: 20px;
 }
+
+.Article {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  background-color: #e8eef1;
+  padding: 15px 25px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px 0 #b0bec8;
+}
+
+.Article img {
+  min-width: 400px;
+  object-fit: fill;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+
+.Article strong {
+  font-weight: 600;
+}
+
+.Article-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Article-secondaryInfo {
+  display: flex;
+  flex-direction: column;
+  color: #242424;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Article-authors {
+  color: #242424;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.Article-codes {
+  display: flex;
+  flex-direction: column;
+}
+
+.Article-info {
+  display: flex;
+  flex-direction: column;
+}

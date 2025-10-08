@@ -1,0 +1,42 @@
+[
+  {
+    "id": 0,
+    "name": "Twitter/X",
+    "link": "https://x.com/JhonMAguirreC"
+  },
+  {
+    "id": 1,
+    "name": "LinkedIn",
+    "link": "https://www.linkedin.com/in/jhon-mauricio-aguirre-cort%C3%A9s-b0452427b/"
+  },
+  {
+    "id": 2,
+    "name": "BlueSky",
+    "link": "https://bsky.app/profile/jmacor7.bsky.social"
+  },
+  {
+    "id": 3,
+    "name": "Google Scholar",
+    "link": "https://scholar.google.com/citations?user=Srkl6pcAAAAJ&hl=en&oi=ao"
+  },
+  {
+    "id": 4,
+    "name": "CVLac",
+    "link": "https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0000462837"
+  },
+  {
+    "id": 5,
+    "name": "Research Gate",
+    "link": "https://www.researchgate.net/profile/Jhon-Aguirre-Cortes"
+  },
+  {
+    "id": 6,
+    "name": "Scopus",
+    "link": "https://www.scopus.com/authid/detail.uri?authorId=57195378601&origin=AuthorProfile"
+  },
+  {
+    "id": 7,
+    "name": "ORCID",
+    "link": "https://orcid.org/0000-0002-9700-3544"
+  }
+]

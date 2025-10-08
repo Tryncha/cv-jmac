@@ -17,12 +17,19 @@
 }
 
 .Education-mainInfo {
-  width: 70%;
+  width: 50%;
   display: flex;
   flex-direction: column;
 }
 
+.Education-awards {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+}
+
 .Education-dateInfo {
+  width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
