@@ -6,6 +6,7 @@ import Memories from './pages/Memories/Memories';
 import Contact from './pages/Contact/Contact';
 import Footer from './pages/Footer/Footer';
 import NotFound from './pages/NotFound/NotFound';
+import Media from './pages/Media/Media';
 
 const App = () => {
   return (
@@ -19,6 +20,10 @@ const App = () => {
         <Route
           path="/articles"
           element={<Articles />}
+        />
+        <Route
+          path="/media"
+          element={<Media />}
         />
         <Route
           path="/memories"

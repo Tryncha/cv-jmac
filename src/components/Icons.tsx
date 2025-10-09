@@ -102,3 +102,17 @@ export const OrcidIcon = ({ size }: IconProps) => {
     </svg>
   );
 };
+
+export const LinkToIcon = ({ size }: IconProps) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width={size}
+      height={size}
+      fill="currentColor"
+      className="block h-[1em] w-[1em] stroke-current stroke-[0.75]"
+    >
+      <path d="M14.335 13.33V6.606L5.47 15.471a.666.666 0 0 1-.942-.942l8.864-8.864H6.66a.665.665 0 0 1 0-1.33H15l.134.014c.303.062.531.33.531.651v8.33a.665.665 0 0 1-1.33 0Z" />
+    </svg>
+  );
+};

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "audioSrc": "src/assets/audio/cadapasocuentainvestiganoes-castillalamanchamedia-ivoox147156899.mp3",
+    "es": {
+      "title": "Cada paso cuenta, en Investiga, que no es poco.",
+      "description": "Este sábado, en Investiga, que no es poco, os contamos el proyecto \"Cada paso cuenta\" de la Facultad de Ciencias Económicas y Empresariales de Albacete. Y visitanos en el laboratorio de Química de la investigadora Edelmira Valero, de la Escuela Técnica Superior de Ingeniería Industrial, también en Albacete, para conocer a su equipo de investigación.",
+      "date": "May 18, 2025",
+      "duration": "23 min 48 seg",
+      "languages": ["Español"]
+    },
+    "en": {
+      "title": "Every Step Counts, on Research, Which Is No Small Thing.",
+      "description": "This Saturday, on Research, Which Is No Small Thing, we tell you about the project \"Every Step Counts\" from the Faculty of Economics and Business Sciences of Albacete. And we visit the Chemistry laboratory of researcher Edelmira Valero, from the Higher Technical School of Industrial Engineering, also in Albacete, to meet her research team.",
+      "date": "May 18, 2025",
+      "duration": "23 min 48 sec",
+      "languages": ["Spanish"]
+    }
+  }
+]

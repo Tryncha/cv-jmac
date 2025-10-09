@@ -1,0 +1,10 @@
+.Media {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--Home-backgroundColor);
+  padding: calc(var(--Header-height) + 50px) 70px 120px;
+  border-inline: 1px solid var(--body-borderColor);
+  margin: 0 200px;
+}

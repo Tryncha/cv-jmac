@@ -78,3 +78,12 @@ hr {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+.u-citationNote {
+  display: flex;
+  flex-direction: column;
+}
+
+.u-italicText {
+  font-style: italic;
+}

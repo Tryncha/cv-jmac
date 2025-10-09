@@ -11,6 +11,7 @@ const headerTranslation = {
     sendMail: 'Enviar un correo',
     vitae: 'Vitae',
     articles: 'Artículos',
+    media: 'Media',
     memories: 'Memorias',
     contact: 'Contacto'
   },
@@ -18,6 +19,7 @@ const headerTranslation = {
     sendMail: 'Send mail',
     vitae: 'Vitae',
     articles: 'Articles',
+    media: 'Media',
     memories: 'Memories',
     contact: 'Contact'
   }
@@ -94,11 +96,17 @@ const Header = () => {
             {headerTranslation[language].articles}
           </Link>
           <Link
+            to="/media"
+            reloadDocument
+          >
+            {headerTranslation[language].media}
+          </Link>
+          {/* <Link
             to="/memories"
             reloadDocument
           >
             {headerTranslation[language].memories}
-          </Link>
+          </Link> */}
           <Link
             to="/contact"
             reloadDocument
