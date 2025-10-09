@@ -43,7 +43,7 @@ const Studies = () => {
                 <span>{edu[language].city}</span>
               </div>
               <div className="Studies-itemAwards">
-                <span>{edu[language].award}</span>
+                <span className="u-textAnimatedGradient">{edu[language].award}</span>
               </div>
               <div className="Studies-itemDateInfo">
                 <h3>{edu.date}</h3>

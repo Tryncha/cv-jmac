@@ -65,3 +65,26 @@
   border: 1px solid black;
   overflow: auto;
 }
+
+.u-textAnimatedGradient {
+  background: linear-gradient(90deg, #5d1fc0, #467ac9);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  background-size: 120% 120%;
+  animation: animated-gradient 7s ease-in-out infinite alternate;
+}
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

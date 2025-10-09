@@ -1,4 +1,4 @@
-import teachingActivityData from '../../data/toAdd/teachingActivity.json';
+import teachingActivityData from '../../data/teachingActivity.json';
 import useSettings from '../../hooks/useSettings';
 import Separator from '../WorkExperience/Separator/Separator';
 import './Direction.css';

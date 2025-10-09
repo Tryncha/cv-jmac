@@ -70,7 +70,12 @@ const Header = () => {
           </div>
           <div>
             <EmailIcon size="20" />
-            <Link to="/contact">{headerTranslation[language].sendMail}</Link>
+            <Link
+              to="/contact"
+              reloadDocument
+            >
+              {headerTranslation[language].sendMail}
+            </Link>
           </div>
         </div>
       </div>
@@ -88,12 +93,12 @@ const Header = () => {
           >
             {headerTranslation[language].articles}
           </Link>
-          {/* <Link
+          <Link
             to="/memories"
             reloadDocument
           >
             {headerTranslation[language].memories}
-          </Link> */}
+          </Link>
           <Link
             to="/contact"
             reloadDocument
