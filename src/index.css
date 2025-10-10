@@ -6,18 +6,17 @@
   --body--secondary-fontColor: #494949;
 
   /* Components */
-  --Header-height: 160px;
+  --Header-height: 140px;
   --Header-borderColor: #000000;
   --Header-fontFamily: 'Work Sans';
   --Header-fontColor: #000000;
   --Header--secondary-fontColor: #0e2027;
-  --Header--h1-fontFamily: 'IBM Plex Serif';
-  --Header--h2-fontFamily: 'IBM Plex Serif';
+  --Header--title-fontFamily: 'IBM Plex Serif';
   --Header-boxShadow: 0 0 5px 0 #283d4a;
-  --Header-front-backgroundColor: #96b4c6;
-  --Header-back-backgroundColor: #c9d9e3;
-  --Header-a-fontColor: #000;
   --Header-a--isHovering-fontColor: #1c5475;
+
+  --Header-top-backgroundColor: #96b4c6;
+  --Header-bottom-backgroundColor: #c9d9e3;
 
   --LanguageSelector-boxShadow: 0 0 3px 0 #283d4a inset;
 
@@ -41,11 +40,11 @@
 
   --main-zIndex: 1;
 
-  --Header-back-zIndex: 2;
+  --Header-bottom-zIndex: 2;
   --Footer-zIndex: 2;
 
   --Header-zIndex: 3;
-  --Header-front-zIndex: 3;
+  --Header-top-zIndex: 3;
 }
 
 * {
@@ -57,13 +56,12 @@
 body {
   position: relative;
   background-color: var(--body-backgroundColor);
-  font-size: 0.95rem;
+  font-size: 0.85rem;
   font-family: var(--body-fontFamily);
   z-index: var(--body-zIndex);
 }
 
 hr {
-  margin: 10px 0;
   border: none;
   border-bottom: 1px solid var(--body-borderColor);
 }
@@ -86,4 +84,7 @@ hr {
 
 .u-italicText {
   font-style: italic;
+}
+
+@media screen and (min-width: 1280px) {
 }

@@ -25,6 +25,24 @@ const headerTranslation = {
   }
 };
 
+const MainTitle = () => {
+  const { settings } = useSettings();
+  const { language } = settings;
+
+  return (
+    <div className="MainTitle">
+      <Link
+        to="/"
+        reloadDocument
+        className="MainTitle-name"
+      >
+        {aboutInfo.firstName + ' ' + aboutInfo.lastName}
+      </Link>
+      <h2 className="MainTitle-title">{aboutInfo[language].title}</h2>
+    </div>
+  );
+};
+
 const LanguageSelector = () => {
   const { settings, changeLanguage } = useSettings();
   const { language } = settings;
@@ -37,7 +55,7 @@ const LanguageSelector = () => {
       >
         Español
       </button>
-      {' / '}
+      <hr />
       <button
         className={language === 'en' ? 'LanguageSelector-option is-active' : 'LanguageSelector-option'}
         onClick={() => changeLanguage('en')}
@@ -48,72 +66,81 @@ const LanguageSelector = () => {
   );
 };
 
-const Header = () => {
+const MoreInfo = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
   return (
-    <header className="Header">
-      <div className="Header-front">
-        <div className="Header-mainName">
-          <Link
-            to="/"
-            reloadDocument
-          >
-            {aboutInfo.firstName + ' ' + aboutInfo.lastName}
-          </Link>
-          <h2>{aboutInfo[language].title}</h2>
-        </div>
-        <LanguageSelector />
-        <div className="Header-contactInfo">
-          <div>
-            <LocationIcon size="20" />
-            <span>{aboutInfo[language].address}</span>
-          </div>
-          <div>
-            <EmailIcon size="20" />
-            <Link
-              to="/contact"
-              reloadDocument
-            >
-              {headerTranslation[language].sendMail}
-            </Link>
-          </div>
-        </div>
+    <div className="MoreInfo">
+      <div className="MoreInfo-item">
+        <LocationIcon size="20" />
+        <span>{aboutInfo[language].address}</span>
       </div>
-      <div className="Header-back">
-        <div>
-          <Link
-            to="/"
-            reloadDocument
-          >
-            {headerTranslation[language].vitae}
-          </Link>
-          <Link
-            to="/articles"
-            reloadDocument
-          >
-            {headerTranslation[language].articles}
-          </Link>
-          <Link
-            to="/media"
-            reloadDocument
-          >
-            {headerTranslation[language].media}
-          </Link>
-          {/* <Link
+      <div className="MoreInfo-item">
+        <EmailIcon size="20" />
+        <Link
+          to="/contact"
+          reloadDocument
+        >
+          {headerTranslation[language].sendMail}
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+const LinksContainer = () => {
+  const { settings } = useSettings();
+  const { language } = settings;
+
+  return (
+    <div className="LinksContainer">
+      <Link
+        to="/"
+        reloadDocument
+      >
+        {headerTranslation[language].vitae}
+      </Link>
+      <Link
+        to="/articles"
+        reloadDocument
+      >
+        {headerTranslation[language].articles}
+      </Link>
+      <Link
+        to="/media"
+        reloadDocument
+      >
+        {headerTranslation[language].media}
+      </Link>
+      {/* <Link
             to="/memories"
             reloadDocument
           >
             {headerTranslation[language].memories}
           </Link> */}
-          <Link
-            to="/contact"
-            reloadDocument
-          >
-            {headerTranslation[language].contact}
-          </Link>
+      <Link
+        to="/contact"
+        reloadDocument
+      >
+        {headerTranslation[language].contact}
+      </Link>
+    </div>
+  );
+};
+
+const Header = () => {
+  return (
+    <header className="Header">
+      <div className="Header-top">
+        <MainTitle />
+        <div className="Header-container">
+          <MoreInfo />
+          <LanguageSelector />
         </div>
+      </div>
+      <div className="Header-bottom">
+        <LinksContainer />
       </div>
     </header>
   );
