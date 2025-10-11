@@ -6,7 +6,7 @@ const aboutInfo = aboutInfoData;
 const Footer = () => {
   return (
     <footer className="Footer">
-      <span>&copy; {aboutInfo.firstName + ' ' + aboutInfo.lastName}, 2025</span>
+      <span className="Footer-text">&copy; {aboutInfo.firstName + ' ' + aboutInfo.lastName}, 2025</span>
     </footer>
   );
 };

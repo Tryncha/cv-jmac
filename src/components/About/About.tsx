@@ -1,25 +1,25 @@
 import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
-import './Resume.css';
+import './About.css';
 
 const aboutInfo = aboutInfoData;
 
-const resumeTranslation = {
+const aboutTranslation = {
   es: {
-    resumeTitle: 'Resumen'
+    aboutTitle: 'Sobre mí'
   },
   en: {
-    resumeTitle: 'Resume'
+    aboutTitle: 'About me'
   }
 };
 
-const Resume = () => {
+const About = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
   return (
-    <section className="Resume">
-      <h2 className="u-vitaeSubtitle">{resumeTranslation[language].resumeTitle}</h2>
+    <section className="About">
+      <h2>{aboutTranslation[language].aboutTitle}</h2>
       <hr />
       <p>{aboutInfo[language].resume}</p>
       <p>{aboutInfo[language].currentActivity}</p>
@@ -27,4 +27,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default About;

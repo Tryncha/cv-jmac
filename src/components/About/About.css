@@ -1,0 +1,16 @@
+.About p {
+  text-align: justify;
+  margin-block: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .About p {
+    margin-block: 10px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .About p {
+    margin-block: 8px;
+  }
+}

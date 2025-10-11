@@ -1,4 +1,4 @@
-import Resume from '../../components/Resume/Resume';
+import About from '../../components/About/About';
 import Studies from '../../components/Studies/Studies';
 import WorkExperience from '../../components/WorkExperience/WorkExperience';
 import Direction from '../../components/Direction/Direction';
@@ -7,7 +7,7 @@ import './Vitae.css';
 const Vitae = () => {
   return (
     <main className="Vitae">
-      <Resume />
+      <About />
       <Studies />
       <WorkExperience />
       <Direction />

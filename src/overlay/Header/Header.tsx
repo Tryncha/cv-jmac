@@ -134,7 +134,7 @@ const Header = () => {
     <header className="Header">
       <div className="Header-top">
         <MainTitle />
-        <div className="Header-container">
+        <div className="Header-rightContainer">
           <MoreInfo />
           <LanguageSelector />
         </div>

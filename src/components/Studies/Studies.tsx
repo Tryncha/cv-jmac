@@ -22,6 +22,56 @@ const studiesTranslation = {
   }
 };
 
+interface TitulationProps {
+  title: string;
+  institution: string;
+  city: string;
+  award?: string;
+  date: string;
+}
+
+const Titulation = ({ title, institution, city, award, date }: TitulationProps) => {
+  return (
+    <div className="TitulationItem">
+      <div className="TitulationItem-mainInfo">
+        <h3>{title}</h3>
+        <h4>{institution}</h4>
+        <h4>{city}</h4>
+      </div>
+      <div className="TitulationItem-awards">
+        <span className="u-textAnimatedGradient">{award}</span>
+      </div>
+      <div className="TitulationItem-dateInfo">
+        <h3>{date}</h3>
+      </div>
+    </div>
+  );
+};
+
+interface OtherItemProps {
+  title: string;
+  institution: string;
+  city: string;
+  date: string;
+  duration: string;
+}
+
+const OtherStudyItem = ({ title, institution, city, date, duration }: OtherItemProps) => {
+  return (
+    <div className="OtherStudyItem">
+      <div className="OtherStudyItem-mainInfo">
+        <h3>{title}</h3>
+        <h4>{institution}</h4>
+        <h4>{city}</h4>
+      </div>
+      <div className="OtherStudyItem-dateInfo">
+        <h3>{date}</h3>
+        <h4>{duration}</h4>
+      </div>
+    </div>
+  );
+};
+
 const MainStudies = () => {
   const { settings } = useSettings();
   const { language } = settings;
@@ -32,42 +82,21 @@ const MainStudies = () => {
         <h2>{studiesTranslation[language].educationTitle}</h2>
         <hr />
         {education.map((edu) => (
-          <div
+          <Titulation
             key={edu.id}
-            className="MainStudies-item"
-          >
-            <div className="MainStudies-itemMainInfo">
-              <h3>{edu[language].degreeTitle}</h3>
-              <h4>{edu[language].institution}</h4>
-              <span>{edu[language].city}</span>
-            </div>
-            <div className="MainStudies-itemAwards">
-              <span className="u-textAnimatedGradient">{edu[language].award}</span>
-            </div>
-            <div className="MainStudies-itemDateInfo">
-              <h3>{edu.date}</h3>
-            </div>
-          </div>
+            date={edu.date}
+            {...edu[language]}
+          />
         ))}
       </section>
       <section className="MainStudies-graduates">
         <h2>{studiesTranslation[language].graduatesTitle}</h2>
         <hr />
         {graduates.map((grd) => (
-          <div
+          <OtherStudyItem
             key={grd.id}
-            className="MainStudies-item"
-          >
-            <div className="MainStudies-itemMainInfo">
-              <h3>{grd[language].graduateTitle}</h3>
-              <h4>{grd[language].institution}</h4>
-              <span>{grd[language].city}</span>
-            </div>
-            <div className="MainStudies-itemDateInfo">
-              <h3>{grd[language].date}</h3>
-              <span>{grd[language].duration}</span>
-            </div>
-          </div>
+            {...grd[language]}
+          />
         ))}
       </section>
     </section>
@@ -85,17 +114,7 @@ const OtherStudies = () => {
         {otherStudies.map((edu) => (
           <React.Fragment key={edu.id}>
             <hr />
-            <div className="OtherStudies-item">
-              <div className="OtherStudies-itemMainInfo">
-                <h3>{edu[language].name}</h3>
-                <h4>{edu[language].institution}</h4>
-                <span>{edu[language].city}</span>
-              </div>
-              <div className="OtherStudies-itemDateInfo">
-                <h3>{edu[language].date}</h3>
-                <span>{edu[language].duration}</span>
-              </div>
-            </div>
+            <OtherStudyItem {...edu[language]} />
           </React.Fragment>
         ))}
       </details>

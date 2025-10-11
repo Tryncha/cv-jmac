@@ -2,14 +2,14 @@
   {
     "id": 0,
     "es": {
-      "graduateTitle": "Docencia Universitaria",
+      "title": "Docencia Universitaria",
       "institution": "Universidad de Caldas",
       "city": "Manizales, Colombia",
       "duration": "160 horas",
       "date": "2012"
     },
     "en": {
-      "graduateTitle": "University Teaching",
+      "title": "University Teaching",
       "institution": "University of Caldas",
       "city": "Manizales, Colombia",
       "duration": "160 hours",
@@ -19,14 +19,14 @@
   {
     "id": 1,
     "es": {
-      "graduateTitle": "Docencia Universitaria",
+      "title": "Docencia Universitaria",
       "institution": "Universidad Católica de Manizales",
       "city": "Manizales, Colombia",
       "duration": "120 horas",
       "date": "2015"
     },
     "en": {
-      "graduateTitle": "University Teaching",
+      "title": "University Teaching",
       "institution": "Catholic University of Manizales",
       "city": "Manizales, Colombia",
       "duration": "120 hours",
@@ -36,14 +36,14 @@
   {
     "id": 2,
     "es": {
-      "graduateTitle": "Ambientes de Aprendizaje Flexibles Apoyados por NTIC",
+      "title": "Ambientes de Aprendizaje Flexibles Apoyados por NTIC",
       "institution": "Universidad Católica de Manizales",
       "city": "Manizales, Colombia",
       "duration": "144 horas",
       "date": "2018"
     },
     "en": {
-      "graduateTitle": "Flexible Learning Environments Supported by ICT",
+      "title": "Flexible Learning Environments Supported by ICT",
       "institution": "Catholic University of Manizales",
       "city": "Manizales, Colombia",
       "duration": "144 hours",

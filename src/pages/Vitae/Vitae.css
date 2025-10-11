@@ -8,6 +8,11 @@
   margin: 0 min(80px, 5%);
   box-shadow: var(--Vitae-boxShadow);
   z-index: var(--main-zIndex);
+  min-height: calc(100vh - 40px);
+}
+
+.Vitae hr {
+  margin-block: 10px;
 }
 
 .Vitae h2,
@@ -17,31 +22,108 @@
   text-transform: uppercase;
 }
 
-.Vitae hr {
-  margin-block: 10px;
+.Vitae h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.Vitae h4 {
+  color: var(--Vitae--subtitle-fontColor);
+  font-size: 0.92rem;
+  font-weight: 500;
+}
+
+.Vitae details {
+  cursor: initial;
+}
+
+.Vitae summary {
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s ease;
+}
+
+.Vitae summary:hover {
+  color: var(--Vitae--isHovering-fontColor);
+}
+
+@media screen and (max-width: 1280px) {
+  .Vitae {
+    padding: 190px 60px 80px;
+    gap: 35px;
+  }
+
+  .Vitae h3 {
+    font-size: 1.05rem;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .Vitae {
     padding: 190px 50px 80px;
+    gap: 30px;
+    margin: 0 min(40px, 3%);
+  }
+
+  .Vitae h2,
+  .Vitae summary {
+    font-size: 1.3rem;
+  }
+
+  .Vitae h3 {
+    font-size: 1rem;
   }
 }
 
 @media screen and (max-width: 768px) {
   .Vitae {
-    padding: 210px 40px 80px;
+    padding: 220px 40px 80px;
     margin: 0;
+    gap: 25px;
+    border-inline: none;
+    box-shadow: none;
+  }
+
+  .Vitae h2,
+  .Vitae summary {
+    font-size: 1.25rem;
+  }
+
+  .Vitae h3 {
+    font-size: 0.95rem;
+  }
+
+  .Vitae h4 {
+    font-size: 0.9rem;
   }
 }
 
 @media screen and (max-width: 576px) {
   .Vitae {
-    padding: 180px 30px 80px;
+    padding: 180px 25px 70px;
+    gap: 20px;
+  }
+
+  .Vitae h2,
+  .Vitae summary {
+    font-size: 1.15rem;
+  }
+
+  .Vitae span {
+    font-size: 0.85rem;
   }
 }
 
 @media screen and (max-width: 480px) {
   .Vitae {
-    padding: 140px 30px 80px;
+    padding: 150px 20px 60px;
+    gap: 18px;
+  }
+
+  .Vitae h2,
+  .Vitae summary {
+    font-size: 1.1rem;
+    letter-spacing: 0.3px;
   }
 }

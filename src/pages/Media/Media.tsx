@@ -84,17 +84,19 @@ const Media = () => {
           investigador en ciencia y tecnología de materiales. Con experiencia en la síntesis y caracterización de
           nanoestructuras. Formulación y ejecución de proyectos. Docente.
         </p>
-        <iframe
-          id="video"
-          width="600"
-          height="315"
-          src="https://www.youtube.com/embed/GjyXu3OyeBI"
-          title="Dark Souls Dialogue - Hollow Merchant (Male)"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        ></iframe>
+        <div className="Media-iframeContainer">
+          <iframe
+            id="video"
+            width="600"
+            height="315"
+            src="https://www.youtube.com/embed/GjyXu3OyeBI"
+            title="Dark Souls Dialogue - Hollow Merchant (Male)"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          ></iframe>
+        </div>
       </section>
     </main>
   );

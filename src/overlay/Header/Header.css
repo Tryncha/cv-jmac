@@ -3,16 +3,13 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 140px;
   display: flex;
   flex-direction: column;
-  color: var(--Header-fontColor);
-  font-family: var(--Header-fontFamily);
   z-index: var(--Header-zIndex);
 }
 
 .Header-top {
-  height: 80%;
+  height: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,53 +20,79 @@
   z-index: var(--Header-top-zIndex);
 }
 
-.Header-container {
+.Header-rightContainer {
   display: flex;
   gap: 30px;
 }
 
 .Header-bottom {
-  height: 20%;
+  height: 30px;
   display: flex;
   justify-content: center;
-  padding: 20px 0;
+  align-items: center;
+  padding: 18px 0;
   border-bottom: 1px solid var(--Header-borderColor);
   background-color: var(--Header-bottom-backgroundColor);
   box-shadow: var(--Header-boxShadow);
   z-index: var(--Header-bottom-zIndex);
 }
 
+.MainTitle {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
 .MainTitle-name {
   color: var(--Header-fontColor);
   font-family: var(--Header--title-fontFamily);
   font-size: 2.4rem;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.MainTitle-name:hover {
+  color: var(--Header--isHovering-fontColor);
 }
 
 .MainTitle-title {
+  color: var(--Header--title-fontColor);
   font-family: var(--Header--title-fontFamily);
-  font-size: 1.1rem;
-  font-style: italic;
-  color: var(--Header--secondary-fontColor);
+  font-size: 1.05rem;
+  font-weight: 500;
 }
 
 .MoreInfo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: 5px;
-  font-weight: 500;
+  gap: 8px;
+  font-weight: 600;
   font-size: 0.95rem;
-  padding: 0 10px;
+  padding: 10px 15px;
   border-block: 1px solid var(--Header-borderColor);
 }
 
 .MoreInfo-item {
   display: flex;
   gap: 10px;
-  align-items: center;
+}
+
+.MoreInfo-item span {
+  color: var(--Header-fontColor);
+}
+
+.MoreInfo-item a {
+  color: var(--Header-fontColor);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.MoreInfo-item a:hover {
+  color: var(--Header--isHovering-fontColor);
+  text-decoration: underline;
 }
 
 .LanguageSelector {
@@ -78,48 +101,49 @@
   flex-direction: column;
   justify-content: center;
   gap: 5px;
-  font-family: var(--Header-fontFamily);
   background-color: var(--Header-bottom-backgroundColor);
-  padding: 8px 15px;
+  padding: 0 10px;
   border: 1px solid var(--Header-borderColor);
-  border-radius: 3px;
+  border-radius: 2px;
   box-shadow: var(--LanguageSelector-boxShadow);
 }
 
 .LanguageSelector-option {
+  color: var(--Header-fontColor);
   font-family: var(--Header-fontFamily);
   font-size: 0.92rem;
   background-color: transparent;
   border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
 }
 
 .LanguageSelector-option:hover {
-  cursor: pointer;
-  color: var(--Header-a--isHovering-fontColor);
-  text-decoration: underline;
+  color: var(--Header--isHovering-fontColor);
 }
 
 .LanguageSelector-option.is-active {
-  font-weight: bold;
+  color: var(--Header--isActive-fontColor);
+  font-weight: 700;
 }
 
 .LinksContainer {
   display: flex;
-  gap: 20px;
-  align-items: center;
+  gap: 25px;
 }
 
 .LinksContainer a {
   color: var(--Header-fontColor);
   font-family: var(--Header--title-fontFamily);
-  font-size: 1.2rem;
-  font-weight: bold;
+  font-size: 1.25rem;
+  font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 .LinksContainer a:hover {
-  color: var(--Header-a--isHovering-fontColor);
+  color: var(--Header--isHovering-fontColor);
 }
 
 @media screen and (max-width: 1280px) {
@@ -128,11 +152,11 @@
   }
 
   .MainTitle-name {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
 
   .MainTitle-title {
-    font-size: 1.05rem;
+    font-size: 1rem;
   }
 
   .MoreInfo {
@@ -154,7 +178,7 @@
   }
 
   .MainTitle-name {
-    font-size: 3.1vw;
+    font-size: 2.9vw;
   }
 
   .MainTitle-title {
@@ -176,29 +200,26 @@
 }
 
 @media screen and (max-width: 768px) {
-  .Header {
-    height: 170px;
-  }
-
   .Header-top {
+    height: 140px;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
   }
 
   .MainTitle-name {
-    font-size: 5.2vw;
+    font-size: 5vw;
   }
 
   .MainTitle-title {
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 1.8vw;
   }
 
   .MoreInfo {
     gap: 50px;
     flex-direction: row;
-    font-size: 2vw;
+    font-size: 1.88vw;
+    font-weight: 500;
     border: none;
   }
 
@@ -212,16 +233,13 @@
 }
 
 @media screen and (max-width: 576px) {
-  .Header {
-    height: 150px;
-  }
-
   .Header svg {
     display: none;
   }
 
   .Header-top {
     padding: 10px min(50px, 4%);
+    height: 100px;
   }
 
   .Header-bottom {
