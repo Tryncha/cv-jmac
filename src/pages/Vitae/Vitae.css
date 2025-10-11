@@ -21,15 +21,27 @@
   margin-block: 10px;
 }
 
+@media screen and (max-width: 1024px) {
+  .Vitae {
+    padding: 190px 50px 80px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .Vitae {
-    padding: 220px 70px 80px;
+    padding: 210px 40px 80px;
     margin: 0;
   }
 }
 
 @media screen and (max-width: 576px) {
   .Vitae {
-    padding: 200px 70px 80px;
+    padding: 180px 30px 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Vitae {
+    padding: 140px 30px 80px;
   }
 }

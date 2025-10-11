@@ -220,8 +220,30 @@
     display: none;
   }
 
+  .Header-top {
+    padding: 10px min(50px, 4%);
+  }
+
   .Header-bottom {
     padding: 5px 0;
+  }
+
+  .MoreInfo {
+    gap: 30px;
+  }
+
+  .LinksContainer a {
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .Header {
+    height: auto;
+  }
+
+  .Header-bottom {
+    padding: 2px 0;
   }
 
   .MoreInfo {
