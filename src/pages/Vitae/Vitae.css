@@ -1,11 +1,35 @@
 .Vitae {
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
   background-color: var(--Vitae-backgroundColor);
-  padding: calc(var(--Header-height) + 50px) 70px 100px;
+  padding: 190px 70px 80px;
   border-inline: 1px solid var(--Vitae-borderColor);
-  margin: 0 5%;
+  margin: 0 min(80px, 5%);
   box-shadow: var(--Vitae-boxShadow);
   z-index: var(--main-zIndex);
+}
+
+.Vitae h2,
+.Vitae summary {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Vitae hr {
+  margin-block: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .Vitae {
+    padding: 220px 70px 80px;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Vitae {
+    padding: 200px 70px 80px;
+  }
 }

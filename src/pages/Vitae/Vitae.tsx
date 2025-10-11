@@ -1,8 +1,8 @@
-import Studies from '../../components/Studies/Studies';
 import Resume from '../../components/Resume/Resume';
+import Studies from '../../components/Studies/Studies';
 import WorkExperience from '../../components/WorkExperience/WorkExperience';
-import './Vitae.css';
 import Direction from '../../components/Direction/Direction';
+import './Vitae.css';
 
 const Vitae = () => {
   return (

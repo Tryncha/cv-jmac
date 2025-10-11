@@ -1,6 +1,6 @@
 import workExperienceData from '../../data/workExperience.json';
 import useSettings from '../../hooks/useSettings';
-import Separator from './Separator/Separator';
+import Separator from '../Separator/Separator';
 import './WorkExperience.css';
 
 const workExperience = workExperienceData.reverse();
@@ -19,8 +19,8 @@ const WorkExperience = () => {
   const { language } = settings;
 
   return (
-    <section>
-      <h2 className="u-vitaeSubtitle">{workExperienceTranslation[language].workExperienceTitle}</h2>
+    <article className="WorkExperience">
+      <h2>{workExperienceTranslation[language].workExperienceTitle}</h2>
       <hr />
       {workExperience.map((work) => (
         <div
@@ -39,7 +39,7 @@ const WorkExperience = () => {
           </div>
         </div>
       ))}
-    </section>
+    </article>
   );
 };
 

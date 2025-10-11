@@ -1,6 +1,6 @@
+import aboutInfoData from '../../data/aboutInfo.json';
 import useSettings from '../../hooks/useSettings';
 import './Resume.css';
-import aboutInfoData from '../../data/aboutInfo.json';
 
 const aboutInfo = aboutInfoData;
 

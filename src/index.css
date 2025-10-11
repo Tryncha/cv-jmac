@@ -71,12 +71,6 @@ hr {
   margin-block: 5px;
 }
 
-.u-vitaeSubtitle {
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 .u-citationNote {
   display: flex;
   flex-direction: column;
@@ -86,5 +80,40 @@ hr {
   font-style: italic;
 }
 
-@media screen and (min-width: 1280px) {
+.u-textAnimatedGradient {
+  background: linear-gradient(90deg, #887315, #9c4f22);
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+  background-size: 120% 120%;
+  animation: animated-gradient 7s ease-in-out infinite alternate;
+}
+
+@keyframes animated-gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 1536px) {
+}
+
+@media screen and (max-width: 1280px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 576px) {
 }
