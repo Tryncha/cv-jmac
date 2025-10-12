@@ -6,7 +6,7 @@ import Media from './pages/Media/Media';
 import Memories from './pages/Memories/Memories';
 import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
-import Footer from './overlay/Footer/Footer';
+// import Footer from './overlay/Footer/Footer';
 
 const App = () => {
   return (
@@ -38,7 +38,7 @@ const App = () => {
           element={<NotFound />}
         />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
