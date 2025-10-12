@@ -256,19 +256,36 @@
 }
 
 @media screen and (max-width: 480px) {
-  .Header {
+  .Header-top {
     height: auto;
+    padding: 10px 30px;
   }
 
-  .Header-bottom {
-    padding: 2px 0;
+  .MainTitle {
+    gap: 5px;
+  }
+
+  .MainTitle-name {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 1.3;
+  }
+
+  .MainTitle-title {
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.3;
   }
 
   .MoreInfo {
-    gap: 30px;
+    padding: 5px;
+  }
+
+  .MoreInfo-item {
+    font-size: 0.8rem;
   }
 
   .LinksContainer a {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
   }
 }

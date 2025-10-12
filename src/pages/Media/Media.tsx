@@ -31,13 +31,17 @@ const Media = () => {
               {pod[language].date} - {pod[language].duration} | {mediaTranslation[language].availableLanguages}
               {pod[language].languages.join(', ')}
             </span>
-            <h3>{pod['es'].title}</h3>
-            <p>{pod['es'].description}</p>
+            <h3>{pod[language].title}</h3>
+            <p>{pod[language].description}</p>
             <audio
               controls
               controlsList="nodownload"
-              src={pod.audioSrc}
-            ></audio>
+            >
+              <source
+                src={pod.audioSrc}
+                type="audio/mp3"
+              />
+            </audio>
             {language === 'es' ? (
               <div className="u-citationNote">
                 <span>
