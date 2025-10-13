@@ -1,0 +1,126 @@
+[
+  {
+    "id": 0,
+    "url": "http://investigacion.manizales.unal.edu.co/grupos/COL0014912",
+    "es": {
+      "groupName": "Procesos Químicos Catalíticos y Biotecnológicos",
+      "institution": "Universidad Nacional de Colombia",
+      "department": "Departamento de Ingeniería Química",
+      "director": "Carlos Ariel Cardona Álzate",
+      "area": "Área de Biotecnología",
+      "location": "Manizales, Colombia",
+      "date": "2005 - 2014",
+      "duration": "9 años",
+      "lines": [
+        "Aprovechamiento de residuos",
+        "Biocombustibles",
+        "Biorefinerías",
+        "Catálisis heterogenea",
+        "Destilación reactiva",
+        "Evaluación de gases de efecto invernadero y cambio climático",
+        "Ingeniería de procesos biotecnológicos",
+        "Materiales nanoestructurados",
+        "Procesos de reacción-separación"
+      ]
+    },
+    "en": {
+      "groupName": "Catalytic and Biotechnological Chemical Processes",
+      "institution": "National University of Colombia",
+      "department": "Department of Chemical Engineering",
+      "director": "Carlos Ariel Cardona Álzate",
+      "area": "Biotechnology Area",
+      "location": "Manizales, Colombia",
+      "date": "2005 - 2014",
+      "duration": "9 years",
+      "lines": [
+        "Waste utilization",
+        "Biofuels",
+        "Biorefineries",
+        "Heterogeneous catalysis",
+        "Reactive distillation",
+        "Greenhouse gas assessment and climate change",
+        "Biotechnological process engineering",
+        "Nanostructured materials",
+        "Reaction-separation processes"
+      ]
+    }
+  },
+  {
+    "id": 1,
+    "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001119",
+    "es": {
+      "groupName": "Desarrollos Tecnológicos y Ambientales (DTA)",
+      "institution": "Universidad Católica de Manizales",
+      "department": "Departamento de Ingeniería y Tecnología",
+      "director": "Gloria Yaneth Florez Yepes",
+      "area": "Área de Ingeniería Ambiental y Geológica",
+      "location": "Manizales, Colombia",
+      "date": "2015 - Presente",
+      "lines": [
+        "Competitividad",
+        "Desarrollos Tecnológicos Aplicados",
+        "Saneamiento, Desarrollo y Gestión Ambiental",
+        "Tecnologías Geoespaciales"
+      ]
+    },
+    "en": {
+      "groupName": "Technological and Environmental Developments",
+      "institution": "Catholic University of Manizales",
+      "department": "Department of Engineering and Technology",
+      "director": "Gloria Yaneth Florez Yepes",
+      "area": "Environmental and Geological Engineering Area",
+      "location": "Manizales, Colombia",
+      "date": "2015 - Present",
+      "lines": [
+        "Competitiveness",
+        "Applied Technological Developments",
+        "Sanitation, Development, and Environmental Management",
+        "Geospatial Technologies"
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001119",
+    "es": {
+      "groupName": "Bioingeniería e Ingeniería Ambiental (BIOINGAMB)",
+      "institution": "Universidad de Castilla-La Mancha",
+      "department": "Escuela de Ingeniería Industrial y Aeroespacial de Toledo",
+      "director": "María Teresa Baeza Romero",
+      "area": "Área de Ingeniería Industrial y Aeroespacial",
+      "location": "Castilla-La Mancha, España",
+      "date": "2024 - Presente",
+      "lines": [
+        "Bioimpedancia",
+        "Estudio de procesos atmosféricos de compuestos de yodo y otros halógenos con implicaciones en Contaminación Atmosférica y Cambio Climático",
+        "Estudio de procesos atmosféricos heterogéneos",
+        "Estudios de dispersión de contaminantes",
+        "Medidas eléctricas y electroquímicas",
+        "Procesos de electrodo",
+        "Síntesis y aplicaciones eléctricas de materiales basados en carbono",
+        "Teoría de circuitos y teoría de campos",
+        "Uso de sensores de bajo coste aplicados a la monitorización de la contaminación atmosférica"
+      ]
+    },
+    "en": {
+      "groupName": "Bioengineering and Environmental Engineering (BIOINGAMB)",
+      "institution": "University of Castilla-La Mancha",
+      "department": "School of Industrial and Aerospace Engineering of Toledo",
+      "director": "María Teresa Baeza Romero",
+      "area": "Industrial and Aerospace Engineering Area",
+      "location": "Castilla-La Mancha, Spain",
+      "date": "2024 - Present",
+      "lines": [
+        "Bioimpedance",
+        "Study of atmospheric processes of iodine compounds and other halogens with implications for Air Pollution and Climate Change",
+        "Study of heterogeneous atmospheric processes",
+        "Contaminant dispersion studies",
+        "Electrical and electrochemical measurements",
+        "Electrode processes",
+        "Synthesis and electrical applications of carbon-based materials",
+        "Circuit theory and field theory",
+        "Use of low-cost sensors for air pollution monitoring"
+      ]
+    }
+  }
+]

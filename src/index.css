@@ -1,5 +1,14 @@
 @import 'tailwindcss';
 
+@layer base {
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+}
+
 [data-theme='light'] {
   /* --- General --- */
   --body-backgroundColor: #d7e4ef;
@@ -52,12 +61,6 @@
   --Footer-zIndex: 2;
   --Header-zIndex: 3;
   --Header-top-zIndex: 3;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
