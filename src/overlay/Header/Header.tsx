@@ -10,6 +10,7 @@ const headerTranslation = {
   es: {
     sendMail: 'Enviar un correo',
     vitae: 'Vitae',
+    resume: 'Resumen',
     articles: 'Artículos',
     media: 'Media',
     memories: 'Memorias',
@@ -18,6 +19,7 @@ const headerTranslation = {
   en: {
     sendMail: 'Send mail',
     vitae: 'Vitae',
+    resume: 'Resume',
     articles: 'Articles',
     media: 'Media',
     memories: 'Memories',
@@ -95,6 +97,12 @@ const LinksContainer = () => {
 
   return (
     <div className="LinksContainer">
+      <Link
+        to="/resume"
+        reloadDocument
+      >
+        {headerTranslation[language].resume}
+      </Link>
       <Link
         to="/"
         reloadDocument

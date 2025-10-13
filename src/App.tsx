@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router';
 import Header from './overlay/Header/Header';
 import Vitae from './pages/Vitae/Vitae';
+import Resume from './pages/Profile';
 import Articles from './pages/Articles/Articles';
 import Media from './pages/Media/Media';
 import Memories from './pages/Memories/Memories';
@@ -16,6 +17,10 @@ const App = () => {
         <Route
           path="/"
           element={<Vitae />}
+        />
+        <Route
+          path="/resume"
+          element={<Resume />}
         />
         <Route
           path="/articles"

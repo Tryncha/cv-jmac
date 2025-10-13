@@ -48,6 +48,7 @@ const Investigation = () => {
               </a>
             </h3>
             <h4>{inv[language].department}</h4>
+            <h4>Director: {inv[language].director}</h4>
             <h3 className="mt-3 mb-1">{investigationTranslation[language].linesTitle}: </h3>
             <ul className="ml-5 list-disc">
               {inv[language].lines.slice(0, VISIBLE_LINES).map((line) => (
