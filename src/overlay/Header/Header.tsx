@@ -96,7 +96,7 @@ const LinksContainer = () => {
   const { language } = settings;
 
   return (
-    <div className="LinksContainer">
+    <div className="LinksContainer mx-8">
       <Link
         to="/resume"
         reloadDocument
@@ -147,7 +147,7 @@ const Header = () => {
           <LanguageSelector />
         </div>
       </div>
-      <div className="Header-bottom">
+      <div className="Header-bottom overflow-auto">
         <LinksContainer />
       </div>
     </header>
