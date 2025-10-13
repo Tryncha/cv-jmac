@@ -1,6 +1,7 @@
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator/Separator';
 import investigationData from '../data/investigation.json';
+import Title from './Title';
 
 const investigation = investigationData.reverse();
 
@@ -23,8 +24,8 @@ const Investigation = () => {
 
   return (
     <section>
-      <h2>{investigationTranslation[language].title}</h2>
-      <hr />
+      <Title>{investigationTranslation[language].title}</Title>
+      <hr className="my-2" />
       {investigation.map((inv) => (
         <div
           key={inv.id}

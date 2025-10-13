@@ -1,4 +1,4 @@
-.Header {
+/* .Header {
   position: fixed;
   top: 0;
   left: 0;
@@ -6,9 +6,9 @@
   display: flex;
   flex-direction: column;
   z-index: var(--Header-zIndex);
-}
+} */
 
-.Header-top {
+/* .Header-top {
   height: 110px;
   display: flex;
   justify-content: space-between;
@@ -18,31 +18,30 @@
   background-color: var(--Header-top-backgroundColor);
   box-shadow: var(--Header-boxShadow);
   z-index: var(--Header-top-zIndex);
-}
+} */
 
-.Header-rightContainer {
+/* .Header-rightContainer {
   display: flex;
   gap: 30px;
-}
+} */
 
-.Header-bottom {
+/* .Header-bottom {
   height: 30px;
   display: flex;
   align-items: center;
-  padding: 18px 20px;
   border-bottom: 1px solid var(--Header-borderColor);
   background-color: var(--Header-bottom-backgroundColor);
   box-shadow: var(--Header-boxShadow);
   z-index: var(--Header-bottom-zIndex);
-}
+} */
 
-.MainTitle {
+/* .MainTitle {
   display: flex;
   flex-direction: column;
   gap: 2px;
-}
+} */
 
-.MainTitle-name {
+/* .MainTitle-name {
   color: var(--Header-fontColor);
   font-family: var(--Header--title-fontFamily);
   font-size: 2.4rem;
@@ -51,20 +50,20 @@
   text-decoration: none;
   letter-spacing: 0.5px;
   transition: color 0.2s ease;
-}
+} */
 
-.MainTitle-name:hover {
+/* .MainTitle-name:hover {
   color: var(--Header--isHovering-fontColor);
-}
+} */
 
-.MainTitle-title {
+/* .MainTitle-title {
   color: var(--Header--title-fontColor);
   font-family: var(--Header--title-fontFamily);
   font-size: 1.05rem;
   font-weight: 500;
-}
+} */
 
-.MoreInfo {
+/* .MoreInfo {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -72,29 +71,29 @@
   font-size: 0.95rem;
   padding: 10px 15px;
   border-block: 1px solid var(--Header-borderColor);
-}
+} */
 
-.MoreInfo-item {
+/* .MoreInfo-item {
   display: flex;
   gap: 10px;
-}
+} */
 
-.MoreInfo-item span {
+/* .MoreInfo-item span {
   color: var(--Header-fontColor);
-}
+} */
 
-.MoreInfo-item a {
+/* .MoreInfo-item a {
   color: var(--Header-fontColor);
   text-decoration: none;
   transition: color 0.2s ease;
-}
+} */
 
-.MoreInfo-item a:hover {
+/* .MoreInfo-item a:hover {
   color: var(--Header--isHovering-fontColor);
   text-decoration: underline;
-}
+} */
 
-.LanguageSelector {
+/* .LanguageSelector {
   min-width: 90px;
   display: flex;
   flex-direction: column;
@@ -105,7 +104,7 @@
   border: 1px solid var(--Header-borderColor);
   border-radius: 2px;
   box-shadow: var(--LanguageSelector-boxShadow);
-}
+} */
 
 .LanguageSelector-option {
   color: var(--Header-fontColor);
@@ -126,12 +125,12 @@
   font-weight: 700;
 }
 
-.LinksContainer {
+/* .LinksContainer {
   display: flex;
   gap: 25px;
-}
+} */
 
-.LinksContainer a {
+/* .LinksContainer a {
   color: var(--Header-fontColor);
   font-family: var(--Header--title-fontFamily);
   font-size: 1.25rem;
@@ -139,11 +138,11 @@
   text-transform: uppercase;
   text-decoration: none;
   transition: color 0.2s ease;
-}
+} */
 
-.LinksContainer a:hover {
+/* .LinksContainer a:hover {
   color: var(--Header--isHovering-fontColor);
-}
+} */
 
 @media screen and (max-width: 1280px) {
   .Header-container {

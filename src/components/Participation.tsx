@@ -1,5 +1,6 @@
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator/Separator';
+import Title from './Title';
 
 const participationTranslation = {
   es: {
@@ -16,8 +17,8 @@ const Participation = () => {
 
   return (
     <section>
-      <h2>{participationTranslation[language].title}</h2>
-      <hr />
+      <Title>{participationTranslation[language].title}</Title>
+      <hr className="my-2" />
       <div className="my-6 flex h-40 gap-5">
         <div className="flex w-1/4 flex-col gap-0.5">
           <h3>Universidad Nacional de Colombia</h3>

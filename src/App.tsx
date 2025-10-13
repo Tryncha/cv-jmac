@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router';
 import Header from './overlay/Header/Header';
-import Vitae from './pages/Vitae/Vitae';
+import Vitae from './pages/Vitae';
 import Resume from './pages/Profile';
 import Articles from './pages/Articles/Articles';
 import Media from './pages/Media/Media';

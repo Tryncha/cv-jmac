@@ -1,6 +1,7 @@
 import teachingActivityData from '../../data/teachingActivity.json';
 import useSettings from '../../hooks/useSettings';
 import Separator from '../Separator/Separator';
+import Title from '../Title';
 import './Direction.css';
 
 const teachingActivity = teachingActivityData.reverse();
@@ -11,8 +12,8 @@ const Direction = () => {
 
   return (
     <section className="WorkExperience">
-      <h2 className="u-vitaeSubtitle">Dirección de tesis y/o trabajos de fin de estudios</h2>
-      <hr />
+      <Title>Dirección de tesis y/o trabajos de fin de estudios</Title>
+      <hr className="my-2" />
       {teachingActivity.map((act) => (
         <div
           key={act.id}
