@@ -21,7 +21,7 @@ const Media = () => {
   const { language } = settings;
 
   return (
-    <main className="z-10 flex min-h-screen flex-col gap-5 border-x border-slate-300 bg-white px-6 pt-40 pb-15 shadow-sm xl:mx-20 xl:px-15 xl:pt-46">
+    <main className="z-10 flex min-h-screen flex-col gap-5 border-x border-slate-300 bg-white px-6 pt-40 pb-15 shadow-sm xl:mx-20 xl:px-15 xl:pt-28">
       <Section
         title={`${mediaTranslation[language].podcastsTitle} (${mediaTranslation[language].availableLanguages} español)`}
       >

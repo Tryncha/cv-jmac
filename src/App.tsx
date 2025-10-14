@@ -1,7 +1,7 @@
 import { Routes, Route } from 'react-router';
-import Header from './overlay/Header/Header';
+import Header from './overlay/Header';
 import Vitae from './pages/Vitae';
-import Resume from './pages/Profile';
+// import Resume from './pages/Profile';
 import Articles from './pages/Articles';
 import Media from './pages/Media';
 import Memories from './pages/Memories/Memories';
@@ -18,10 +18,10 @@ const App = () => {
           path="/"
           element={<Vitae />}
         />
-        <Route
+        {/* <Route
           path="/resume"
           element={<Resume />}
-        />
+        /> */}
         <Route
           path="/articles"
           element={<Articles />}

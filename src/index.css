@@ -32,20 +32,6 @@
 }
 
 @theme {
-  --color-zircon-50: #f0f6ff;
-  --color-zircon-100: #dbe9fe;
-  --color-zircon-200: #bfd9fe;
-  --color-zircon-300: #93c1fd;
-  --color-zircon-400: #609ffa;
-  --color-zircon-500: #3b7bf6;
-  --color-zircon-600: #255ceb;
-  --color-zircon-700: #1d47d8;
-  --color-zircon-800: #1e3baf;
-  --color-zircon-900: #1e368a;
-  --color-zircon-950: #172354;
-}
-
-@theme {
   --animate-fade-out: fade-out 4s ease-out;
 
   @keyframes fade-out {

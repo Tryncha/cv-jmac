@@ -19,7 +19,9 @@ const About = () => {
 
   return (
     <Section title={aboutTranslation[language].aboutTitle}>
-      <p className="my-2 px-4 text-justify whitespace-pre-line">{aboutInfo[language].resume}</p>
+      <p className="my-2 px-4 text-justify whitespace-pre-line">
+        <strong>{aboutInfo[language].title}</strong>. {aboutInfo[language].resume}
+      </p>
     </Section>
   );
 };
