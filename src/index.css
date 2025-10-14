@@ -140,28 +140,6 @@ a:hover {
   color: #0d47a1;
 } */
 
-.u-emailInfo {
-  display: flex;
-  flex-wrap: wrap;
-  margin-block: 10px;
-}
-
-.u-citationNote {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-top: 12px;
-  padding: 12px;
-  background-color: #e3f2fd;
-  border-left: 3px solid #1976d2;
-  font-size: 0.85rem;
-  color: var(--body--secondary-fontColor);
-}
-
-.u-italicText {
-  font-style: italic;
-}
-
 .u-textAnimatedGradient {
   background: linear-gradient(90deg, #d4af37, #b8860b);
   background-clip: text;

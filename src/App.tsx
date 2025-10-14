@@ -5,7 +5,7 @@ import Resume from './pages/Profile';
 import Articles from './pages/Articles';
 import Media from './pages/Media';
 import Memories from './pages/Memories/Memories';
-import Contact from './pages/Contact/Contact';
+import Contact from './pages/Contact';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './overlay/Footer';
 
