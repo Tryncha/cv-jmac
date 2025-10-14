@@ -52,6 +52,7 @@ const Media = () => {
                   <a
                     href="https://open.spotify.com/episode/3S1HDJ3DtMTN0dXYFVWEUm?si=71f03fd5375a4052"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Spotify
                   </a>
@@ -69,6 +70,7 @@ const Media = () => {
                   <a
                     href="https://open.spotify.com/episode/3S1HDJ3DtMTN0dXYFVWEUm?si=71f03fd5375a4052"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Spotify
                   </a>

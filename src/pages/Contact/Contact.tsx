@@ -37,6 +37,7 @@ const Contact = () => {
             <a
               href={`https://mail.google.com/mail/?view=cm&fs=1&to=${email.address}&su=${EMAIL_SUBJECT}`}
               target="_blank"
+              rel="noopener noreferrer"
             >
               {email.address}
             </a>
@@ -55,6 +56,7 @@ const Contact = () => {
             <a
               href={cont.link}
               target="_blank"
+              rel="noopener noreferrer"
             >
               {cont.link}
             </a>

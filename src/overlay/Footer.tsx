@@ -2,11 +2,11 @@ import useSettings from '../hooks/useSettings';
 
 const footerTranslation = {
   es: {
-    design: 'Diseño y estructura:',
+    design: 'Diseño y código:',
     info: 'Contenido y material audiovisual:'
   },
   en: {
-    design: 'Design and structure:',
+    design: 'Design and coding:',
     info: 'Content and audiovisual material:'
   }
 };

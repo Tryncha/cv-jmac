@@ -1,7 +1,8 @@
 [
   {
     "id": 0,
-    "imgSrc": "images/articles/0.jpg",
+    "imgSrc": "images/articles/00-simple-route.jpg",
+    "imgAlt": "Article image",
     "journal": "Journal of Brazilian Chemistry Society",
     "editorial": "Sociedade Brasileira de Quimica",
     "contributors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
@@ -27,7 +28,8 @@
   },
   {
     "id": 1,
-    "imgSrc": "images/articles/1.jpg",
+    "imgSrc": "images/articles/01-prop-dielec.jpg",
+    "imgAlt": "Article image",
     "journal": "Revista de la Sociedad Química del Perú",
     "editorial": "Sociedad Peruana de Química",
     "contributors": ["Giraldo, O.H.", "Arias, N.P.", "Aguirre, J.M."],
@@ -53,7 +55,8 @@
   },
   {
     "id": 2,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/02-nano-pal.jpg",
+    "imgAlt": "Article image",
     "journal": "Revista Colombiana de Química",
     "editorial": "Revista Colombiana de Química",
     "contributors": ["Giraldo, C.C.", "Ocampo, R.", "Ríos, L.A.", "Martínez, M.M.", "Aguirre, J.M."],
@@ -93,7 +96,8 @@
   },
   {
     "id": 3,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/03-nano-hidro.jpg",
+    "imgAlt": "Article image",
     "journal": "DYNA (Colombia)",
     "editorial": "Universidad Nacional de Colombia",
     "contributors": ["Martínez, M.M.", "Ocampo, R.", "Aguirre, J.M.", "Giraldo, O.", "Ríos, L.A."],
@@ -129,7 +133,8 @@
   },
   {
     "id": 4,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/04-print-photo.jpg",
+    "imgAlt": "Article image",
     "journal": "Applied Materials Today",
     "editorial": "Elsevier",
     "contributors": [
@@ -163,7 +168,8 @@
   },
   {
     "id": 5,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/05-based-photo.jpg",
+    "imgAlt": "Article image",
     "journal": "Catalysts",
     "editorial": "Multidisciplinary Digital Publishing Institute (MDPI)",
     "contributors": ["Aguirre, J.M.", "Moral, A.I.", "Bailón, E.", "Carrasco, F.", "Pérez, A.F."],
@@ -189,7 +195,8 @@
   },
   {
     "id": 6,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/06-size-mini.jpg",
+    "imgAlt": "Article image",
     "journal": "Applied Surface Science",
     "editorial": "Elsevier",
     "contributors": ["Aguirre, J.M.", "Munguía, A.", "Moral, A.", "Pérez, A.F.", "Carrasco, F.", "Bailón, E."],
@@ -215,7 +222,8 @@
   },
   {
     "id": 7,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/07-elect-perf.jpg",
+    "imgAlt": "Article image",
     "journal": "Materials Today Chemistry",
     "editorial": "Elsevier",
     "contributors": ["Arias, N.P.", "Torres, D.A.", "Giraldo, O.H.", "Amaya, S.", "Aguirre, J.M."],
@@ -241,7 +249,8 @@
   },
   {
     "id": 8,
-    "imgSrc": "images/template.png",
+    "imgSrc": "images/articles/08-tatuajes.jpg",
+    "imgAlt": "Article image",
     "journal": "The Conversation",
     "editorial": "The Conversation",
     "contributors": ["Villa, M.", "Aguirre, J.M.", "Valero, E."],

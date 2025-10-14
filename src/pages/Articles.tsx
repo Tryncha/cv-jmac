@@ -4,6 +4,17 @@ import Section from '../components/Section';
 import articlesData from '../data/articles.json';
 import useSettings from '../hooks/useSettings';
 
+const articles = articlesData.reverse();
+
+const articlesTraslation = {
+  es: {
+    articlesTitle: 'Artículos destacados'
+  },
+  en: {
+    articlesTitle: 'Featured articles'
+  }
+};
+
 interface ArticleProps {
   imgSrc: string;
   imgAlt: string;
@@ -42,11 +53,11 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
   return (
     <>
       <article className="mt-2 flex gap-8 px-8 py-4 hover:rounded-sm hover:bg-slate-50">
-        <div className="w-96 flex-shrink-0">
+        <div className="w-100 flex-shrink-0">
           <img
             src={imgSrc}
             alt={imgAlt}
-            className="h-72 w-full border border-slate-200 bg-white object-cover p-4 shadow-sm"
+            className="h-60 w-full cursor-pointer border border-slate-200 bg-white object-cover p-4 shadow-sm"
           />
         </div>
         <div className="flex w-3/4 flex-col px-4">
@@ -55,6 +66,7 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
           <a
             href={url}
             target="_blank"
+            rel="noopener noreferrer"
             className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
           >
             {title}
@@ -68,6 +80,7 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
               <a
                 href={url}
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-800 underline transition-colors hover:text-blue-600"
               >
                 {url}
@@ -95,17 +108,6 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
   );
 };
 
-const articles = articlesData.reverse();
-
-const articlesTraslation = {
-  es: {
-    articlesTitle: 'Artículos destacados'
-  },
-  en: {
-    articlesTitle: 'Featured articles'
-  }
-};
-
 const Articles = () => {
   const { settings } = useSettings();
   const { language } = settings;
@@ -116,8 +118,8 @@ const Articles = () => {
         {articles.map((art) => (
           <Article
             key={art.id}
-            imgSrc={`images/articles/${art.id}.jpg`}
-            imgAlt="Article Art"
+            imgSrc={art.imgSrc}
+            imgAlt={art.imgAlt}
             title={art[language].title}
             abstract={art[language].abstract}
             journal={art.journal}

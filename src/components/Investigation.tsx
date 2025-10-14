@@ -41,6 +41,7 @@ const Investigation = () => {
             <a
               href={inv.url}
               target="_blank"
+              rel="noopener noreferrer"
               className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
             >
               {inv[language].groupName}
