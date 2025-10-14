@@ -32,7 +32,12 @@ const WorkExperience = () => {
           </div>
           <Separator />
           <div className="flex w-3/4 flex-col px-4">
-            <h3 className="text-lg/6 font-bold">{work[language].name}</h3>
+            <h3 className="mb-1 text-lg/6 font-bold">{work[language].name}</h3>
+            <ul className="ml-5 list-disc">
+              {work[language].description?.map((desc) => (
+                <li key={`${desc}-${work.id}`}>{desc}</li>
+              ))}
+            </ul>
           </div>
         </div>
       ))}

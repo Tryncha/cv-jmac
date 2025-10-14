@@ -140,13 +140,15 @@
       "name": "Profesor Universitario",
       "date": "Jul 2015 - Jun 2020",
       "location": "Universidad Católica de Manizales",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": ["Dirigí trabajos finales de grado"]
     },
     "en": {
       "name": "University Professor",
       "date": "Jul 2015 - Jun 2020",
       "location": "Catholic University of Manizales",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": ["I supervised final degree projects"]
     }
   },
   {
@@ -155,13 +157,23 @@
       "name": "Doctorando",
       "date": "Sep 2019 - Jul 2024",
       "location": "Universidad de Granada",
-      "city": "Granada, España"
+      "city": "Granada, España",
+      "description": [
+        "Optimicé el anclaje de nanopartículas en microreactores impresos en 3D",
+        "Degradé sulfametoxazol (SMX) con los microreactores impresos",
+        "Construí fotorreactores con luz LED para simular la luz solar"
+      ]
     },
     "en": {
       "name": "PhD Student",
       "date": "Sep 2019 - Jul 2024",
       "location": "University of Granada",
-      "city": "Granada, Spain"
+      "city": "Granada, Spain",
+      "description": [
+        "I optimized nanoparticle anchoring in 3D-printed microreactors",
+        "I degraded sulfamethoxazole (SMX) with the printed microreactors",
+        "I built LED-lit photoreactors to simulate sunlight"
+      ]
     }
   },
   {
@@ -170,13 +182,23 @@
       "name": "Investigación posdoctoral",
       "date": "Dic 2024 - Presente",
       "location": "Universidad de Castilla-La Mancha",
-      "city": "Castilla-La Mancha, España"
+      "city": "Castilla-La Mancha, España",
+      "description": [
+        "Diseñé e implementé de un sistema electroquímico para la detección amoniaco",
+        "Innové en la síntesis de nanopartículas de cerio y praseodimio para la absorción de gases",
+        "Implementé una ruta metodológica para modificar electrodos interdigitados con aerografía"
+      ]
     },
     "en": {
       "name": "Postdoctoral Research",
       "date": "Dec 2024 - Present",
       "location": "University of Castilla-La Mancha",
-      "city": "Castilla-La Mancha, Spain"
+      "city": "Castilla-La Mancha, Spain",
+      "description": [
+        "I designed and implemented an electrochemical system for ammonia detection",
+        "I innovated in the synthesis of cerium and praseodymium nanoparticles for gas absorption",
+        "I implemented a methodological approach to modifying interdigitated electrodes using airbrushing"
+      ]
     }
   }
 ]
