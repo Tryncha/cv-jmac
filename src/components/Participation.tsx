@@ -1,4 +1,4 @@
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import Separator from './Separator';
 import Section from './Section';
 

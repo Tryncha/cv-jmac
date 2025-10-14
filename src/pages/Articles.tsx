@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { CloseIcon, CopyIcon } from '../components/Icons';
 import Section from '../components/Section';
 import articlesData from '../data/articles.json';
-import useSettings from '../hooks/useSettings';
-import useModalProperties from '../hooks/useModalProperties';
+import { useSettings } from '../hooks/useSettings';
+import { useModalProperties } from '../hooks/useModalProperties';
 
 const articles = articlesData.reverse();
 

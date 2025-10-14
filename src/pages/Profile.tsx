@@ -1,6 +1,6 @@
 import Section from '../components/Section';
 import resumeData from '../data/resume.json';
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 
 const resume = resumeData;
 

@@ -8,8 +8,11 @@ import Memories from './pages/Memories/Memories';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './overlay/Footer';
+import { useScrollReset } from './hooks/useScrollReset';
 
 const App = () => {
+  useScrollReset();
+
   return (
     <>
       <Header />

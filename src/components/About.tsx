@@ -1,5 +1,5 @@
 import aboutInfoData from '../data/aboutInfo.json';
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import Section from './Section';
 
 const aboutInfo = aboutInfoData;

@@ -2,7 +2,7 @@ import React from 'react';
 import educationData from '../data/education.json';
 import graduatesData from '../data/graduates.json';
 import otherStudiesData from '../data/otherStudies.json';
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import Section from './Section';
 
 const education = educationData.reverse();

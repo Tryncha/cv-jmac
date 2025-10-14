@@ -1,4 +1,4 @@
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import type { Language } from '../types';
 
 interface LanguageButtonProps {

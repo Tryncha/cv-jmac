@@ -1,4 +1,4 @@
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import Separator from './Separator';
 import investigationData from '../data/investigation.json';
 import Section from './Section';

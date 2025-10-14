@@ -1,6 +1,6 @@
 import { Link, type To } from 'react-router';
 import aboutInfoData from '../data/aboutInfo.json';
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import { LocationIcon } from '../components/Icons';
 import LanguageSelector from '../components/LanguageSelector';
 
@@ -37,7 +37,6 @@ const LinkComponent = ({ children, to }: LinkComponentProps) => {
     <div className="border-x border-slate-300 px-4 py-1 first:border-l-0 last:border-r-0 hover:bg-slate-200">
       <Link
         to={to}
-        reloadDocument
         className="text-md rounded-md font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:text-xl"
       >
         {children}
@@ -51,7 +50,7 @@ const LinksContainer = () => {
   const { language } = settings;
 
   return (
-    <div className="z-20 flex items-center justify-around overflow-auto rounded-xl bg-slate-100 shadow-sm xl:justify-center">
+    <div className="z-20 flex cursor-pointer items-center justify-around overflow-auto rounded-xl bg-slate-100 shadow-sm xl:justify-center">
       {/* <LinkComponent to="/resume">{headerTranslation[language].resume}</LinkComponent> */}
       <LinkComponent to="/">{headerTranslation[language].vitae}</LinkComponent>
       <LinkComponent to="/articles">{headerTranslation[language].articles}</LinkComponent>
@@ -70,7 +69,6 @@ const Header = () => {
       <div className="flex flex-col">
         <Link
           to="/"
-          reloadDocument
           className="font-ibm-plex-serif text-center text-3xl font-bold uppercase no-underline transition-colors hover:text-slate-900"
         >
           {aboutInfo.firstName + ' ' + aboutInfo.lastName}
@@ -78,11 +76,13 @@ const Header = () => {
         <span>{aboutInfo[language].title}</span>
       </div>
       <LinksContainer />
-      <div className="flex items-center gap-1">
-        <LocationIcon size="24" />
-        <span className="font-semibold">{aboutInfo[language].address}</span>
+      <div className="flex justify-end gap-4">
+        <div className="flex items-center gap-1">
+          <LocationIcon size="24" />
+          <span className="font-semibold">{aboutInfo[language].address}</span>
+        </div>
+        <LanguageSelector />
       </div>
-      <LanguageSelector />
     </header>
   );
 };

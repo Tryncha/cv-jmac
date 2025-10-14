@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import SettingsContext from '../context/SettingsContext';
 
-function useSettings() {
+export function useSettings() {
   const settingsContext = useContext(SettingsContext);
 
   if (!settingsContext) {
@@ -9,5 +9,3 @@ function useSettings() {
   }
   return settingsContext;
 }
-
-export default useSettings;

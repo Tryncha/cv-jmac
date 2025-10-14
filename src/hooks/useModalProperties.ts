@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-function useModalProperties(isOpen: boolean, closeModal: () => void) {
+export function useModalProperties(isOpen: boolean, closeModal: () => void) {
   useEffect(() => {
     function handleKeydown(event: KeyboardEvent) {
       if (event.key === 'Escape' && isOpen) {
@@ -42,5 +42,3 @@ function useModalProperties(isOpen: boolean, closeModal: () => void) {
   //   }
   // }, [isOpen]);
 }
-
-export default useModalProperties;

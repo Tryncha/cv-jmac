@@ -1,6 +1,7 @@
+import React from 'react';
 import Section from '../components/Section';
 import podcastsData from '../data/podcasts.json';
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 
 const podcasts = podcastsData;
 
@@ -26,7 +27,7 @@ const Media = () => {
         title={`${mediaTranslation[language].podcastsTitle} (${mediaTranslation[language].availableLanguages} español)`}
       >
         {podcasts.map((pod) => (
-          <>
+          <React.Fragment key={pod.id}>
             <span className="my-2 px-4 text-justify whitespace-pre-line">
               {pod[language].date} - {pod[language].duration}
             </span>
@@ -81,7 +82,7 @@ const Media = () => {
                 <span>&copy; Castilla-La Mancha Media, 2025. All rights reserved.</span>
               </div>
             )}
-          </>
+          </React.Fragment>
         ))}
       </Section>
       <Section title="Videos">

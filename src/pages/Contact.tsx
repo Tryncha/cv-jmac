@@ -1,4 +1,4 @@
-import useSettings from '../hooks/useSettings';
+import { useSettings } from '../hooks/useSettings';
 import aboutInfoData from '../data/aboutInfo.json';
 import contactData from '../data/contact.json';
 import Section from '../components/Section';
