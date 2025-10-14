@@ -1,6 +1,6 @@
 import aboutInfoData from '../data/aboutInfo.json';
 import useSettings from '../hooks/useSettings';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const aboutInfo = aboutInfoData;
 
@@ -18,9 +18,9 @@ const About = () => {
   const { language } = settings;
 
   return (
-    <VitaeSection title={aboutTranslation[language].aboutTitle}>
+    <Section title={aboutTranslation[language].aboutTitle}>
       <p className="my-2 px-4 text-justify whitespace-pre-line">{aboutInfo[language].resume}</p>
-    </VitaeSection>
+    </Section>
   );
 };
 

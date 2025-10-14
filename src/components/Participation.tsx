@@ -1,6 +1,6 @@
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const participationTranslation = {
   es: {
@@ -16,7 +16,7 @@ const Participation = () => {
   const { language } = settings;
 
   return (
-    <VitaeSection title={participationTranslation[language].title}>
+    <Section title={participationTranslation[language].title}>
       <div className="flex px-4 py-2 hover:rounded-sm hover:bg-slate-50">
         <div className="flex w-1/4 flex-col">
           <h3 className="text-lg/6 font-bold">Universidad Nacional de Colombia</h3>
@@ -35,7 +35,7 @@ const Participation = () => {
           <span className="font-medium">Representante del Comité Asesor: Ramiro Betancourt Grajales</span>
         </div>
       </div>
-    </VitaeSection>
+    </Section>
   );
 };
 

@@ -3,7 +3,7 @@ import educationData from '../data/education.json';
 import graduatesData from '../data/graduates.json';
 import otherStudiesData from '../data/otherStudies.json';
 import useSettings from '../hooks/useSettings';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const education = educationData.reverse();
 const graduates = graduatesData.reverse();
@@ -78,7 +78,7 @@ const MainStudies = () => {
 
   return (
     <section className="flex flex-col gap-4 xl:grid xl:grid-cols-2 xl:grid-rows-1 xl:gap-12">
-      <VitaeSection title={studiesTranslation[language].educationTitle}>
+      <Section title={studiesTranslation[language].educationTitle}>
         {education.map((edu) => (
           <Titulation
             key={edu.id}
@@ -86,15 +86,15 @@ const MainStudies = () => {
             {...edu[language]}
           />
         ))}
-      </VitaeSection>
-      <VitaeSection title={studiesTranslation[language].graduatesTitle}>
+      </Section>
+      <Section title={studiesTranslation[language].graduatesTitle}>
         {graduates.map((grd) => (
           <OtherStudyItem
             key={grd.id}
             {...grd[language]}
           />
         ))}
-      </VitaeSection>
+      </Section>
     </section>
   );
 };

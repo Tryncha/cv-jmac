@@ -1,7 +1,7 @@
 import workExperienceData from '../data/workExperience.json';
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const workExperience = workExperienceData.reverse();
 
@@ -19,7 +19,7 @@ const WorkExperience = () => {
   const { language } = settings;
 
   return (
-    <VitaeSection title={workExperienceTranslation[language].workExperienceTitle}>
+    <Section title={workExperienceTranslation[language].workExperienceTitle}>
       {workExperience.map((work) => (
         <div
           key={work.id}
@@ -36,7 +36,7 @@ const WorkExperience = () => {
           </div>
         </div>
       ))}
-    </VitaeSection>
+    </Section>
   );
 };
 

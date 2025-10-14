@@ -1,7 +1,7 @@
 import teachingActivityData from '../data/teachingActivity.json';
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const teachingActivity = teachingActivityData.reverse();
 
@@ -19,7 +19,7 @@ const Direction = () => {
   const { language } = settings;
 
   return (
-    <VitaeSection title={directionTranslation[language].title}>
+    <Section title={directionTranslation[language].title}>
       {teachingActivity.map((act) => (
         <div
           key={act.id}
@@ -38,7 +38,7 @@ const Direction = () => {
           </div>
         </div>
       ))}
-    </VitaeSection>
+    </Section>
   );
 };
 

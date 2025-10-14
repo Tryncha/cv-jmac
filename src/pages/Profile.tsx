@@ -1,3 +1,4 @@
+import Section from '../components/Section';
 import resumeData from '../data/resume.json';
 import useSettings from '../hooks/useSettings';
 
@@ -17,15 +18,13 @@ const Resume = () => {
   const { language } = settings;
 
   return (
-    <main className="z-10 mx-20 min-h-screen border-x border-blue-300 bg-white px-20 pt-50 pb-20 shadow-sm">
-      <section>
-        <h2 className="text-2xl font-bold uppercase">{resumeTranslation[language].title}</h2>
-        <hr className="my-2" />
-        <p className="text-md my-4 border-l-4 border-blue-800 bg-blue-100 px-6 py-4 text-justify font-medium text-blue-800">
+    <main className="z-10 min-h-screen border-x border-slate-300 bg-white px-6 pt-40 pb-10 shadow-sm xl:mx-20 xl:px-15 xl:pt-46">
+      <Section title={resumeTranslation[language].title}>
+        <p className="text-md m-4 rounded-sm border-l-4 border-slate-700 bg-slate-200 p-4 text-justify font-medium">
           {resume[language].intro}
         </p>
-        <p className="text-justify whitespace-pre-line">{resume[language].resume}</p>
-      </section>
+        <p className="my-2 px-4 text-justify whitespace-pre-line">{resume[language].resume}</p>
+      </Section>
     </main>
   );
 };

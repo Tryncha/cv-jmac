@@ -1,7 +1,7 @@
 import useSettings from '../hooks/useSettings';
 import Separator from './Separator';
 import investigationData from '../data/investigation.json';
-import VitaeSection from './VitaeSection';
+import Section from './Section';
 
 const investigation = investigationData.reverse();
 
@@ -23,7 +23,7 @@ const Investigation = () => {
   const VISIBLE_LINES = 5;
 
   return (
-    <VitaeSection title={investigationTranslation[language].title}>
+    <Section title={investigationTranslation[language].title}>
       {investigation.map((inv) => (
         <div
           key={inv.id}
@@ -56,7 +56,7 @@ const Investigation = () => {
           </div>
         </div>
       ))}
-    </VitaeSection>
+    </Section>
   );
 };
 

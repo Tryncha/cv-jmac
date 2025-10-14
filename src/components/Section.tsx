@@ -1,9 +1,9 @@
-interface VitaeSectionProps {
+interface SectionProps {
   children: React.ReactNode;
   title: string;
 }
 
-const VitaeSection = ({ children, title }: VitaeSectionProps) => {
+const Section = ({ children, title }: SectionProps) => {
   return (
     <section>
       <h2 className="px-4 text-2xl font-bold uppercase">{title}</h2>
@@ -13,4 +13,4 @@ const VitaeSection = ({ children, title }: VitaeSectionProps) => {
   );
 };
 
-export default VitaeSection;
+export default Section;
