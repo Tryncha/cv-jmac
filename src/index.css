@@ -45,6 +45,20 @@
   --color-zircon-950: #172354;
 }
 
+@theme {
+  --animate-fade-out: fade-out 4s ease-out;
+
+  @keyframes fade-out {
+    25% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
 [data-theme='light'] {
   /* --- General --- */
   --body-backgroundColor: #d7e4ef;

@@ -126,7 +126,7 @@ const LinksContainer = () => {
 
 const TopHeader = () => {
   return (
-    <div className="z-40 flex flex-col items-center justify-between border-b border-slate-300 bg-slate-200 px-12 py-2 shadow-sm xl:flex-row xl:py-4">
+    <div className="z-30 flex flex-col items-center justify-between border-b border-slate-300 bg-slate-200 px-12 py-2 shadow-sm xl:flex-row xl:py-4">
       <MainTitle />
       <div className="flex gap-8">
         <MoreInfo />
@@ -138,7 +138,7 @@ const TopHeader = () => {
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 z-30 flex w-full flex-col">
+    <header className="fixed top-0 left-0 z-20 flex w-full flex-col">
       <TopHeader />
       <LinksContainer />
     </header>
