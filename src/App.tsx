@@ -3,7 +3,7 @@ import Header from './overlay/Header/Header';
 import Vitae from './pages/Vitae';
 import Resume from './pages/Profile';
 import Articles from './pages/Articles';
-import Media from './pages/Media/Media';
+import Media from './pages/Media';
 import Memories from './pages/Memories/Memories';
 import Contact from './pages/Contact/Contact';
 import NotFound from './pages/NotFound/NotFound';
