@@ -122,13 +122,13 @@
   {
     "id": 8,
     "es": {
-      "name": "Profesor Universitario con Título de Máster",
+      "name": "Profesor Universitario",
       "date": "Feb 2010 - Abr 2020",
       "location": "Universidad de Caldas",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "University Professor with Master's Degree",
+      "name": "University Professor",
       "date": "Feb 2010 - Apr 2020",
       "location": "University of Caldas",
       "city": "Manizales, Colombia"
@@ -137,13 +137,13 @@
   {
     "id": 9,
     "es": {
-      "name": "Profesor Universitario con Título de Máster",
+      "name": "Profesor Universitario",
       "date": "Jul 2015 - Jun 2020",
       "location": "Universidad Católica de Manizales",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "University Professor with Master's Degree",
+      "name": "University Professor",
       "date": "Jul 2015 - Jun 2020",
       "location": "Catholic University of Manizales",
       "city": "Manizales, Colombia"
@@ -158,7 +158,7 @@
       "city": "Granada, España"
     },
     "en": {
-      "name": "PhD Candidate",
+      "name": "PhD Student",
       "date": "Sep 2019 - Jul 2024",
       "location": "University of Granada",
       "city": "Granada, Spain"

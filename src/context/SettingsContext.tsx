@@ -1,6 +1,6 @@
 import { createContext, useState, useEffect } from 'react';
-import type { Theme, Language, Settings } from '../../types';
-import { getSettingsFromStorage, saveSettingsInStorage } from '../../utils';
+import type { Theme, Language, Settings } from '../types';
+import { getSettingsFromStorage, saveSettingsInStorage } from '../utils';
 
 const initialSettings = getSettingsFromStorage();
 
@@ -27,9 +27,14 @@ export const SettingsProvider = ({ children }: SettingsProviderProps) => {
   }, [settings]);
 
   useEffect(() => {
-    const body = document.body;
-    body.setAttribute('data-theme', settings.theme);
+    const htmlElement = document.documentElement;
+    htmlElement.setAttribute('data-theme', settings.theme);
   }, [settings.theme]);
+
+  useEffect(() => {
+    const htmlElement = document.documentElement;
+    htmlElement.setAttribute('lang', settings.language);
+  }, [settings.language]);
 
   function changeTheme(newTheme: Theme) {
     setSettings((prev) => ({

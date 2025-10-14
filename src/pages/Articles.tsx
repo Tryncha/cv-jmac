@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { CopyIcon } from '../components/Icons';
+import { CloseIcon, CopyIcon } from '../components/Icons';
 import Section from '../components/Section';
 import articlesData from '../data/articles.json';
 import useSettings from '../hooks/useSettings';
+import useModalProperties from '../hooks/useModalProperties';
 
 const articles = articlesData.reverse();
 
@@ -28,7 +29,10 @@ interface ArticleProps {
 }
 
 const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn, url }: ArticleProps) => {
+  const [isImageOpen, setIsImageOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
+
+  useModalProperties(isImageOpen, () => setIsImageOpen(false));
 
   const MAX_LENGTH = 700;
 
@@ -52,11 +56,33 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
 
   return (
     <>
+      {isImageOpen && (
+        <div
+          className="fixed inset-0 z-40 flex h-screen items-center justify-center bg-slate-900/80"
+          onClick={() => setIsImageOpen(false)}
+        >
+          <div className="absolute top-36 right-24 size-16 cursor-pointer hover:drop-shadow-xs hover:drop-shadow-white">
+            <CloseIcon size="64" />
+          </div>
+          <div onClick={(event) => event.stopPropagation()}>
+            <img
+              src={imgSrc}
+              alt={imgAlt}
+              loading="lazy"
+              draggable={false}
+            />
+          </div>
+        </div>
+      )}
       <article className="mt-2 flex gap-8 px-8 py-4 hover:rounded-sm hover:bg-slate-50">
-        <div className="w-100 flex-shrink-0">
+        <div
+          onClick={() => setIsImageOpen(true)}
+          className="w-100 flex-shrink-0 transition-transform hover:scale-105"
+        >
           <img
             src={imgSrc}
             alt={imgAlt}
+            draggable={false}
             className="h-60 w-full cursor-pointer border border-slate-200 bg-white object-cover p-4 shadow-sm"
           />
         </div>
