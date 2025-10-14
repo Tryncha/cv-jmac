@@ -17,7 +17,7 @@ const Resume = () => {
   const { language } = settings;
 
   return (
-    <main className="z-10 mx-20 min-h-screen border-x border-blue-300 bg-white px-20 pt-50 pb-20 shadow-md">
+    <main className="z-10 mx-20 min-h-screen border-x border-blue-300 bg-white px-20 pt-50 pb-20 shadow-sm">
       <section>
         <h2 className="text-2xl font-bold uppercase">{resumeTranslation[language].title}</h2>
         <hr className="my-2" />

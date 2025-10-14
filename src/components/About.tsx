@@ -6,10 +6,10 @@ const aboutInfo = aboutInfoData;
 
 const aboutTranslation = {
   es: {
-    aboutTitle: 'Sobre mí'
+    aboutTitle: 'Sobre Mí'
   },
   en: {
-    aboutTitle: 'About me'
+    aboutTitle: 'About Me'
   }
 };
 
@@ -19,8 +19,7 @@ const About = () => {
 
   return (
     <VitaeSection title={aboutTranslation[language].aboutTitle}>
-      <p className="my-3 text-justify">{aboutInfo[language].resume}</p>
-      <p className="my-3 text-justify">{aboutInfo[language].currentActivity}</p>
+      <p className="my-2 px-4 text-justify whitespace-pre-line">{aboutInfo[language].resume}</p>
     </VitaeSection>
   );
 };

@@ -37,7 +37,7 @@ const LinkComponent = ({ children, to }: LinkComponentProps) => {
     <Link
       to={to}
       reloadDocument
-      className="text-md font-bold text-blue-950 uppercase no-underline transition-colors xl:text-xl"
+      className="text-md font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:text-xl"
     >
       {children}
     </Link>
@@ -53,11 +53,11 @@ const MainTitle = () => {
       <Link
         to="/"
         reloadDocument
-        className="font-ibm-plex-serif mb-1 text-center text-4xl font-bold text-blue-950 uppercase no-underline transition-colors hover:text-blue-900"
+        className="font-ibm-plex-serif mb-1 text-center text-4xl font-bold uppercase no-underline transition-colors hover:text-slate-900"
       >
         {aboutInfo.firstName + ' ' + aboutInfo.lastName}
       </Link>
-      <h2 className="hidden text-base font-medium text-blue-950 xl:inline">{aboutInfo[language].title}</h2>
+      <h2 className="hidden text-base font-medium xl:inline">{aboutInfo[language].title}</h2>
     </div>
   );
 };
@@ -67,14 +67,14 @@ const LanguageSelector = () => {
   const { language } = settings;
 
   return (
-    <div className="hidden min-w-24 flex-col justify-center gap-1 rounded-xs border border-sky-700 bg-sky-50 px-2 inset-shadow-sm xl:flex">
+    <div className="hidden min-w-24 flex-col justify-center gap-1 rounded-xs border border-slate-300 bg-slate-100 px-2 inset-shadow-sm xl:flex">
       <button
         className={language === 'es' ? 'LanguageSelector-option is-active' : 'LanguageSelector-option'}
         onClick={() => changeLanguage('es')}
       >
         Español
       </button>
-      <hr />
+      <hr className="border-slate-300" />
       <button
         className={language === 'en' ? 'LanguageSelector-option is-active' : 'LanguageSelector-option'}
         onClick={() => changeLanguage('en')}
@@ -90,7 +90,7 @@ const MoreInfo = () => {
   const { language } = settings;
 
   return (
-    <div className="text-md hidden flex-col gap-2 border-y border-sky-600 px-4 py-2 font-semibold xl:flex">
+    <div className="text-md hidden flex-col gap-2 border-y border-slate-300 px-4 py-2 font-semibold xl:flex">
       <div className="flex gap-2">
         <LocationIcon size="20" />
         <span>{aboutInfo[language].address}</span>
@@ -100,7 +100,7 @@ const MoreInfo = () => {
         <Link
           to="/contact"
           reloadDocument
-          className="transition-colors hover:text-blue-900 hover:underline"
+          className="transition-colors hover:text-slate-900 hover:underline"
         >
           {headerTranslation[language].sendMail}
         </Link>
@@ -114,7 +114,7 @@ const LinksContainer = () => {
   const { language } = settings;
 
   return (
-    <div className="z-20 flex h-8 items-center justify-around gap-4 overflow-auto border-b border-blue-300 bg-blue-50 px-5 shadow-sm xl:justify-center">
+    <div className="z-20 flex h-8 items-center justify-around gap-4 overflow-auto border-b border-slate-300 bg-slate-100 px-5 shadow-sm xl:justify-center">
       <LinkComponent to="/resume">{headerTranslation[language].resume}</LinkComponent>
       <LinkComponent to="/">{headerTranslation[language].vitae}</LinkComponent>
       <LinkComponent to="/articles">{headerTranslation[language].articles}</LinkComponent>
@@ -124,16 +124,22 @@ const LinksContainer = () => {
   );
 };
 
+const TopHeader = () => {
+  return (
+    <div className="z-40 flex flex-col items-center justify-between border-b border-slate-300 bg-slate-200 px-12 py-2 shadow-sm xl:flex-row xl:py-4">
+      <MainTitle />
+      <div className="flex gap-8">
+        <MoreInfo />
+        <LanguageSelector />
+      </div>
+    </div>
+  );
+};
+
 const Header = () => {
   return (
     <header className="fixed top-0 left-0 z-30 flex w-full flex-col">
-      <div className="z-40 flex flex-col items-center justify-between border-b border-blue-300 bg-blue-100 px-12 py-2 shadow-sm xl:flex-row xl:py-4">
-        <MainTitle />
-        <div className="flex gap-8">
-          <MoreInfo />
-          <LanguageSelector />
-        </div>
-      </div>
+      <TopHeader />
       <LinksContainer />
     </header>
   );

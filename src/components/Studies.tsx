@@ -32,17 +32,17 @@ interface TitulationProps {
 
 const Titulation = ({ title, institution, city, award, date }: TitulationProps) => {
   return (
-    <div className="my-4 flex items-center justify-between">
+    <div className="flex items-center justify-between px-4 py-2 hover:rounded-sm hover:bg-slate-50">
       <div className="flex w-1/2 flex-col">
-        <h3>{title}</h3>
-        <h4>{institution}</h4>
-        <h4>{city}</h4>
+        <h3 className="text-lg/6 font-bold">{title}</h3>
+        <span className="font-medium">{institution}</span>
+        <span className="font-medium">{city}</span>
       </div>
-      <div className="w-1/3 text-center font-semibold">
+      <div className="w-1/4 text-center font-semibold">
         <span className="u-textAnimatedGradient">{award}</span>
       </div>
-      <div className="flex w-[15%] flex-col items-end justify-center">
-        <h3>{date}</h3>
+      <div className="flex w-1/4 flex-col items-end justify-center">
+        <span className="text-lg font-bold">{date}</span>
       </div>
     </div>
   );
@@ -58,15 +58,15 @@ interface OtherItemProps {
 
 const OtherStudyItem = ({ title, institution, city, date, duration }: OtherItemProps) => {
   return (
-    <div className="my-4 flex items-center justify-between gap-5">
+    <div className="flex items-center justify-between px-4 py-2 hover:rounded-sm hover:bg-slate-50">
       <div className="flex w-3/4 flex-col">
-        <h3>{title}</h3>
-        <h4>{institution}</h4>
-        <h4>{city}</h4>
+        <h3 className="text-lg/6 font-bold">{title}</h3>
+        <span className="font-medium">{institution}</span>
+        <span className="font-medium">{city}</span>
       </div>
       <div className="flex w-1/4 flex-col items-end justify-center">
-        <h3>{date}</h3>
-        <h4>{duration}</h4>
+        <span className="text-lg/6 font-bold">{date}</span>
+        <span className="font-medium">{duration}</span>
       </div>
     </div>
   );
@@ -77,7 +77,7 @@ const MainStudies = () => {
   const { language } = settings;
 
   return (
-    <section className="flex flex-col gap-4 xl:grid xl:grid-cols-2 xl:grid-rows-1 xl:gap-8">
+    <section className="flex flex-col gap-4 xl:grid xl:grid-cols-2 xl:grid-rows-1 xl:gap-12">
       <VitaeSection title={studiesTranslation[language].educationTitle}>
         {education.map((edu) => (
           <Titulation
@@ -106,17 +106,17 @@ const OtherStudies = () => {
   return (
     <div className="OtherStudies">
       <details>
-        <summary className="my-2 text-2xl font-bold uppercase">
+        <summary className="my-2 text-2xl font-bold uppercase transition-colors hover:cursor-pointer hover:text-slate-900">
           {studiesTranslation[language].otherStudiesTitle}
         </summary>
         {otherStudies.map((edu) => (
           <React.Fragment key={edu.id}>
-            <hr />
+            <hr className="my-2 border-slate-300" />
             <OtherStudyItem {...edu[language]} />
           </React.Fragment>
         ))}
       </details>
-      <hr />
+      <hr className="my-2 border-slate-300" />
     </div>
   );
 };
