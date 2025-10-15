@@ -17,14 +17,14 @@ const Participation = () => {
 
   return (
     <Section title={participationTranslation[language].title}>
-      <div className="flex px-4 py-2 hover:rounded-sm hover:bg-slate-50">
-        <div className="flex w-1/4 flex-col">
+      <div className="my-4 flex flex-col gap-4 px-4 hover:rounded-sm hover:bg-slate-50 xl:flex-row">
+        <div className="flex flex-col xl:w-1/4">
           <h3 className="text-lg/6 font-bold">Universidad Nacional de Colombia</h3>
           <span className="font-medium">Manizales, Colombia</span>
           <span className="font-medium">Dic 17, 2019</span>
         </div>
         <Separator />
-        <div className="flex w-3/4 flex-col px-4">
+        <div className="flex flex-col xl:w-3/4">
           <span className="font-medium">Maestría en Ingeniería - Ingeniería Química</span>
           <h3 className="text-lg/6 font-bold">
             Biorrefinerias basadas en la conversión catalítica de biomasa para la producción de compuestos fenólicos a
@@ -35,6 +35,7 @@ const Participation = () => {
           <span className="font-medium">Representante del Comité Asesor: Ramiro Betancourt Grajales</span>
         </div>
       </div>
+      <hr className="my-2 border-slate-300 xl:hidden" />
     </Section>
   );
 };

@@ -2,6 +2,7 @@ import { useSettings } from '../hooks/useSettings';
 import Separator from './Separator';
 import investigationData from '../data/investigation.json';
 import Section from './Section';
+import React from 'react';
 
 const investigation = investigationData.reverse();
 
@@ -25,37 +26,37 @@ const Investigation = () => {
   return (
     <Section title={investigationTranslation[language].title}>
       {investigation.map((inv) => (
-        <div
-          key={inv.id}
-          className="flex px-4 py-2 hover:rounded-sm hover:bg-slate-50"
-        >
-          <div className="flex w-1/4 flex-col">
-            <h3 className="text-lg/6 font-bold">{inv[language].institution}</h3>
-            <span className="font-medium">{inv[language].location}</span>
-            <span className="font-medium">{inv[language].date}</span>
-            <span className="font-medium">{inv[language].duration}</span>
+        <React.Fragment key={inv.id}>
+          <div className="my-4 flex flex-col gap-4 px-4 hover:rounded-sm hover:bg-slate-50 xl:flex-row">
+            <div className="flex flex-col xl:w-1/4">
+              <h3 className="text-lg/6 font-bold">{inv[language].institution}</h3>
+              <span className="font-medium">{inv[language].location}</span>
+              <span className="font-medium">{inv[language].date}</span>
+              <span className="font-medium">{inv[language].duration}</span>
+            </div>
+            <Separator />
+            <div className="flex flex-col xl:w-3/4">
+              <span className="font-medium">{inv[language].area}</span>
+              <a
+                href={inv.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
+              >
+                {inv[language].groupName}
+              </a>
+              <span className="font-medium">{inv[language].department}</span>
+              <span className="font-medium">Director: {inv[language].director}</span>
+              <h3 className="text-lg/6 font-bold">{investigationTranslation[language].linesTitle}: </h3>
+              <ul className="mt-1 ml-4 list-disc">
+                {inv[language].lines.slice(0, VISIBLE_LINES).map((line) => (
+                  <li key={`${line}-${inv.id}`}>{line}</li>
+                ))}
+              </ul>
+            </div>
           </div>
-          <Separator />
-          <div className="flex w-3/4 flex-col px-4">
-            <span className="font-medium">{inv[language].area}</span>
-            <a
-              href={inv.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
-            >
-              {inv[language].groupName}
-            </a>
-            <span className="font-medium">{inv[language].department}</span>
-            <span className="font-medium">Director: {inv[language].director}</span>
-            <h3 className="mt-2 text-lg/6 font-bold">{investigationTranslation[language].linesTitle}: </h3>
-            <ul className="ml-5 list-disc">
-              {inv[language].lines.slice(0, VISIBLE_LINES).map((line) => (
-                <li key={`${line}-${inv.id}`}>{line}</li>
-              ))}
-            </ul>
-          </div>
-        </div>
+          <hr className="my-2 border-slate-300 xl:hidden" />
+        </React.Fragment>
       ))}
     </Section>
   );
