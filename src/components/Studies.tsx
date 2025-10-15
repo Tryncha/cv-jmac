@@ -38,9 +38,7 @@ const Titulation = ({ title, institution, city, award, date }: TitulationProps) 
         <span className="font-medium">{institution}</span>
         <span className="font-medium">{city}</span>
       </div>
-      <div className="w-1/4 text-center font-semibold">
-        <span className="u-textAnimatedGradient">{award}</span>
-      </div>
+      <span className="w-1/4 text-center font-bold text-amber-700">{award}</span>
       <div className="flex w-1/4 flex-col items-end justify-center">
         <span className="text-lg font-bold">{date}</span>
       </div>
