@@ -27,7 +27,6 @@ const WorkExperience = () => {
             <div className="flex flex-col xl:w-1/4">
               <h3 className="text-lg/6 font-bold">{work[language].location}</h3>
               <span className="font-medium">{work[language].city}</span>
-              <span className="font-medium">{work[language].date}</span>
             </div>
             <Separator />
             <div className="flex flex-col xl:w-3/4">
