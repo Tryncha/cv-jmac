@@ -27,21 +27,19 @@ interface StudyItemProps {
   institution: string;
   city: string;
   award?: string;
-  date: string;
-  duration?: string;
+  date?: string;
 }
 
-const StudyItem = ({ title, institution, city, award, date, duration }: StudyItemProps) => {
+const StudyItem = ({ title, institution, city, award, date }: StudyItemProps) => {
   return (
     <div className="flex flex-col justify-between p-4 text-center hover:rounded-sm hover:bg-slate-50 md:flex-row md:py-2 md:text-left">
       <div className="flex flex-col">
-        <h3 className="text-lg/6 font-bold">{title}</h3>
-        <span className="font-medium">{institution}</span>
-        <span className="font-medium">{city}</span>
+        <h3 className="text-lg/6 font-semibold">{title}</h3>
+        <span>{institution}</span>
+        <span>{city}</span>
       </div>
       <div className="flex flex-col justify-center md:w-1/3 md:items-end">
-        <span className="text-lg font-bold">{date}</span>
-        <span className="font-medium">{duration}</span>
+        <span className="font-semibold">{date}</span>
         <span className="font-semibold text-amber-700">{award}</span>
       </div>
     </div>

@@ -3,16 +3,14 @@
     "id": 0,
     "es": {
       "title": "Primera Jornada Técnica de Ingeniería Química",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "24 horas",
       "date": "Nov 29, 2001"
     },
     "en": {
       "title": "First Technical Conference on Chemical Engineering",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "24 hours",
       "date": "Nov 29, 2001"
     }
   },
@@ -20,16 +18,14 @@
     "id": 1,
     "es": {
       "title": "Investigación, Desarrollo y Aplicación de Métodos Heliofotocatalíticos",
-      "institution": "Universidad de Caldas",
+      "institution": "Universidad de Caldas (UdeCaldas)",
       "city": "Manizales, Colombia",
-      "duration": "12 horas",
       "date": "Dic 06, 2004"
     },
     "en": {
       "title": "Research, Development and Application of Helio-Photocatalytic Methods",
-      "institution": "University of Caldas",
+      "institution": "University of Caldas (UdeCaldas)",
       "city": "Manizales, Colombia",
-      "duration": "12 hours",
       "date": "Dec 06, 2004"
     }
   },
@@ -37,16 +33,14 @@
     "id": 2,
     "es": {
       "title": "Congreso Colombiano de Ingeniería Química",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "24 horas",
       "date": "Ago 26, 2005"
     },
     "en": {
       "title": "Colombian Congress of Chemical Engineering",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "24 hours",
       "date": "Aug 26, 2005"
     }
   },
@@ -54,16 +48,14 @@
     "id": 3,
     "es": {
       "title": "Simposio Nacional de Nanotecnología. La revolución del Siglo XXI",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "20 horas",
       "date": "Sep 16, 2006"
     },
     "en": {
       "title": "National Symposium on Nanotechnology. The 21st Century Revolution",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "20 hours",
       "date": "Sep 16, 2006"
     }
   },
@@ -71,16 +63,14 @@
     "id": 4,
     "es": {
       "title": "Fundamentos de la Norma ISO/IEC 17025:2005",
-      "institution": "SENA: Servicio Nacional de Aprendizaje",
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "city": "Manizales, Colombia",
-      "duration": "20 horas",
       "date": "Oct 24, 2007"
     },
     "en": {
       "title": "Fundamentals of ISO/IEC 17025:2005 Standard",
-      "institution": "SENA: Servicio Nacional de Aprendizaje",
+      "institution": "National Learning Service (SENA)",
       "city": "Manizales, Colombia",
-      "duration": "20 hours",
       "date": "Oct 24, 2007"
     }
   },
@@ -88,16 +78,14 @@
     "id": 5,
     "es": {
       "title": "Espectroscopia de Impedancia Electroquímica",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "20 horas",
       "date": "Nov 02, 2007"
     },
     "en": {
       "title": "Electrochemical Impedance Spectroscopy",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "20 hours",
       "date": "Nov 02, 2007"
     }
   },
@@ -105,16 +93,14 @@
     "id": 6,
     "es": {
       "title": "Auditorías Internas Aplicadas a la Norma ISO/IEC 17025",
-      "institution": "SENA: Servicio Nacional de Aprendizaje",
+      "institution": "Servicio Nacional de Aprendizaje (SENA)",
       "city": "Manizales, Colombia",
-      "duration": "24 horas",
       "date": "Nov 28, 2007"
     },
     "en": {
       "title": "Internal Audits Applied to ISO/IEC 17025 Standard",
-      "institution": "SENA: National Training Service",
+      "institution": "National Learning Service (SENA)",
       "city": "Manizales, Colombia",
-      "duration": "24 hours",
       "date": "Nov 28, 2007"
     }
   },
@@ -122,16 +108,14 @@
     "id": 7,
     "es": {
       "title": "Catálisis Heterogénea. Principios y Aplicaciones",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "16 horas",
       "date": "Feb 13, 2009"
     },
     "en": {
       "title": "Heterogeneous Catalysis. Principles and Applications",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "16 hours",
       "date": "Feb 13, 2009"
     }
   },
@@ -139,16 +123,14 @@
     "id": 8,
     "es": {
       "title": "Gestión del Mejoramiento Continuo",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "8 horas",
       "date": "Oct 09, 2009"
     },
     "en": {
       "title": "Continuous Improvement Management",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "8 hours",
       "date": "Oct 09, 2009"
     }
   },
@@ -156,16 +138,14 @@
     "id": 9,
     "es": {
       "title": "Calorimetría Diferencial de Barrido. Fundamentos y Aplicaciones",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "12 horas",
       "date": "Nov 13, 2009"
     },
     "en": {
       "title": "Differential Scanning Calorimetry. Fundamentals and Applications",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "duration": "12 hours",
       "date": "Nov 13, 2009"
     }
   },
@@ -173,16 +153,14 @@
     "id": 10,
     "es": {
       "title": "3a Jornada Técnica de Ingeniería Ambiental",
-      "institution": "Universidad Católica de Manizales",
+      "institution": "Universidad Católica de Manizales (UCM)",
       "city": "Manizales, Colombia",
-      "duration": "16 horas",
       "date": "Oct 29, 2015"
     },
     "en": {
       "title": "3rd Technical Conference on Environmental Engineering",
-      "institution": "Catholic University of Manizales",
+      "institution": "Catholic University of Manizales (UCM)",
       "city": "Manizales, Colombia",
-      "duration": "16 hours",
       "date": "Oct 29, 2015"
     }
   },
@@ -190,16 +168,14 @@
     "id": 11,
     "es": {
       "title": "Formación de un Documento de Word para la Tesis",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Feb 17, 2021"
     },
     "en": {
       "title": "Creating a Word Document for the Thesis",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Feb 17, 2021"
     }
   },
@@ -207,16 +183,14 @@
     "id": 12,
     "es": {
       "title": "Elaboración del Plan de Investigación",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Feb 17, 2021"
     },
     "en": {
       "title": "Preparation of the Research Plan",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Feb 17, 2021"
     }
   },
@@ -224,16 +198,14 @@
     "id": 13,
     "es": {
       "title": "Mapeando la Ciencia con VOSviewer",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Mar 01, 2021"
     },
     "en": {
       "title": "Mapping Science with VOSviewer",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Mar 01, 2021"
     }
   },
@@ -241,16 +213,14 @@
     "id": 14,
     "es": {
       "title": "La Ruta Emprendedora de los Investigadores en Formación",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "30 horas",
       "date": "Mar 16, 2021"
     },
     "en": {
       "title": "The Entrepreneurial Path of Researchers in Training",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "30 hours",
       "date": "Mar 16, 2021"
     }
   },
@@ -258,16 +228,14 @@
     "id": 15,
     "es": {
       "title": "Herramientas para el Desarrollo de la Investigación",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "9 horas",
       "date": "May 27, 2021"
     },
     "en": {
       "title": "Tools for Research Development",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "9 hours",
       "date": "May 27, 2021"
     }
   },
@@ -275,16 +243,14 @@
     "id": 16,
     "es": {
       "title": "Escritura y Publicación de Artículos Científicos",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "3 horas",
       "date": "Jun 18, 2021"
     },
     "en": {
       "title": "Writing and Publishing Scientific Articles",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "3 hours",
       "date": "Jun 18, 2021"
     }
   },
@@ -292,16 +258,14 @@
     "id": 17,
     "es": {
       "title": "Divulgación Científica",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "20 horas",
       "date": "Oct 14, 2021"
     },
     "en": {
       "title": "Scientific Dissemination",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "20 hours",
       "date": "Oct 14, 2021"
     }
   },
@@ -309,16 +273,14 @@
     "id": 18,
     "es": {
       "title": "Escritura de Documentos",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "1 hora",
       "date": "Oct 28, 2021"
     },
     "en": {
       "title": "Document Writing",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "1 hour",
       "date": "Oct 28, 2021"
     }
   },
@@ -326,16 +288,14 @@
     "id": 19,
     "es": {
       "title": "Taller de Revisión de la Literatura para Estudiantes de Doctorado",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Nov 26, 2021"
     },
     "en": {
       "title": "Literature Review Workshop for Doctoral Students",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Nov 26, 2021"
     }
   },
@@ -343,16 +303,14 @@
     "id": 20,
     "es": {
       "title": "Breve Introducción a la Ciencia de Datos y sus Técnicas",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Dic 03, 2021"
     },
     "en": {
       "title": "Brief Introduction to Data Science and Its Techniques",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Dec 03, 2021"
     }
   },
@@ -360,16 +318,14 @@
     "id": 21,
     "es": {
       "title": "Tips for successful grant applications: experiences from the applicant and the reviewer point of view",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Dec 21, 2021"
     },
     "en": {
       "title": "Tips for Successful Grant Applications: Experiences from the Applicant and the Reviewer Point of View",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Dec 21, 2021"
     }
   },
@@ -377,16 +333,14 @@
     "id": 22,
     "es": {
       "title": "Visualización de Resultados (figuras) en Artículos Científicos",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Feb 04, 2022"
     },
     "en": {
       "title": "Visualization of Results (Figures) in Scientific Articles",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Feb 04, 2022"
     }
   },
@@ -394,16 +348,14 @@
     "id": 23,
     "es": {
       "title": "Congreso Anual Internacional de Estudiantes de Doctorado",
-      "institution": "Universidad Miguel Hernández",
+      "institution": "Universidad Miguel Hernández (UMH)",
       "city": "Granada, España",
-      "duration": "16 horas",
       "date": "Feb 04, 2022"
     },
     "en": {
       "title": "Annual International Congress of Doctoral Students",
-      "institution": "Miguel Hernández University",
+      "institution": "Miguel Hernández University (UMH)",
       "city": "Granada, Spain",
-      "duration": "16 hours",
       "date": "Feb 04, 2022"
     }
   },
@@ -411,16 +363,14 @@
     "id": 24,
     "es": {
       "title": "Colaboración y Movilidad en el Doctorado",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Feb 11, 2022"
     },
     "en": {
       "title": "Collaboration and Mobility in Doctoral Studies",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Feb 11, 2022"
     }
   },
@@ -428,16 +378,14 @@
     "id": 25,
     "es": {
       "title": "Introducción a las Expresiones Regulares",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Feb 18, 2022"
     },
     "en": {
       "title": "Introduction to Regular Expressions",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Feb 18, 2022"
     }
   },
@@ -445,16 +393,14 @@
     "id": 26,
     "es": {
       "title": "Programa Mentor de Doctorandos",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "Abr 01, 2022"
     },
     "en": {
       "title": "Doctoral Mentoring Program",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "Apr 01, 2022"
     }
   },
@@ -462,16 +408,14 @@
     "id": 27,
     "es": {
       "title": "Gestión de Residuos, Economía Circular y Emprendimiento",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "50 horas",
       "date": "Abr 24, 2022"
     },
     "en": {
       "title": "Waste Management, Circular Economy and Entrepreneurship",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "50 hours",
       "date": "Apr 24, 2022"
     }
   },
@@ -479,16 +423,14 @@
     "id": 28,
     "es": {
       "title": "XV Reunión del Grupo Español del Carbón",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "32 horas",
       "date": "Abr 17, 2022"
     },
     "en": {
       "title": "15th Meeting of the Spanish Carbon Group",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "32 hours",
       "date": "Apr 17, 2022"
     }
   },
@@ -496,16 +438,14 @@
     "id": 29,
     "es": {
       "title": "Inteligencia Artificial 360°",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "16 horas",
       "date": "May 20, 2022"
     },
     "en": {
       "title": "Artificial Intelligence 360°",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "16 hours",
       "date": "May 20, 2022"
     }
   },
@@ -513,16 +453,14 @@
     "id": 30,
     "es": {
       "title": "To Be Visible, or Not to Be, That is the Question: Difusión de Publicaciones",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "2 horas",
       "date": "May 30, 2022"
     },
     "en": {
       "title": "To Be Visible, or Not to Be, That is the Question: Dissemination of Publications",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "2 hours",
       "date": "May 30, 2022"
     }
   },
@@ -530,16 +468,14 @@
     "id": 31,
     "es": {
       "title": "XXXVIII Reunión Bienal de la Sociedad Española de Química",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "32 horas",
       "date": "Jun 30, 2022"
     },
     "en": {
       "title": "38th Biennial Meeting of the Spanish Chemical Society",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "32 hours",
       "date": "Jun 30, 2022"
     }
   },
@@ -547,16 +483,14 @@
     "id": 32,
     "es": {
       "title": "El Maravilloso Mundo de los Materiales Basados en Carbono",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "20 horas",
       "date": "Nov 30, 2022"
     },
     "en": {
       "title": "The Wonderful World of Carbon-Based Materials",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "20 hours",
       "date": "Nov 30, 2022"
     }
   },
@@ -564,16 +498,14 @@
     "id": 33,
     "es": {
       "title": "I Jornada de Jóvenes Investigadores del Grupo Español del Carbón",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "city": "Granada, España",
-      "duration": "24 horas",
       "date": "Dic 02, 2022"
     },
     "en": {
       "title": "1st Conference of Young Researchers of the Spanish Carbon Group",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "city": "Granada, Spain",
-      "duration": "24 hours",
       "date": "Dec 02, 2022"
     }
   },
@@ -581,16 +513,14 @@
     "id": 34,
     "es": {
       "title": "Capacitación en Habilidades Laborales. Cómo Preparar una Entrevista en Inglés",
-      "institution": "Fundación Valencia Activa",
+      "institution": "Fundación Valencia Activa (FCVPE)",
       "city": "Valencia, España",
-      "duration": "3 horas",
       "date": "Sep 30, 2024"
     },
     "en": {
       "title": "Training in Job Skills. How to Prepare for an Interview in English",
-      "institution": "Valencia Activa Foundation",
+      "institution": "Valencia Activa Foundation (FCVPE)",
       "city": "Valencia, Spain",
-      "duration": "3 hours",
       "date": "Sep 30, 2024"
     }
   }

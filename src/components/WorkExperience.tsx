@@ -25,14 +25,14 @@ const WorkExperience = () => {
         <React.Fragment key={work.id}>
           <div className="my-4 flex flex-col gap-4 px-4 hover:rounded-sm hover:bg-slate-50 xl:flex-row">
             <div className="flex flex-col xl:w-1/4">
-              <h3 className="text-lg/6 font-bold">{work[language].location}</h3>
+              <h3 className="text-lg/6 font-semibold">{work[language].location}</h3>
               <span className="font-medium">{work[language].city}</span>
             </div>
             <Separator />
             <div className="flex flex-col xl:w-3/4">
               <h3 className="text-lg/6 font-bold">{work[language].name}</h3>
               <ul className="mt-1 ml-4 list-disc">
-                {work[language].description?.map((desc) => (
+                {work[language].description.map((desc) => (
                   <li key={`${desc}-${work.id}`}>{desc}</li>
                 ))}
               </ul>

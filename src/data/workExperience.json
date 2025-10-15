@@ -3,7 +3,7 @@
     "id": 0,
     "es": {
       "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos",
-      "location": "Universidad Nacional de Colombia",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Sintetización y caracterización de materiales nanoestructurados",
@@ -13,20 +13,20 @@
     },
     "en": {
       "name": "Engineer Specialized in R&D for Technological Projects",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Sintetización y caracterización de materiales nanoestructurados",
-        "Estudio del efecto quelato para la formación de complejos de coordinación",
-        "Oxidación parcial de alcoholes con los complejos de coordinación preparados"
+        "Synthesis and characterization of nanostructured materials",
+        "Study of the chelate effect for the formation of coordination complexes",
+        "Partial oxidation of alcohols with the prepared coordination complexes"
       ]
     }
   },
   {
     "id": 1,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "location": "Universidad Nacional de Colombia",
+      "name": "Ingeniero de Laboratorio de Calidad de Aguas",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
@@ -34,18 +34,18 @@
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
+        "Determination of physicochemical parameters of water quality by: residual chlorine, pH, color, chlorides, phosphorus, hardness, BOD, COD, coagulation-flocculation, jar test, and disinfection"
       ]
     }
   },
   {
     "id": 2,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "location": "Universidad Nacional de Colombia",
+      "name": "Ingeniero de Apoyo de Laboratorio",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Técnico de laboratorio para la atención de prácticas académicas de laboratorio de química para estudiantes de institutos de grado bachiller"
@@ -53,18 +53,16 @@
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
-      "description": [
-        "Técnico de laboratorio para la atención de prácticas académicas de laboratorio de química para estudiantes de institutos de grado bachiller"
-      ]
+      "description": ["Laboratory technician for academic chemistry laboratory practices for high school students"]
     }
   },
   {
     "id": 3,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "location": "Universidad Nacional de Colombia",
+      "name": "Investigación y Desarrollo en Análisis de Materiales Nanoestructurados y Funcionales",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica y cronoamperometría"
@@ -72,41 +70,41 @@
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica y cronoamperometría"
+        "Physicochemical characterization of materials by: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, nitrogen adsorption-desorption, cyclic voltammetry and chronoamperometry"
       ]
     }
   },
   {
     "id": 4,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "location": "Universidad Nacional de Colombia",
+      "name": "Técnico de Laboratorio ed Materiales",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Apoyo e implementación del sistema de gestión de calidad",
-        "Operación de equipo eletroquímico y de difracción de rayos X",
+        "Operación de equipo electroquímico y de difracción de rayos X",
         "Atención técnica de los usuarios externos del laboratorio"
       ]
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Apoyo e implementación del sistema de gestión de calidad",
-        "Operación de equipo eletroquímico y de difracción de rayos X",
-        "Atención técnica de los usuarios externos del laboratorio"
+        "Support and implementation of the quality management system",
+        "Operation of electrochemical and X-ray diffraction equipment",
+        "Technical support for external laboratory users"
       ]
     }
   },
   {
     "id": 5,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "location": "Universidad Nacional de Colombia",
+      "name": "Ingeniero de la Gestión de Calidad",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Implementación de procedimientos técnicos de acuerdo a la norma ISO/IEC 17025:2005",
@@ -116,12 +114,12 @@
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Implementación de procedimientos técnicos de acuerdo a la norma ISO/IEC 17025:2005",
-        "Elaboración de informes de desempeño del laboratorio",
-        "Análisis de los indicadores de gestión de calidad y trazabilidad de las mediciones"
+        "Implementation of technical procedures in accordance with ISO/IEC 17025:2005",
+        "Preparation of laboratory performance reports",
+        "Analysis of quality management indicators and measurement traceability"
       ]
     }
   },
@@ -129,7 +127,7 @@
     "id": 6,
     "es": {
       "name": "Ingeniero Químico Analista de Laboratorio",
-      "location": "Universidad Nacional de Colombia",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Operario del equipo de difracción de rayos X y potenciostato",
@@ -139,12 +137,12 @@
     },
     "en": {
       "name": "Chemical Engineer Laboratory Analyst",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Operario del equipo de difracción de rayos X y potenciostato",
-        "Elaboración de indicadores de la gestión de calidad",
-        "Redacción de manuales técnicos de uso de equipos de laboratorio"
+        "X-ray diffraction and potentiostat equipment operator",
+        "Development of quality management indicators",
+        "Writing technical manuals for laboratory equipment use"
       ]
     }
   },
@@ -152,7 +150,7 @@
     "id": 7,
     "es": {
       "name": "Ingeniero Técnico en Instrumentación Fisicoquímica",
-      "location": "Universidad Nacional de Colombia",
+      "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
         "Operario del espectrofotómetro ultravioleta-visible",
@@ -162,12 +160,12 @@
     },
     "en": {
       "name": "Technical Engineer in Physicochemical Instrumentation",
-      "location": "National University of Colombia",
+      "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Operario del espectrofotómetro ultravioleta-visible",
-        "Implementación de la metodología para determinar fósforo en muestras de agua",
-        "Desarrollo metodológico para determinación cuantitativa de fases mineralógicas"
+        "Ultraviolet-visible spectrophotometer operator",
+        "Implementation of the methodology for determining phosphorus in water samples",
+        "Methodological development for the quantitative determination of mineralogical phases"
       ]
     }
   },
@@ -175,7 +173,7 @@
     "id": 8,
     "es": {
       "name": "Profesor Universitario",
-      "location": "Universidad de Caldas",
+      "location": "Universidad de Caldas (UdeCaldas)",
       "city": "Manizales, Colombia",
       "description": [
         "Docencia de asignaturas en ciencias básicas e ingeniería",
@@ -185,12 +183,12 @@
     },
     "en": {
       "name": "University Professor",
-      "location": "University of Caldas",
+      "location": "University of Caldas (UdeCaldas)",
       "city": "Manizales, Colombia",
       "description": [
-        "Docencia de asignaturas en ciencias básicas e ingeniería",
-        "Dirección y codirección de proyectos de investigación",
-        "Dirección de cursos de Ciencias de los Materiales y Mecánica de Materiales en el grado de Ingeniería Mecatrónica"
+        "Teaching basic science and engineering courses",
+        "Directing and co-directing research projects",
+        "Directing Materials Science and Mechanics of Materials courses in the Mechatronics Engineering degree"
       ]
     }
   },
@@ -198,7 +196,7 @@
     "id": 9,
     "es": {
       "name": "Profesor Universitario",
-      "location": "Universidad Católica de Manizales",
+      "location": "Universidad Católica de Manizales (UCM)",
       "city": "Manizales, Colombia",
       "description": [
         "Docencia de asignaturas en ciencias básicas e ingeniería",
@@ -209,13 +207,13 @@
     },
     "en": {
       "name": "University Professor",
-      "location": "Catholic University of Manizales",
+      "location": "Catholic University of Manizales (UCM)",
       "city": "Manizales, Colombia",
       "description": [
-        "Docencia de asignaturas en ciencias básicas e ingeniería",
-        "Dirección de trabajos finales de grado, tutor de pasantías y prácticas académicas",
-        "Dirección y codirección de proyectos de investigación, y puesta en marcha de equipo de adsorción atómica",
-        "Lideración del equipo de laboratorio para la acreditación del programa de Ingeniería Ambiental"
+        "Teaching basic science and engineering courses",
+        "Supervising final degree projects, tutoring internships and academic practices",
+        "Directing and co-directing research projects, and implementing atomic adsorption equipment",
+        "Leading the laboratory team for the accreditation of the Environmental Engineering program"
       ]
     }
   },
@@ -223,7 +221,7 @@
     "id": 10,
     "es": {
       "name": "Doctorando",
-      "location": "Universidad de Granada",
+      "location": "Universidad de Granada (UGR)",
       "city": "Granada, España",
       "description": [
         "Optimización del anclaje de nanopartículas en los canales de los microrreactores impresos en 3D",
@@ -233,12 +231,12 @@
     },
     "en": {
       "name": "PhD Student",
-      "location": "University of Granada",
+      "location": "University of Granada (UGR)",
       "city": "Granada, Spain",
       "description": [
-        "Optimización del anclaje de nanopartículas en los canales de los microrreactores impresos en 3D",
-        "Diseño y construcción de fotorreactores adaptados con luz LED para degradar contaminantes emergentes",
-        "Degradación de sulfametoxazol (SMX) con estos dispositivos"
+        "Optimizing nanoparticle anchoring in the channels of 3D-printed microreactors",
+        "Design and construction of LED-adapted photoreactors for the degradation of emerging contaminants",
+        "Degradation of sulfamethoxazole (SMX) with these devices"
       ]
     }
   },
@@ -246,7 +244,7 @@
     "id": 11,
     "es": {
       "name": "Investigación posdoctoral",
-      "location": "Universidad de Castilla-La Mancha",
+      "location": "Universidad de Castilla-La Mancha (UCLM)",
       "city": "Castilla-La Mancha, España",
       "description": [
         "Diseño e implementación de un sistema electroquímico para la detección de gases (amoníaco)",
@@ -256,12 +254,12 @@
     },
     "en": {
       "name": "Postdoctoral Research",
-      "location": "University of Castilla-La Mancha",
+      "location": "University of Castilla-La Mancha (UCLM)",
       "city": "Castilla-La Mancha, Spain",
       "description": [
-        "Diseño e implementación de un sistema electroquímico para la detección de gases (amoníaco)",
-        "Innovación en la síntesis de nanopartículas de cerio y praseodimio para la adsorción de gases",
-        "Modificación de electrodos interdigitados con aerografía"
+        "Design and implementation of an electrochemical system for gas detection (ammonia)",
+        "Innovation in the synthesis of cerium and praseodymium nanoparticles for gas adsorption",
+        "Modification of interdigitated electrodes using airbrushing"
       ]
     }
   }

@@ -1,54 +1,45 @@
 [
   {
     "id": 0,
-
     "es": {
       "title": "Grado en Ingeniería Química",
-      "institution": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia",
-      "date": "2005"
+      "institution": "Universidad Nacional de Colombia (UNAL)",
+      "city": "Manizales, Colombia"
     },
     "en": {
       "title": "Degree in Chemical Engineering",
-      "institution": "National University of Colombia",
-      "city": "Manizales, Colombia",
-      "date": "2005"
+      "institution": "National University of Colombia (UNAL)",
+      "city": "Manizales, Colombia"
     }
   },
   {
     "id": 1,
-
     "es": {
       "title": "Máster en Ingeniería Química",
-      "institution": "Universidad Nacional de Colombia",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "award": "Distinción de Tesis Meritoria",
-      "city": "Manizales, Colombia",
-      "date": "2008"
+      "city": "Manizales, Colombia"
     },
     "en": {
       "title": "Master's in Chemical Engineering",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "award": "Meritorious Thesis Distinction",
-      "city": "Manizales, Colombia",
-      "date": "2008"
+      "city": "Manizales, Colombia"
     }
   },
   {
     "id": 2,
-
     "es": {
       "title": "Doctorado en Química",
-      "institution": "Universidad de Granada",
+      "institution": "Universidad de Granada (UGR)",
       "award": "Distinción CUM LAUDE",
-      "city": "Granada, España",
-      "date": "2024"
+      "city": "Granada, España"
     },
     "en": {
       "title": "Chemistry PhD",
-      "institution": "University of Granada",
+      "institution": "University of Granada (UGR)",
       "award": "Distinction CUM LAUDE",
-      "city": "Granada, Spain",
-      "date": "2024"
+      "city": "Granada, Spain"
     }
   }
 ]

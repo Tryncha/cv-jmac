@@ -3,14 +3,12 @@
     "id": 0,
     "url": "http://investigacion.manizales.unal.edu.co/grupos/COL0014912",
     "es": {
-      "groupName": "Procesos Químicos Catalíticos y Biotecnológicos",
-      "institution": "Universidad Nacional de Colombia",
+      "groupName": "Procesos Químicos Catalíticos y Biotecnológicos (PQCyB)",
+      "institution": "Universidad Nacional de Colombia (UNAL)",
       "department": "Departamento de Ingeniería Química",
       "director": "Carlos Ariel Cardona Álzate",
       "area": "Área de Biotecnología",
       "location": "Manizales, Colombia",
-      "date": "Feb 2005 - Ago 2014",
-      "duration": "9 años",
       "lines": [
         "Aprovechamiento de residuos",
         "Biocombustibles",
@@ -25,13 +23,11 @@
     },
     "en": {
       "groupName": "Catalytic and Biotechnological Chemical Processes",
-      "institution": "National University of Colombia",
+      "institution": "National University of Colombia (UNAL)",
       "department": "Department of Chemical Engineering",
       "director": "Carlos Ariel Cardona Álzate",
       "area": "Biotechnology Area",
       "location": "Manizales, Colombia",
-      "date": "Feb 2005 - Aug 2014",
-      "duration": "9 years",
       "lines": [
         "Waste utilization",
         "Biofuels",
@@ -50,12 +46,11 @@
     "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001119",
     "es": {
       "groupName": "Desarrollos Tecnológicos y Ambientales (DTA)",
-      "institution": "Universidad Católica de Manizales",
+      "institution": "Universidad Católica de Manizales (UCM)",
       "department": "Departamento de Ingeniería y Tecnología",
       "director": "Gloria Yaneth Florez Yepes",
       "area": "Área de Ingeniería Ambiental y Geológica",
       "location": "Manizales, Colombia",
-      "date": "Jun 2015 - Presente",
       "lines": [
         "Competitividad",
         "Desarrollos Tecnológicos Aplicados",
@@ -65,12 +60,11 @@
     },
     "en": {
       "groupName": "Technological and Environmental Developments",
-      "institution": "Catholic University of Manizales",
+      "institution": "Catholic University of Manizales (UCM)",
       "department": "Department of Engineering and Technology",
       "director": "Gloria Yaneth Florez Yepes",
       "area": "Environmental and Geological Engineering Area",
       "location": "Manizales, Colombia",
-      "date": "Jun 2015 - Present",
       "lines": [
         "Competitiveness",
         "Applied Technological Developments",
@@ -84,12 +78,11 @@
     "url": "https://scienti.minciencias.gov.co/gruplac/jsp/visualiza/visualizagr.jsp?nro=00000000001119",
     "es": {
       "groupName": "Bioingeniería e Ingeniería Ambiental (BIOINGAMB)",
-      "institution": "Universidad de Castilla-La Mancha",
+      "institution": "Universidad de Castilla-La Mancha (UCLM)",
       "department": "Escuela de Ingeniería Industrial y Aeroespacial de Toledo",
       "director": "María Teresa Baeza Romero",
       "area": "Área de Ingeniería Industrial y Aeroespacial",
       "location": "Castilla-La Mancha, España",
-      "date": "Dic 2024 - Presente",
       "lines": [
         "Bioimpedancia",
         "Estudio de procesos atmosféricos de compuestos de yodo y otros halógenos con implicaciones en Contaminación Atmosférica y Cambio Climático",
@@ -104,12 +97,11 @@
     },
     "en": {
       "groupName": "Bioengineering and Environmental Engineering (BIOINGAMB)",
-      "institution": "University of Castilla-La Mancha",
+      "institution": "University of Castilla-La Mancha (UCLM)",
       "department": "School of Industrial and Aerospace Engineering of Toledo",
       "director": "María Teresa Baeza Romero",
       "area": "Industrial and Aerospace Engineering Area",
       "location": "Castilla-La Mancha, Spain",
-      "date": "Dec 2024 - Present",
       "lines": [
         "Bioimpedance",
         "Study of atmospheric processes of iodine compounds and other halogens with implications for Air Pollution and Climate Change",
