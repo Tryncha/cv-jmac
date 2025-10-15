@@ -2,13 +2,15 @@
   {
     "id": 0,
     "es": {
-      "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos - ODS 120",
+      "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos",
+
       "date": "Jul 2006 - Ene 2007",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in R&D for Technological Projects - ODS 120",
+      "name": "Engineer Specialized in R&D for Technological Projects",
+
       "date": "Jul 2006 - Jan 2007",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -17,13 +19,13 @@
   {
     "id": 1,
     "es": {
-      "name": "Ingeniero Especializado en Gestión de Calidad - ODS 182",
+      "name": "Ingeniero Especializado en Gestión de Calidad",
       "date": "Oct 2007 - Feb 2008",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Quality Management - ODS 182",
+      "name": "Engineer Specialized in Quality Management",
       "date": "Oct 2007 - Feb 2008",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -32,13 +34,13 @@
   {
     "id": 2,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 28",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
       "date": "Feb 2008 - Jul 2008",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 28",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
       "date": "Feb 2008 - Jul 2008",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -47,13 +49,13 @@
   {
     "id": 3,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 129",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
       "date": "Jul 2008 - Oct 2008",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 129",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
       "date": "Jul 2008 - Oct 2008",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -62,13 +64,13 @@
   {
     "id": 4,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 216",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
       "date": "Oct 2008 - Feb 2009",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 216",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
       "date": "Oct 2008 - Feb 2009",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -77,13 +79,13 @@
   {
     "id": 5,
     "es": {
-      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales - ODS 31",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
       "date": "Mar 2009 - Nov 2009",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials - ODS 31",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
       "date": "Mar 2009 - Nov 2009",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -92,13 +94,13 @@
   {
     "id": 6,
     "es": {
-      "name": "Ingeniero Químico Analista de Laboratorio - ODS 199",
+      "name": "Ingeniero Químico Analista de Laboratorio",
       "date": "Dic 2009 - Feb 2010",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Chemical Engineer Laboratory Analyst - ODS 199",
+      "name": "Chemical Engineer Laboratory Analyst",
       "date": "Dec 2009 - Feb 2010",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
@@ -107,13 +109,13 @@
   {
     "id": 7,
     "es": {
-      "name": "Ingeniero Técnico en Instrumentación Fisicoquímica - ODS 21, OTROSÍ",
+      "name": "Ingeniero Técnico en Instrumentación Fisicoquímica",
       "date": "Dic 2010 - Feb 2011",
       "location": "Universidad Nacional de Colombia",
       "city": "Manizales, Colombia"
     },
     "en": {
-      "name": "Technical Engineer in Physicochemical Instrumentation - ODS 21, OTROSÍ",
+      "name": "Technical Engineer in Physicochemical Instrumentation",
       "date": "Dec 2010 - Feb 2011",
       "location": "National University of Colombia",
       "city": "Manizales, Colombia"
