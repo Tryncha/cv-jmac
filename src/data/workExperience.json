@@ -3,165 +3,219 @@
     "id": 0,
     "es": {
       "name": "Ingeniero Especializado en I+D para Proyectos Tecnológicos",
-
-      "date": "Jul 2006 - Ene 2007",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Sintetización y caracterización de materiales nanoestructurados",
+        "Estudio del efecto quelato para la formación de complejos de coordinación",
+        "Oxidación parcial de alcoholes con los complejos de coordinación preparados"
+      ]
     },
     "en": {
       "name": "Engineer Specialized in R&D for Technological Projects",
-
-      "date": "Jul 2006 - Jan 2007",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Sintetización y caracterización de materiales nanoestructurados",
+        "Estudio del efecto quelato para la formación de complejos de coordinación",
+        "Oxidación parcial de alcoholes con los complejos de coordinación preparados"
+      ]
     }
   },
   {
     "id": 1,
     "es": {
-      "name": "Ingeniero Especializado en Gestión de Calidad",
-      "date": "Oct 2007 - Feb 2008",
+      "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
+      ]
     },
     "en": {
-      "name": "Engineer Specialized in Quality Management",
-      "date": "Oct 2007 - Feb 2008",
+      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
+      ]
     }
   },
   {
     "id": 2,
     "es": {
       "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "date": "Feb 2008 - Jul 2008",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Técnico de laboratorio para la atención de prácticas académicas de laboratorio de química para estudiantes de institutos de grado bachiller"
+      ]
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "date": "Feb 2008 - Jul 2008",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Técnico de laboratorio para la atención de prácticas académicas de laboratorio de química para estudiantes de institutos de grado bachiller"
+      ]
     }
   },
   {
     "id": 3,
     "es": {
       "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "date": "Jul 2008 - Oct 2008",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica y cronoamperometría"
+      ]
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "date": "Jul 2008 - Oct 2008",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica y cronoamperometría"
+      ]
     }
   },
   {
     "id": 4,
     "es": {
       "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "date": "Oct 2008 - Feb 2009",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Apoyo e implementación del sistema de gestión de calidad",
+        "Operación de equipo eletroquímico y de difracción de rayos X",
+        "Atención técnica de los usuarios externos del laboratorio"
+      ]
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "date": "Oct 2008 - Feb 2009",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Apoyo e implementación del sistema de gestión de calidad",
+        "Operación de equipo eletroquímico y de difracción de rayos X",
+        "Atención técnica de los usuarios externos del laboratorio"
+      ]
     }
   },
   {
     "id": 5,
     "es": {
       "name": "Ingeniero Especializado en Análisis de Materiales Nanoestructurados y Funcionales",
-      "date": "Mar 2009 - Nov 2009",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Implementación de procedimientos técnicos de acuerdo a la norma ISO/IEC 17025:2005",
+        "Elaboración de informes de desempeño del laboratorio",
+        "Análisis de los indicadores de gestión de calidad y trazabilidad de las mediciones"
+      ]
     },
     "en": {
       "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "date": "Mar 2009 - Nov 2009",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Implementación de procedimientos técnicos de acuerdo a la norma ISO/IEC 17025:2005",
+        "Elaboración de informes de desempeño del laboratorio",
+        "Análisis de los indicadores de gestión de calidad y trazabilidad de las mediciones"
+      ]
     }
   },
   {
     "id": 6,
     "es": {
       "name": "Ingeniero Químico Analista de Laboratorio",
-      "date": "Dic 2009 - Feb 2010",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Operario del equipo de difracción de rayos X y potenciostato",
+        "Elaboración de indicadores de la gestión de calidad",
+        "Redacción de manuales técnicos de uso de equipos de laboratorio"
+      ]
     },
     "en": {
       "name": "Chemical Engineer Laboratory Analyst",
-      "date": "Dec 2009 - Feb 2010",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Operario del equipo de difracción de rayos X y potenciostato",
+        "Elaboración de indicadores de la gestión de calidad",
+        "Redacción de manuales técnicos de uso de equipos de laboratorio"
+      ]
     }
   },
   {
     "id": 7,
     "es": {
       "name": "Ingeniero Técnico en Instrumentación Fisicoquímica",
-      "date": "Dic 2010 - Feb 2011",
       "location": "Universidad Nacional de Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Operario del espectrofotómetro ultravioleta-visible",
+        "Implementación de la metodología para determinar fósforo en muestras de agua",
+        "Desarrollo metodológico para determinación cuantitativa de fases mineralógicas"
+      ]
     },
     "en": {
       "name": "Technical Engineer in Physicochemical Instrumentation",
-      "date": "Dec 2010 - Feb 2011",
       "location": "National University of Colombia",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Operario del espectrofotómetro ultravioleta-visible",
+        "Implementación de la metodología para determinar fósforo en muestras de agua",
+        "Desarrollo metodológico para determinación cuantitativa de fases mineralógicas"
+      ]
     }
   },
   {
     "id": 8,
     "es": {
       "name": "Profesor Universitario",
-      "date": "Feb 2010 - Abr 2020",
       "location": "Universidad de Caldas",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Docencia de asignaturas en ciencias básicas e ingeniería",
+        "Dirección y codirección de proyectos de investigación",
+        "Dirección de cursos de Ciencias de los Materiales y Mecánica de Materiales en el grado de Ingeniería Mecatrónica"
+      ]
     },
     "en": {
       "name": "University Professor",
-      "date": "Feb 2010 - Apr 2020",
       "location": "University of Caldas",
-      "city": "Manizales, Colombia"
+      "city": "Manizales, Colombia",
+      "description": [
+        "Docencia de asignaturas en ciencias básicas e ingeniería",
+        "Dirección y codirección de proyectos de investigación",
+        "Dirección de cursos de Ciencias de los Materiales y Mecánica de Materiales en el grado de Ingeniería Mecatrónica"
+      ]
     }
   },
   {
     "id": 9,
     "es": {
       "name": "Profesor Universitario",
-      "date": "Jul 2015 - Jun 2020",
       "location": "Universidad Católica de Manizales",
       "city": "Manizales, Colombia",
       "description": [
-        "Dirección de varios trabajos finales de grado",
-        "Dirección y codirección de proyectos de investigación",
-        "Tutor de pasantías y prácticas académicas",
-        "Instalación y puesta en marcha de equipo de adsorción atómica",
+        "Docencia de asignaturas en ciencias básicas e ingeniería",
+        "Dirección de trabajos finales de grado, tutor de pasantías y prácticas académicas",
+        "Dirección y codirección de proyectos de investigación, y puesta en marcha de equipo de adsorción atómica",
         "Lideración del equipo de laboratorio para la acreditación del programa de Ingeniería Ambiental"
       ]
     },
     "en": {
       "name": "University Professor",
-      "date": "Jul 2015 - Jun 2020",
       "location": "Catholic University of Manizales",
       "city": "Manizales, Colombia",
       "description": [
-        "Supervised several final degree projects",
-        "Directed and co-directed research projects",
-        "Tutored internships and academic practices",
-        "Installed and commissioned atomic adsorption equipment",
-        "Leaded the laboratory team for the accreditation of the Environmental Engineering program"
+        "Docencia de asignaturas en ciencias básicas e ingeniería",
+        "Dirección de trabajos finales de grado, tutor de pasantías y prácticas académicas",
+        "Dirección y codirección de proyectos de investigación, y puesta en marcha de equipo de adsorción atómica",
+        "Lideración del equipo de laboratorio para la acreditación del programa de Ingeniería Ambiental"
       ]
     }
   },
@@ -169,24 +223,22 @@
     "id": 10,
     "es": {
       "name": "Doctorando",
-      "date": "Sep 2019 - Jul 2024",
       "location": "Universidad de Granada",
       "city": "Granada, España",
       "description": [
-        "Optimización del anclaje de nanopartículas en microreactores impresos en 3D",
-        "Degradación de sulfametoxazol (SMX) con estos microreactores impresos",
-        "Construcción de fotorreactores con luz LED para simular la luz solar"
+        "Optimización del anclaje de nanopartículas en los canales de los microrreactores impresos en 3D",
+        "Diseño y construcción de fotorreactores adaptados con luz LED para degradar contaminantes emergentes",
+        "Degradación de sulfametoxazol (SMX) con estos dispositivos"
       ]
     },
     "en": {
       "name": "PhD Student",
-      "date": "Sep 2019 - Jul 2024",
       "location": "University of Granada",
       "city": "Granada, Spain",
       "description": [
-        "Optimizing nanoparticle anchoring in 3D-printed microreactors",
-        "Sulfamethoxazole (SMX) degradation using these printed microreactors",
-        "Building LED-powered photoreactors to simulate sunlight"
+        "Optimización del anclaje de nanopartículas en los canales de los microrreactores impresos en 3D",
+        "Diseño y construcción de fotorreactores adaptados con luz LED para degradar contaminantes emergentes",
+        "Degradación de sulfametoxazol (SMX) con estos dispositivos"
       ]
     }
   },
@@ -194,24 +246,22 @@
     "id": 11,
     "es": {
       "name": "Investigación posdoctoral",
-      "date": "Dic 2024 - Presente",
       "location": "Universidad de Castilla-La Mancha",
       "city": "Castilla-La Mancha, España",
       "description": [
-        "Diseño e implementación de un sistema electroquímico para la detección amoniaco",
+        "Diseño e implementación de un sistema electroquímico para la detección de gases (amoníaco)",
         "Innovación en la síntesis de nanopartículas de cerio y praseodimio para la adsorción de gases",
-        "Implementación de una ruta metodológica para modificar electrodos interdigitados con aerografía"
+        "Modificación de electrodos interdigitados con aerografía"
       ]
     },
     "en": {
       "name": "Postdoctoral Research",
-      "date": "Dec 2024 - Present",
       "location": "University of Castilla-La Mancha",
       "city": "Castilla-La Mancha, Spain",
       "description": [
-        "Design and implementation of an electrochemical system for ammonia detection",
-        "Innovation in the synthesis of cerium and praseodymium nanoparticles for gas adsorption",
-        "Implementation of a methodological approach to modifying interdigitated electrodes using airbrushing"
+        "Diseño e implementación de un sistema electroquímico para la detección de gases (amoníaco)",
+        "Innovación en la síntesis de nanopartículas de cerio y praseodimio para la adsorción de gases",
+        "Modificación de electrodos interdigitados con aerografía"
       ]
     }
   }
