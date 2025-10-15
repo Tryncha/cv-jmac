@@ -18,7 +18,7 @@ const Resume = () => {
   const { language } = settings;
 
   return (
-    <main className="z-10 min-h-screen border-x border-slate-300 bg-white px-6 pt-40 pb-20 shadow-sm xl:mx-20 xl:px-15 xl:pt-46">
+    <main className="z-10 flex min-h-screen flex-col gap-4 border-x border-slate-300 bg-white pt-4 pb-18 shadow-sm sm:px-4 sm:pt-28 xl:mx-20 xl:px-16">
       <Section title={resumeTranslation[language].title}>
         <p className="text-md m-4 rounded-sm border-l-4 border-slate-700 bg-slate-200 p-4 text-justify font-medium whitespace-pre-line">
           {resume[language].intro}
