@@ -143,14 +143,26 @@
       "date": "Jul 2015 - Jun 2020",
       "location": "Universidad Católica de Manizales",
       "city": "Manizales, Colombia",
-      "description": ["Dirigí trabajos finales de grado"]
+      "description": [
+        "Dirección de varios trabajos finales de grado",
+        "Dirección y codirección de proyectos de investigación",
+        "Tutor de pasantías y prácticas académicas",
+        "Instalación y puesta en marcha de equipo de absorción atómica",
+        "Lideración del equipo de laboratorio para la acreditación del programa de Ingeniería Ambiental"
+      ]
     },
     "en": {
       "name": "University Professor",
       "date": "Jul 2015 - Jun 2020",
       "location": "Catholic University of Manizales",
       "city": "Manizales, Colombia",
-      "description": ["I supervised final degree projects"]
+      "description": [
+        "Supervised several final degree projects",
+        "Directed and co-directed research projects",
+        "Tutored internships and academic practices",
+        "Installed and commissioned atomic absorption equipment",
+        "Leaded the laboratory team for the accreditation of the Environmental Engineering program"
+      ]
     }
   },
   {
@@ -161,9 +173,9 @@
       "location": "Universidad de Granada",
       "city": "Granada, España",
       "description": [
-        "Optimicé el anclaje de nanopartículas en microreactores impresos en 3D",
-        "Degradé sulfametoxazol (SMX) con los microreactores impresos",
-        "Construí fotorreactores con luz LED para simular la luz solar"
+        "Optimización del anclaje de nanopartículas en microreactores impresos en 3D",
+        "Degradación de sulfametoxazol (SMX) con estos microreactores impresos",
+        "Construcción de fotorreactores con luz LED para simular la luz solar"
       ]
     },
     "en": {
@@ -172,9 +184,9 @@
       "location": "University of Granada",
       "city": "Granada, Spain",
       "description": [
-        "I optimized nanoparticle anchoring in 3D-printed microreactors",
-        "I degraded sulfamethoxazole (SMX) with the printed microreactors",
-        "I built LED-lit photoreactors to simulate sunlight"
+        "Optimizing nanoparticle anchoring in 3D-printed microreactors",
+        "Sulfamethoxazole (SMX) degradation using these printed microreactors",
+        "Building LED-powered photoreactors to simulate sunlight"
       ]
     }
   },
@@ -186,9 +198,9 @@
       "location": "Universidad de Castilla-La Mancha",
       "city": "Castilla-La Mancha, España",
       "description": [
-        "Diseñé e implementé de un sistema electroquímico para la detección amoniaco",
-        "Innové en la síntesis de nanopartículas de cerio y praseodimio para la absorción de gases",
-        "Implementé una ruta metodológica para modificar electrodos interdigitados con aerografía"
+        "Diseño e implementación de un sistema electroquímico para la detección amoniaco",
+        "Innovación en la síntesis de nanopartículas de cerio y praseodimio para la adsorción de gases",
+        "Implementación de una ruta metodológica para modificar electrodos interdigitados con aerografía"
       ]
     },
     "en": {
@@ -197,9 +209,9 @@
       "location": "University of Castilla-La Mancha",
       "city": "Castilla-La Mancha, Spain",
       "description": [
-        "I designed and implemented an electrochemical system for ammonia detection",
-        "I innovated in the synthesis of cerium and praseodymium nanoparticles for gas absorption",
-        "I implemented a methodological approach to modifying interdigitated electrodes using airbrushing"
+        "Design and implementation of an electrochemical system for ammonia detection",
+        "Innovation in the synthesis of cerium and praseodymium nanoparticles for gas adsorption",
+        "Implementation of a methodological approach to modifying interdigitated electrodes using airbrushing"
       ]
     }
   }
