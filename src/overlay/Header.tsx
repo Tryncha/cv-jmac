@@ -34,10 +34,10 @@ interface LinkComponentProps {
 
 const LinkComponent = ({ children, to }: LinkComponentProps) => {
   return (
-    <div className="border-x border-slate-300 px-4 py-1 first:border-l-0 last:border-r-0 hover:bg-slate-200">
+    <div className="border-x border-slate-300 px-4 py-1 first:border-l-0 last:border-r-0 hover:bg-slate-200 sm:px-11 md:px-15 lg:px-24 xl:px-4">
       <Link
         to={to}
-        className="text-md rounded-md font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:text-xl"
+        className="text-md font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:rounded-md xl:text-xl"
       >
         {children}
       </Link>
@@ -50,8 +50,7 @@ const LinksContainer = () => {
   const { language } = settings;
 
   return (
-    <div className="z-20 flex cursor-pointer items-center justify-around overflow-auto rounded-xl bg-slate-100 shadow-sm xl:justify-center">
-      {/* <LinkComponent to="/resume">{headerTranslation[language].resume}</LinkComponent> */}
+    <div className="flex w-full cursor-pointer justify-center bg-slate-100 shadow-sm xl:w-auto xl:rounded-xl">
       <LinkComponent to="/">{headerTranslation[language].vitae}</LinkComponent>
       <LinkComponent to="/articles">{headerTranslation[language].articles}</LinkComponent>
       <LinkComponent to="/media">{headerTranslation[language].media}</LinkComponent>
@@ -65,23 +64,25 @@ const Header = () => {
   const { language } = settings;
 
   return (
-    <header className="fixed top-0 left-0 z-30 flex w-full flex-col items-center justify-between border-b border-slate-300 bg-slate-200 px-6 py-2 shadow-sm xl:flex-row xl:py-1">
-      <div className="flex flex-col">
+    <header className="z-20 flex w-full flex-col justify-between border-b border-slate-300 bg-slate-200 shadow-sm sm:fixed sm:top-0 sm:left-0 xl:flex-row xl:px-8 xl:py-1">
+      <div className="flex flex-col pt-1 pb-2 xl:py-0">
         <Link
           to="/"
-          className="font-ibm-plex-serif text-center text-3xl font-bold uppercase no-underline transition-colors hover:text-slate-900"
+          className="font-ibm-plex-serif text-center text-3xl font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:text-left"
         >
           {aboutInfo.firstName + ' ' + aboutInfo.lastName}
         </Link>
-        <span>{aboutInfo[language].title}</span>
+        <span className="hidden text-center sm:inline sm:text-sm xl:text-left">{aboutInfo[language].title}</span>
       </div>
-      <LinksContainer />
-      <div className="flex justify-end gap-4">
-        <div className="flex items-center gap-1">
-          <LocationIcon size="24" />
-          <span className="font-semibold">{aboutInfo[language].address}</span>
+      <div className="flex items-center gap-12">
+        <LinksContainer />
+        <div className="hidden 2xl:flex 2xl:items-center 2xl:gap-4">
+          <div className="flex items-center gap-1">
+            <LocationIcon size="20" />
+            <span className="font-semibold">{aboutInfo[language].address}</span>
+          </div>
+          <LanguageSelector />
         </div>
-        <LanguageSelector />
       </div>
     </header>
   );

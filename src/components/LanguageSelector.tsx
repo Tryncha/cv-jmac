@@ -28,7 +28,7 @@ const LanguageSelector = () => {
   const { language } = settings;
 
   return (
-    <div className="relative flex rounded-xl border-2 border-slate-300 bg-slate-300">
+    <div className="relative flex rounded-xl border-2 border-slate-300 bg-slate-300 text-xs lg:text-sm">
       <div
         className={`${
           language === 'es'
