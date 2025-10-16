@@ -32,22 +32,23 @@ interface ArticleProps {
   authors: string[];
   date: string;
   issn: string[];
-  url: string;
+  doi: string;
 }
 
-const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn, url }: ArticleProps) => {
+const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn, doi }: ArticleProps) => {
   const [isImageOpen, setIsImageOpen] = useState(false);
   const [isCopied, setIsCopied] = useState(false);
 
   useModalProperties(isImageOpen, () => setIsImageOpen(false));
 
   const MAX_LENGTH = 700;
+  const BASE_DOI_URL = 'https://doi.org';
 
   async function copyUrl() {
     if (isCopied) return null;
 
     try {
-      await navigator.clipboard.writeText(url);
+      await navigator.clipboard.writeText(`${BASE_DOI_URL}/${doi}`);
       setIsCopied(true);
       setTimeout(() => {
         setIsCopied(false);
@@ -94,7 +95,7 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
           <span className="font-medium">{date}</span>
           <span className="font-medium">{journal}</span>
           <a
-            href={url}
+            href={`${BASE_DOI_URL}/${doi}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
@@ -106,14 +107,14 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
           <span className="font-medium">ISSN: {issn.join(', ')}</span>
           <div className="flex items-center">
             <span className="font-medium">
-              URL:{' '}
+              DOI:{' '}
               <a
-                href={url}
+                href={`${BASE_DOI_URL}/${doi}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-800 underline transition-colors hover:text-blue-600"
               >
-                {url}
+                {doi}
               </a>
             </span>
             <div className="relative">
@@ -142,20 +143,24 @@ const Articles = () => {
   const { settings } = useSettings();
   const { language } = settings;
 
-  return articles.map((art) => (
-    <Article
-      key={art.id}
-      imgSrc={art.imgSrc}
-      imgAlt={art.imgAlt}
-      title={art[language].title}
-      abstract={art[language].abstract}
-      journal={art.journal}
-      authors={art.contributors}
-      date={art[language].date}
-      issn={art.issn}
-      url={art.url}
-    />
-  ));
+  return (
+    <section>
+      {articles.map((art) => (
+        <Article
+          key={art.id}
+          imgSrc={art.imgSrc}
+          imgAlt={art.imgAlt}
+          title={art[language].title}
+          abstract={art[language].abstract}
+          journal={art.journal}
+          authors={art.contributors}
+          date={art[language].date}
+          issn={art.issn}
+          doi={art.doi}
+        />
+      ))}
+    </section>
+  );
 };
 
 const Media = () => {
@@ -174,16 +179,6 @@ const Media = () => {
             </span>
             <h3 className="px-4 text-lg/6 font-bold">{pod[language].title}</h3>
             <p className="px-4 font-medium">{pod[language].description}</p>
-            <audio
-              controls
-              controlsList="nodownload"
-              className="my-4 w-full px-4"
-            >
-              <source
-                src={pod.audioSrc}
-                type="audio/mp3"
-              />
-            </audio>
             {language === 'es' ? (
               <div className="m-4 flex flex-col border-l-4 border-slate-700 bg-slate-200 p-4 text-sm font-medium">
                 <span>
