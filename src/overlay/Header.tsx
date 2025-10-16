@@ -10,19 +10,13 @@ const headerTranslation = {
   es: {
     sendMail: 'Enviar un correo',
     vitae: 'Vitae',
-    resume: 'Resumen',
-    articles: 'Artículos',
-    media: 'Media',
-    memories: 'Memorias',
+    publications: 'Publicaciones',
     contact: 'Contacto'
   },
   en: {
     sendMail: 'Send mail',
     vitae: 'Vitae',
-    resume: 'Resume',
-    articles: 'Articles',
-    media: 'Media',
-    memories: 'Memories',
+    publications: 'Publications',
     contact: 'Contact'
   }
 };
@@ -52,8 +46,7 @@ const LinksContainer = () => {
   return (
     <div className="flex w-full cursor-pointer justify-center bg-slate-100 shadow-sm xl:w-auto xl:rounded-xl">
       <LinkComponent to="/">{headerTranslation[language].vitae}</LinkComponent>
-      <LinkComponent to="/articles">{headerTranslation[language].articles}</LinkComponent>
-      <LinkComponent to="/media">{headerTranslation[language].media}</LinkComponent>
+      <LinkComponent to="/publications">{headerTranslation[language].publications}</LinkComponent>
       <LinkComponent to="/contact">{headerTranslation[language].contact}</LinkComponent>
     </div>
   );

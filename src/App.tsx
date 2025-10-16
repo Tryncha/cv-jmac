@@ -1,12 +1,9 @@
 import { Routes, Route } from 'react-router';
 import Header from './overlay/Header';
 import Vitae from './pages/Vitae';
-// import Resume from './pages/Profile';
-import Articles from './pages/Articles';
-import Media from './pages/Media';
-import Memories from './pages/Memories/Memories';
+import Publications from './pages/Publications';
 import Contact from './pages/Contact';
-import NotFound from './pages/NotFound/NotFound';
+import NotFound from './pages/NotFound';
 import Footer from './overlay/Footer';
 import { useScrollReset } from './hooks/useScrollReset';
 
@@ -21,21 +18,9 @@ const App = () => {
           path="/"
           element={<Vitae />}
         />
-        {/* <Route
-          path="/resume"
-          element={<Resume />}
-        /> */}
         <Route
-          path="/articles"
-          element={<Articles />}
-        />
-        <Route
-          path="/media"
-          element={<Media />}
-        />
-        <Route
-          path="/memories"
-          element={<Memories />}
+          path="/publications"
+          element={<Publications />}
         />
         <Route
           path="/contact"

@@ -46,9 +46,6 @@ const WorkExperience = () => {
               className="fixed inset-0 z-40 flex h-screen items-center justify-center bg-slate-900/80"
               onClick={() => setModalId(null)}
             >
-              <div className="absolute top-36 right-24 size-16 cursor-pointer hover:drop-shadow-xs hover:drop-shadow-white">
-                <CloseIcon size="64" />
-              </div>
               <div
                 onClick={(event) => event.stopPropagation()}
                 className="rounded-sm border-slate-300 bg-white px-10 py-4 shadow-sm"
