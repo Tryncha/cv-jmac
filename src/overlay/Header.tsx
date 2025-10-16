@@ -34,10 +34,10 @@ interface LinkComponentProps {
 
 const LinkComponent = ({ children, to }: LinkComponentProps) => {
   return (
-    <div className="border-x border-slate-300 px-4 py-1 first:border-l-0 last:border-r-0 hover:bg-slate-200 sm:px-11 md:px-15 lg:px-24 xl:px-4">
+    <div className="border-x border-slate-300 py-1 first:border-l-0 last:border-r-0 hover:bg-slate-200">
       <Link
         to={to}
-        className="text-md font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:rounded-md xl:text-xl"
+        className="text-md px-4 py-2 font-bold uppercase no-underline transition-colors hover:text-slate-900 sm:px-11 md:px-15 lg:px-24 xl:rounded-md xl:px-4 xl:text-xl"
       >
         {children}
       </Link>

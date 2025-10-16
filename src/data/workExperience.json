@@ -25,25 +25,6 @@
   {
     "id": 1,
     "es": {
-      "name": "Ingeniero de Laboratorio de Calidad de Aguas",
-      "location": "Universidad Nacional de Colombia (UNAL)",
-      "city": "Manizales, Colombia",
-      "description": [
-        "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
-      ]
-    },
-    "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
-      "location": "National University of Colombia (UNAL)",
-      "city": "Manizales, Colombia",
-      "description": [
-        "Determination of physicochemical parameters of water quality by: residual chlorine, pH, color, chlorides, phosphorus, hardness, BOD, COD, coagulation-flocculation, jar test, and disinfection"
-      ]
-    }
-  },
-  {
-    "id": 2,
-    "es": {
       "name": "Ingeniero de Apoyo de Laboratorio",
       "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
@@ -52,10 +33,29 @@
       ]
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
+      "name": "Laboratory Support Engineer",
       "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": ["Laboratory technician for academic chemistry laboratory practices for high school students"]
+    }
+  },
+  {
+    "id": 2,
+    "es": {
+      "name": "Ingeniero de Laboratorio de Calidad de Aguas",
+      "location": "Universidad Nacional de Colombia (UNAL)",
+      "city": "Manizales, Colombia",
+      "description": [
+        "Determinación de parámetros fisicoquímicos de calidad del agua por: Cloro residual, pH, color, cloruros, fósforo, dureza, DBO, DQO, coagulación-floculación, prueba de jarras y desinfección"
+      ]
+    },
+    "en": {
+      "name": "Water Quality Laboratory Engineer",
+      "location": "National University of Colombia (UNAL)",
+      "city": "Manizales, Colombia",
+      "description": [
+        "Determination of physicochemical parameters of water quality by: residual chlorine, pH, color, chlorides, phosphorus, hardness, BOD, COD, coagulation-flocculation, jar test, and disinfection"
+      ]
     }
   },
   {
@@ -65,22 +65,22 @@
       "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica y cronoamperometría"
+        "Caracterización fisicoquímica de materiales por: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, adsorción-desorción de nitrógeno, voltametría cíclica, cronoamperometría, adsorción atómica (AA) y microscopia de ultravioleta visible (UV-Vis)"
       ]
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
+      "name": "Research and Development in Analysis of Nanostructured and Functional Materials",
       "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
-        "Physicochemical characterization of materials by: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, nitrogen adsorption-desorption, cyclic voltammetry and chronoamperometry"
+        "Physicochemical characterization of materials by: SEM, TEM-HR, XRD, FT-IR, XPS, Raman, TGA/DSC, nitrogen adsorption-desorption, cyclic voltammetry, chronoamperometry, atomic adsorption (AA) and ultraviolet-visible microscopy (UV-Vis)"
       ]
     }
   },
   {
     "id": 4,
     "es": {
-      "name": "Técnico de Laboratorio ed Materiales",
+      "name": "Técnico de Laboratorio de Materiales",
       "location": "Universidad Nacional de Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
@@ -90,7 +90,7 @@
       ]
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
+      "name": "Materials Laboratory Technician",
       "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
@@ -113,7 +113,7 @@
       ]
     },
     "en": {
-      "name": "Engineer Specialized in Analysis of Nanostructured and Functional Materials",
+      "name": "Quality Management Engineer",
       "location": "National University of Colombia (UNAL)",
       "city": "Manizales, Colombia",
       "description": [
@@ -142,7 +142,7 @@
       "description": [
         "X-ray diffraction and potentiostat equipment operator",
         "Development of quality management indicators",
-        "Writing technical manuals for laboratory equipment use"
+        "Writing technical manuals for laboratory equipment"
       ]
     }
   },
@@ -179,6 +179,22 @@
         "Docencia de asignaturas en ciencias básicas e ingeniería",
         "Dirección y codirección de proyectos de investigación",
         "Dirección de cursos de Ciencias de los Materiales y Mecánica de Materiales en el grado de Ingeniería Mecatrónica"
+      ],
+      "subjects": [
+        "Fisicoquímica",
+        "Laboratorio de Fisicoquímica",
+        "Mecánica de Materiales",
+        "Ciencia de los Materiales",
+        "Química General",
+        "Laboratorio de Química General",
+        "Química Analítica",
+        "Laboratorio de Química Analítica",
+        "Cinética Química",
+        "Equilibrio Químico",
+        "Termodinámica",
+        "Riesgo Químico",
+        "Mecánica de Fluidos",
+        "Gestión Ambiental"
       ]
     },
     "en": {
@@ -189,6 +205,22 @@
         "Teaching basic science and engineering courses",
         "Directing and co-directing research projects",
         "Directing Materials Science and Mechanics of Materials courses in the Mechatronics Engineering degree"
+      ],
+      "subjects": [
+        "Physical Chemistry",
+        "Physical Chemistry Laboratory",
+        "Mechanics of Materials",
+        "Materials Science",
+        "General Chemistry",
+        "General Chemistry Laboratory",
+        "Analytical Chemistry",
+        "Analytical Chemistry Laboratory",
+        "Chemical Kinetics",
+        "Chemical Equilibrium",
+        "Thermodynamics",
+        "Chemical Risk",
+        "Fluid Mechanics",
+        "Environmental Management"
       ]
     }
   },
@@ -203,6 +235,17 @@
         "Dirección de trabajos finales de grado, tutor de pasantías y prácticas académicas",
         "Dirección y codirección de proyectos de investigación, y puesta en marcha de equipo de adsorción atómica",
         "Lideración del equipo de laboratorio para la acreditación del programa de Ingeniería Ambiental"
+      ],
+      "subjects": [
+        "Calidad de Aguas",
+        "Operaciones Unitarias",
+        "Mecánica de Fluidos",
+        "Termodinámica",
+        "Hidráulica",
+        "Balance de Materia-Energía",
+        "Trabajo Final de Grado",
+        "Práctica Empresarial",
+        "Tutor de Prácticas"
       ]
     },
     "en": {
@@ -214,6 +257,17 @@
         "Supervising final degree projects, tutoring internships and academic practices",
         "Directing and co-directing research projects, and implementing atomic adsorption equipment",
         "Leading the laboratory team for the accreditation of the Environmental Engineering program"
+      ],
+      "subjects": [
+        "Water Quality",
+        "Unit Operations",
+        "Fluid Mechanics",
+        "Thermodynamics",
+        "Hydraulics",
+        "Material and Energy Balance",
+        "Final Degree Project",
+        "Professional Internship",
+        "Internship Supervisor"
       ]
     }
   },
