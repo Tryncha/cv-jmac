@@ -65,7 +65,7 @@ const Header = () => {
 
   return (
     <header className="z-30 flex w-full flex-col justify-between border-b border-slate-300 bg-slate-200 shadow-sm sm:fixed sm:top-0 sm:left-0 xl:flex-row xl:px-8 xl:py-1">
-      <div className="flex flex-col pt-1 pb-2 xl:py-0">
+      <div className="flex flex-col px-8 pt-1 pb-2 xl:py-0">
         <Link
           to="/"
           className="font-ibm-plex-serif text-center text-3xl font-bold uppercase no-underline transition-colors hover:text-slate-900 xl:text-left"

@@ -13,12 +13,12 @@ const studiesTranslation = {
   es: {
     educationTitle: 'Educación',
     graduatesTitle: 'Diplomados',
-    otherStudiesTitle: 'Otros Estudios'
+    otherStudiesTitle: 'Cursos y Conferencias Científicas'
   },
   en: {
     educationTitle: 'Education',
     graduatesTitle: 'Graduates',
-    otherStudiesTitle: 'Other Studies'
+    otherStudiesTitle: 'Scientific Courses and Conferences'
   }
 };
 

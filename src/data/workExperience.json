@@ -173,7 +173,7 @@
     "id": 8,
     "es": {
       "name": "Profesor Universitario",
-      "location": "Universidad de Caldas (UdeCaldas)",
+      "location": "Universidad de Caldas (UCaldas)",
       "city": "Manizales, Colombia",
       "description": [
         "Docencia de asignaturas en ciencias básicas e ingeniería",
@@ -199,7 +199,7 @@
     },
     "en": {
       "name": "University Professor",
-      "location": "University of Caldas (UdeCaldas)",
+      "location": "University of Caldas (UCaldas)",
       "city": "Manizales, Colombia",
       "description": [
         "Teaching basic science and engineering courses",
