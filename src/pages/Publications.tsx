@@ -20,7 +20,8 @@ const mediaTranslation = {
   }
 };
 
-const articles = articlesData.reverse();
+// const articles = articlesData.reverse();
+const articles = articlesData;
 
 interface Impact {
   jm?: string;
@@ -29,15 +30,20 @@ interface Impact {
 }
 
 interface ArticleProps {
+  id: number;
   imgSrc: string;
   imgAlt: string;
   title: string;
   abstract: string;
-  journal: string;
+  journal: {
+    name: string;
+    url: string;
+  };
   authors: string[];
   date: string;
   doi: string;
   impact?: Impact;
+  keywords: string[];
 }
 
 const journals = {
@@ -46,12 +52,24 @@ const journals = {
   jcr: 'Journal Citation Reports'
 };
 
-const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi, impact }: ArticleProps) => {
+const Article = ({
+  id,
+  imgSrc,
+  imgAlt,
+  title,
+  abstract,
+  journal,
+  authors,
+  date,
+  doi,
+  impact,
+  keywords
+}: ArticleProps) => {
   const [isImageOpen, setIsImageOpen] = useState(false);
 
   useModalProperties(isImageOpen, () => setIsImageOpen(false));
 
-  const MAX_LENGTH = 700;
+  const MAX_LENGTH = 7000;
   const BASE_DOI_URL = 'https://doi.org';
 
   return (
@@ -66,40 +84,56 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi,
               src={imgSrc}
               alt={imgAlt}
               loading="lazy"
-              draggable={false}
+              className="p-2"
             />
           </div>
         </div>
       )}
-      <article className="mt-2 flex gap-8 px-8 py-4 hover:rounded-sm hover:bg-slate-50">
+      <article className="mt-2 flex flex-col items-center gap-8 py-4 hover:rounded-sm hover:bg-slate-50 2xl:flex-row 2xl:px-8">
         <div
           onClick={() => setIsImageOpen(true)}
-          className="w-100 flex-shrink-0 transition-transform hover:scale-105"
+          className="flex-shrink-0 transition-transform hover:scale-105"
         >
           <img
             src={imgSrc}
             alt={imgAlt}
-            draggable={false}
-            className="h-60 w-full cursor-pointer border border-slate-200 bg-white object-cover p-4 shadow-sm"
+            width={400}
+            className="aspect-video cursor-pointer border border-slate-200 bg-white object-contain p-2 shadow-sm"
           />
         </div>
-        <div className="flex w-3/4 flex-col justify-center px-4">
-          <div className="flex items-center justify-between gap-20">
+        <div className="flex flex-col justify-center px-4">
+          <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between xl:gap-20">
             <div className="flex flex-col">
               <span className="font-medium">{date}</span>
               <a
                 href={`${BASE_DOI_URL}/${doi}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
+                className="text-xl font-bold text-blue-800 underline transition-colors hover:text-blue-600"
               >
                 {title}
               </a>
-
               <span className="font-bold">{authors.join(', ')}</span>
+              <div className="mt-2 flex flex-wrap gap-2">
+                {keywords.map((word) => (
+                  <span
+                    key={`${word}-${id}`}
+                    className="rounded-full border border-slate-300 bg-slate-100 px-2 text-xs italic shadow-xs"
+                  >
+                    {word}
+                  </span>
+                ))}
+              </div>
             </div>
-            <div className="flex flex-col items-end">
-              <span className="font-medium text-nowrap">{journal}</span>
+            <div className="flex w-full flex-col items-end xl:w-auto">
+              <a
+                href={journal.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-md font-semibold text-nowrap text-blue-800 underline transition-colors hover:text-blue-600"
+              >
+                {journal.name}
+              </a>
               {impact &&
                 (Object.entries(impact) as [keyof Impact, string][]).map(([key, impValue]) => (
                   <a
@@ -114,6 +148,7 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi,
                 ))}
             </div>
           </div>
+
           <p className="my-4 text-justify">
             {abstract.length > MAX_LENGTH ? `${abstract.slice(0, MAX_LENGTH)}...` : abstract}
           </p>
@@ -144,15 +179,17 @@ const Articles = () => {
       {articles.map((art) => (
         <Article
           key={art.id}
+          id={art.id}
           imgSrc={art.imgSrc}
           imgAlt={art.imgAlt}
           title={art[language].title}
           abstract={art[language].abstract}
           journal={art.journal}
-          authors={art.contributors}
+          authors={art.authors}
           date={art[language].date}
           doi={art.doi}
           impact={art.impact}
+          keywords={art[language].keywords}
         />
       ))}
     </section>
@@ -267,7 +304,7 @@ const TabButton = ({ children, isActive, onClick }: TabButtonProps) => {
   return (
     <button
       onClick={onClick}
-      className={`${isActive ? 'bg-slate-200' : 'bg-slate-100'} flex-1 cursor-pointer border-slate-300 text-2xl font-bold uppercase first:border-r`}
+      className={`${isActive ? 'bg-slate-200' : 'bg-slate-100'} flex-1 cursor-pointer border-slate-300 text-lg font-bold uppercase first:border-r sm:text-2xl`}
     >
       {children}
     </button>
@@ -292,7 +329,7 @@ const Publications = () => {
   const [activeTab, setActiveTab] = useState<'articles' | 'media'>('articles');
 
   return (
-    <main className="z-10 flex min-h-screen flex-col gap-4 border-x border-slate-300 bg-white pt-4 pb-18 shadow-sm sm:px-4 sm:pt-28 xl:mx-20 xl:px-16">
+    <main className="main-page">
       <div className="flex justify-between rounded-sm border-b border-slate-300 py-2">
         <TabButton
           isActive={activeTab === 'articles'}

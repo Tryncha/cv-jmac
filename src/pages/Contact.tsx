@@ -99,7 +99,7 @@ const Contact = () => {
   const { language } = settings;
 
   return (
-    <main className="z-10 flex min-h-screen gap-8 border-x border-slate-300 bg-white pt-4 pb-18 shadow-sm sm:px-4 sm:pt-28 xl:mx-20 xl:px-16">
+    <main className="main-page">
       <section className="flex-1">
         <h2 className="px-4 text-center text-2xl font-bold uppercase md:text-left">
           {contactTranslation[language].sendMailTitle}

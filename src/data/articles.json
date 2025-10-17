@@ -3,9 +3,11 @@
     "id": 0,
     "imgSrc": "images/articles/00-simple-route.jpg",
     "imgAlt": "Article image",
-    "journal": "Journal of the Brazilian Chemistry Society",
-    "editorial": "Sociedade Brasileira de Quimica",
-    "contributors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
+    "journal": {
+      "name": "Journal of the Brazilian Chemistry Society",
+      "url": "https://jbcs.sbq.org.br/"
+    },
+    "authors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
     "doi": "10.1590/S0103-50532011000300019",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -14,18 +16,14 @@
     },
     "es": {
       "title": "Simple route for the synthesis of copper hydroxy salts",
-      "abstract": "The current work introduces a new and rapid synthetic route for the in-laboratory preparation of copper hydroxy nitrate, through the reaction of magnesium hydroxide and copper nitrate aqueous solution. The material with the formula Cu2(OH)3NO3 and monoclinic phase was characterized by X-ray diffraction, atomic absorption, Fourier transform infrared and Raman spectroscopy, scanning electron microscopy with EDX, and thermal analysis.",
+      "abstract": "The aim of this work is to present a simple and fast method for synthesizing copper hydroxynitrate, a layered material of growing interest. Two-dimensional solids like this have attracted increasing attention due to their potential applications, especially for their ability to intercalate ionic or neutral species between layers, where weak interactions allow structural flexibility. The proposed method operates under mild conditions, without requiring changes in temperature or pressure, and yields a highly crystalline product despite the absence of long aging times typically reported in other approaches. This study contributes to the synthesis and characterization of hybrid layered phases and materials, with relevance to electrochemical electrode preparation, physicochemical and structural analysis.",
       "keywords": ["hydroxy salts", "anionic clay", "copper hydroxynitrate", "gerhardtite"],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Mar, 2011"
     },
     "en": {
       "title": "Simple route for the synthesis of copper hydroxy salts",
-      "abstract": "The current work introduces a new and rapid synthetic route for the in-laboratory preparation of copper hydroxy nitrate, through the reaction of magnesium hydroxide and copper nitrate aqueous solution. The material with the formula Cu2(OH)3NO3 and monoclinic phase was characterized by X-ray diffraction, atomic absorption, Fourier transform infrared and Raman spectroscopy, scanning electron microscopy with EDX, and thermal analysis.",
+      "abstract": "The aim of this work is to present a simple and fast method for synthesizing copper hydroxynitrate, a layered material of growing interest. Two-dimensional solids like this have attracted increasing attention due to their potential applications, especially for their ability to intercalate ionic or neutral species between layers, where weak interactions allow structural flexibility. The proposed method operates under mild conditions, without requiring changes in temperature or pressure, and yields a highly crystalline product despite the absence of long aging times typically reported in other approaches. This study contributes to the synthesis and characterization of hybrid layered phases and materials, with relevance to electrochemical electrode preparation, physicochemical and structural analysis.",
       "keywords": ["hydroxy salts", "anionic clay", "copper hydroxynitrate", "gerhardtite"],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Mar, 2011"
     }
   },
@@ -33,24 +31,22 @@
     "id": 1,
     "imgSrc": "images/articles/01-prop-dielec.jpg",
     "imgAlt": "Article image",
-    "journal": "Revista de la Sociedad Química del Perú",
-    "editorial": "Sociedad Peruana de Química",
-    "contributors": ["Giraldo, O.H.", "Arias, N.P.", "Aguirre, J.M."],
+    "journal": {
+      "name": "Revista de la Sociedad Química del Perú",
+      "url": "https://revistas.sqperu.org.pe/index.php/revistasqperu"
+    },
+    "authors": ["Giraldo, O.H.", "Arias, N.P.", "Aguirre, J.M."],
     "doi": "10.37761/rsqp.v81i3.21",
     "es": {
       "title": "Propiedades dieléctricas de hidróxidos dobles laminares de Mg:Al",
-      "abstract": "Este trabajo describe la síntesis y caracterización de dos hidróxidos dobles laminares Mg2Al-NO3 sintetizados mediante el método de coprecipitación. El comportamiento eléctrico delos materiales fue evaluado por espectroscopía dieléctrica. Los resultados del análisis dedifracción de rayos X mostraron la formación de una estructura laminar; la presencia de todaslas especies en la estructura del material sintetizado se confirmó por absorción atómica yespectroscopía de infrarrojo. Por microscopía electrónica de transmisión se observó agregadosde partículas en forma de placas. Los resultados de espectroscopía dieléctrica obtenidosa temperatura ambiente muestran un comportamiento de polarización de orientación quesugiere la rotación de moléculas de agua a alta frecuencia y la rotación de aniones nitratoen el espacio interlaminar a baja frecuencia que puede ser responsable de la conductividadiónica observada en el material.",
+      "abstract": "This study focuses on charge transport in Mg-Al layered double hydroxides (LDH) with nitrate ions as guest species. These nanomaterials can adjust their properties depending on the molecules placed between their layers, allowing the incorporation of various compounds like nanoparticles, polymers, DNA, and enzymes. Due to this flexibility, LDHs are useful in applications such as catalysis, sensors, drug delivery, UV protection, fuel cells, and energy storage devices.",
       "keywords": ["hidróxidos dobles laminares", "propiedades dieléctricas", "conductividad iónica"],
-      "language": "Español",
-      "category": "Artículo científico",
       "date": "Jun, 2015"
     },
     "en": {
       "title": "Propiedades dieléctricas de hidróxidos dobles laminares de Mg:Al",
-      "abstract": "Este trabajo describe la síntesis y caracterización de dos hidróxidos dobles laminares Mg2Al-NO3 sintetizados mediante el método de coprecipitación. El comportamiento eléctrico delos materiales fue evaluado por espectroscopía dieléctrica. Los resultados del análisis dedifracción de rayos X mostraron la formación de una estructura laminar; la presencia de todaslas especies en la estructura del material sintetizado se confirmó por absorción atómica yespectroscopía de infrarrojo. Por microscopía electrónica de transmisión se observó agregadosde partículas en forma de placas. Los resultados de espectroscopía dieléctrica obtenidosa temperatura ambiente muestran un comportamiento de polarización de orientación quesugiere la rotación de moléculas de agua a alta frecuencia y la rotación de aniones nitratoen el espacio interlaminar a baja frecuencia que puede ser responsable de la conductividadiónica observada en el material.",
+      "abstract": "This study focuses on charge transport in Mg-Al layered double hydroxides (LDH) with nitrate ions as guest species. These nanomaterials can adjust their properties depending on the molecules placed between their layers, allowing the incorporation of various compounds like nanoparticles, polymers, DNA, and enzymes. Due to this flexibility, LDHs are useful in applications such as catalysis, sensors, drug delivery, UV protection, fuel cells, and energy storage devices.",
       "keywords": ["hidróxidos dobles laminares", "propiedades dieléctricas", "conductividad iónica"],
-      "language": "Spanish",
-      "category": "Journal Article",
       "date": "Jun, 2015"
     }
   },
@@ -58,9 +54,11 @@
     "id": 2,
     "imgSrc": "images/articles/02-nano-pal.jpg",
     "imgAlt": "Article image",
-    "journal": "Revista Colombiana de Química",
-    "editorial": "Revista Colombiana de Química",
-    "contributors": ["Giraldo, C.C.", "Ocampo, R.", "Ríos, L.A.", "Martínez, M.M.", "Aguirre, J.M."],
+    "journal": {
+      "name": "Revista Colombiana de Química",
+      "url": "https://revistas.unal.edu.co//index.php/rcolquim"
+    },
+    "authors": ["Giraldo, C.C.", "Ocampo, R.", "Ríos, L.A.", "Martínez, M.M.", "Aguirre, J.M."],
     "doi": "10.15446/rev.colomb.quim.v46n2.63028",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -78,8 +76,6 @@
         "difenilacetileno",
         "2-fenilbenzofurano"
       ],
-      "language": "Español",
-      "category": "Artículo científico",
       "date": "Feb, 2017"
     },
     "en": {
@@ -93,8 +89,6 @@
         "diphenylacetylene",
         "2-phenylbenzofuran"
       ],
-      "language": "Spanish",
-      "category": "Journal Article",
       "date": "Feb, 2017"
     }
   },
@@ -102,9 +96,11 @@
     "id": 3,
     "imgSrc": "images/articles/03-nano-hidro.jpg",
     "imgAlt": "Article image",
-    "journal": "DYNA (Colombia)",
-    "editorial": "Universidad Nacional de Colombia",
-    "contributors": ["Martínez, M.M.", "Ocampo, R.", "Aguirre, J.M.", "Giraldo, O.", "Ríos, L.A."],
+    "journal": {
+      "name": "DYNA (Colombia)",
+      "url": "https://revistas.unal.edu.co/index.php/dyna"
+    },
+    "authors": ["Martínez, M.M.", "Ocampo, R.", "Aguirre, J.M.", "Giraldo, O.", "Ríos, L.A."],
     "doi": "10.15446/dyna.v85n206.68132",
     "impact": {
       "sjr": "https://www.scimagojr.com/journalsearch.php?q=12600154771&tip=sid&clean=0",
@@ -119,8 +115,6 @@
         "tetracloropaladato",
         "arcillas aniónicas"
       ],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Jul, 2018"
     },
     "en": {
@@ -132,8 +126,6 @@
         "tetrachloropalladate",
         "anionic clays"
       ],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Jul, 2018"
     }
   },
@@ -141,17 +133,11 @@
     "id": 4,
     "imgSrc": "images/articles/04-print-photo.jpg",
     "imgAlt": "Article image",
-    "journal": "Applied Materials Today",
-    "editorial": "Elsevier",
-    "contributors": [
-      "Aguirre, J.M.",
-      "Moral, A.I.",
-      "Moral, A.",
-      "Bailón, E.",
-      "Davó, A.",
-      "Pérez, A.F.",
-      "Carrasco, F."
-    ],
+    "journal": {
+      "name": "Applied Materials Today",
+      "url": "https://www.sciencedirect.com/journal/applied-materials-today"
+    },
+    "authors": ["Aguirre, J.M.", "Moral, A.I.", "Moral, A.", "Bailón, E.", "Davó, A.", "Pérez, A.F.", "Carrasco, F."],
     "doi": "10.1016/j.apmt.2023.101831",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -160,18 +146,14 @@
     },
     "es": {
       "title": "3D printing in photocatalysis: Methods and capabilities for the improved performance",
-      "abstract": "The continuous miniaturization of technologies demands of high precision techniques in the microdevice manufacture, where 3D printing arises as a powerful tool. 3D printing technologies are attracting an uprising interest and their constant development is bringing tremendous advances in the micro- to nano-scale material fabrication. Though 3D printing is yet considered a novel technology, it is being consolidated in the fabrication of chemical reactors with application in the catalytic field. In this scenario, photocatalysis is a type of catalysis activated by light and additional challenges must be tackled for the efficient implementation of 3D printing in photoreactors. This review article covers the state-of-the-art in the developments of 3D printing technologies in the photochemical reactor engineering and their downsizing opportunities. As reviewed, 3D printing enables to obtain new outperforming photocatalysts and photocatalytic supports of sophisticated configurations and geometries that were before unthinkable for traditional materials manufacture. The reactor and catalyst co-design has a tremendous impact on the photoreaction in terms of light harvesting efficiency, chemical conversion and flow regimes. In summary, the utilization of 3D printing in photocatalysis has a promising outlook given its freedom design in the macro but also in the low scale, the expansion of the family of printable materials and its integration with nanotechnology in the overall material design. Thus, through a precise control over the photocatalyst loading and its distribution, but also the substrates design in terms of volume, tortuosity and downsizing, 3D printing opens up a new horizon in the photocatalytic field.",
+      "abstract": "This research explores how certain materials can be activated by light to help remove pollutants from water, through a process called photocatalysis. While traditional materials have been widely studied, using 3D printing to improve their performance is a new and promising approach. Progress is slower due to added challenges, but this work offers a simple explanation of how photocatalysis works, what has been achieved so far with 3D printing, and what future possibilities exist by combining both technologies.",
       "keywords": ["3D printing", "additive manufacture", "reactor design", "photocatalysis"],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Abr, 2023"
     },
     "en": {
       "title": "3D printing in photocatalysis: Methods and capabilities for the improved performance",
-      "abstract": "The continuous miniaturization of technologies demands of high precision techniques in the microdevice manufacture, where 3D printing arises as a powerful tool. 3D printing technologies are attracting an uprising interest and their constant development is bringing tremendous advances in the micro- to nano-scale material fabrication. Though 3D printing is yet considered a novel technology, it is being consolidated in the fabrication of chemical reactors with application in the catalytic field. In this scenario, photocatalysis is a type of catalysis activated by light and additional challenges must be tackled for the efficient implementation of 3D printing in photoreactors. This review article covers the state-of-the-art in the developments of 3D printing technologies in the photochemical reactor engineering and their downsizing opportunities. As reviewed, 3D printing enables to obtain new outperforming photocatalysts and photocatalytic supports of sophisticated configurations and geometries that were before unthinkable for traditional materials manufacture. The reactor and catalyst co-design has a tremendous impact on the photoreaction in terms of light harvesting efficiency, chemical conversion and flow regimes. In summary, the utilization of 3D printing in photocatalysis has a promising outlook given its freedom design in the macro but also in the low scale, the expansion of the family of printable materials and its integration with nanotechnology in the overall material design. Thus, through a precise control over the photocatalyst loading and its distribution, but also the substrates design in terms of volume, tortuosity and downsizing, 3D printing opens up a new horizon in the photocatalytic field.",
+      "abstract": "This research explores how certain materials can be activated by light to help remove pollutants from water, through a process called photocatalysis. While traditional materials have been widely studied, using 3D printing to improve their performance is a new and promising approach. Progress is slower due to added challenges, but this work offers a simple explanation of how photocatalysis works, what has been achieved so far with 3D printing, and what future possibilities exist by combining both technologies.",
       "keywords": ["3D printing", "additive manufacture", "reactor design", "photocatalysis"],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Apr, 2023"
     }
   },
@@ -179,9 +161,11 @@
     "id": 5,
     "imgSrc": "images/articles/05-based-photo.jpg",
     "imgAlt": "Article image",
-    "journal": "Catalysts",
-    "editorial": "Multidisciplinary Digital Publishing Institute (MDPI)",
-    "contributors": ["Aguirre, J.M.", "Moral, A.I.", "Bailón, E.", "Carrasco, F.", "Pérez, A.F."],
+    "journal": {
+      "name": "Catalysts",
+      "url": "https://www.mdpi.com/journal/catalysts"
+    },
+    "authors": ["Aguirre, J.M.", "Moral, A.I.", "Bailón, E.", "Carrasco, F.", "Pérez, A.F."],
     "doi": "10.3390/catal14080474",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -190,18 +174,14 @@
     },
     "es": {
       "title": "BiVO4-Based Photocatalysts for the Degradation of Antibiotics in Wastewater: Calcination Role after Solvothermal Synthesis",
-      "abstract": "BiVO4 is an important n-type semiconductor used in photocatalysis due to its high capacity to absorb solar light in the 400-700 nm range, abundance, high chemical stability, non-toxicity, and low cost. However, research on physicochemical modifications to increase its catalytic activity via simple procedures is limited. In this work, the influence of different synthesis parameters, such as calcination temperatures or silver doping, on the structural and physicochemical characteristic of the BiVO4-based photocatalysts and their photocatalytic performance in degrading sulfamethoxazole from aqueous solution under blue-LED irradiation was evaluated. BiVO4-based photocatalysts were synthesized using a solvothermal method. The monoclinic phase (m-s) was successfully kept stable even after the thermal treatments at 300, 450, and 600 °C and the corresponding silver doping. The low bandgap of 2.40 eV and the average particle size of 18 nm of the BiVO4 catalyst treated at 300 °C seems to be the key. Afte doping, Ag/BiVO4 photocatalyst treated at the optimal found calcination temperature (300 °C) showed the best photocatalytic behavior.",
+      "abstract": "This research explores how a new material can help remove an emerging contaminant from water using blue LED light. Before starting the light treatment, the material was mixed with the contaminated water and left to rest in the dark to allow a balance between the contaminant and the surface of the material. The light treatment lasted several hours, and small samples were taken regularly to check how much of the contaminant was removed. These samples were filtered and analyzed using light absorption techniques. Finally, the safety of the treated water was tested using bacteria that glow in the dark, helping to understand if the process makes the water less toxic.",
       "keywords": ["BiVO4", "solar light", "SMX", "photocatalysts"],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Jul, 2024"
     },
     "en": {
       "title": "BiVO4-Based Photocatalysts for the Degradation of Antibiotics in Wastewater: Calcination Role after Solvothermal Synthesis",
-      "abstract": "BiVO4 is an important n-type semiconductor used in photocatalysis due to its high capacity to absorb solar light in the 400-700 nm range, abundance, high chemical stability, non-toxicity, and low cost. However, research on physicochemical modifications to increase its catalytic activity via simple procedures is limited. In this work, the influence of different synthesis parameters, such as calcination temperatures or silver doping, on the structural and physicochemical characteristic of the BiVO4-based photocatalysts and their photocatalytic performance in degrading sulfamethoxazole from aqueous solution under blue-LED irradiation was evaluated. BiVO4-based photocatalysts were synthesized using a solvothermal method. The monoclinic phase (m-s) was successfully kept stable even after the thermal treatments at 300, 450, and 600 °C and the corresponding silver doping. The low bandgap of 2.40 eV and the average particle size of 18 nm of the BiVO4 catalyst treated at 300 °C seems to be the key. Afte doping, Ag/BiVO4 photocatalyst treated at the optimal found calcination temperature (300 °C) showed the best photocatalytic behavior.",
+      "abstract": "This research explores how a new material can help remove an emerging contaminant from water using blue LED light. Before starting the light treatment, the material was mixed with the contaminated water and left to rest in the dark to allow a balance between the contaminant and the surface of the material. The light treatment lasted several hours, and small samples were taken regularly to check how much of the contaminant was removed. These samples were filtered and analyzed using light absorption techniques. Finally, the safety of the treated water was tested using bacteria that glow in the dark, helping to understand if the process makes the water less toxic.",
       "keywords": ["BiVO4", "solar light", "SMX", "photocatalysts"],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Jul, 2024"
     }
   },
@@ -209,9 +189,11 @@
     "id": 6,
     "imgSrc": "images/articles/06-size-mini.jpg",
     "imgAlt": "Article image",
-    "journal": "Applied Surface Science",
-    "editorial": "Elsevier",
-    "contributors": ["Aguirre, J.M.", "Munguía, A.", "Moral, A.", "Pérez, A.F.", "Carrasco, F.", "Bailón, E."],
+    "journal": {
+      "name": "Applied Surface Science",
+      "url": "https://www.sciencedirect.com/journal/applied-surface-science"
+    },
+    "authors": ["Aguirre, J.M.", "Munguía, A.", "Moral, A.", "Pérez, A.F.", "Carrasco, F.", "Bailón, E."],
     "doi": "10.1016/j.apsusc.2024.160609",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -220,18 +202,14 @@
     },
     "es": {
       "title": "Size-miniaturization of TiO2-ZrO2 coupled semiconductors to develop highly efficient visible-driven photocatalysts for the degradation of drugs in wastewater",
-      "abstract": "Solar photocatalysis has emerged as a cost-effective and efficient approach to address water remediation challenges. Nonetheless, there is a pressing requirement to innovate and design novel photocatalysts capable of utilizing solar or visible light. In this study, morphology control and surface sensitization techniques were integrated to engineer titania-based photocatalysts that operate efficiently under blue LED light. This is accomplished through the synthesis of TiaZrbOc materials (TiXZrY) with finely tuned nano-scale dimensions, employing meticulous control through the reversed two-emulsion technique. This innovative approach has yielded remarkable performance in the removal of pharmaceutical contaminants. Zr contents highly affect the size and, thus, the active surface of the photocatalysts. XRD results indicate that a low Zr content zirconium titanates are formed whereas at high Zr contents zirconia cubic phase is the main crystalline structure detected. The heterojunction created between the zirconium titanate and the titania anatase phases can be responsible of the band gap reduction observed (Eg = 2.8 eV). A SMX degradation percent as high as 80.1 % with a decrease of the treated water toxicity was obtained for Ti70Zr30 under blue-LEDs irradiation which is explained based on the formation of zirconium titanates observed by XRD and XPS and the high active surface area.",
+      "abstract": "In this study, the synthesized catalysts WERE evaluated for its photocatalytic activity in the degradation of sulfamethoxazole (SMX) under blue-LED irradiation (λ = 465 nm). Remarkably, high degradation efficiency was achieved using visible light, comparable to values reported in the literature despite employing a less powerful light source. Additionally, the toxicity of the treated water was assessed through the standardized luminescent inhibition biotest using Vibrio fischeri, providing insight into the environmental safety of the photocatalytic process.",
       "keywords": ["photocatalysis", "nanoparticles", "TiO2", "ZrO2", "visible light", "advanced oxidation processes"],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Oct, 2024"
     },
     "en": {
       "title": "Size-miniaturization of TiO2-ZrO2 coupled semiconductors to develop highly efficient visible-driven photocatalysts for the degradation of drugs in wastewater",
-      "abstract": "Solar photocatalysis has emerged as a cost-effective and efficient approach to address water remediation challenges. Nonetheless, there is a pressing requirement to innovate and design novel photocatalysts capable of utilizing solar or visible light. In this study, morphology control and surface sensitization techniques were integrated to engineer titania-based photocatalysts that operate efficiently under blue LED light. This is accomplished through the synthesis of TiaZrbOc materials (TiXZrY) with finely tuned nano-scale dimensions, employing meticulous control through the reversed two-emulsion technique. This innovative approach has yielded remarkable performance in the removal of pharmaceutical contaminants. Zr contents highly affect the size and, thus, the active surface of the photocatalysts. XRD results indicate that a low Zr content zirconium titanates are formed whereas at high Zr contents zirconia cubic phase is the main crystalline structure detected. The heterojunction created between the zirconium titanate and the titania anatase phases can be responsible of the band gap reduction observed (Eg = 2.8 eV). A SMX degradation percent as high as 80.1 % with a decrease of the treated water toxicity was obtained for Ti70Zr30 under blue-LEDs irradiation which is explained based on the formation of zirconium titanates observed by XRD and XPS and the high active surface area.",
+      "abstract": "In this study, the synthesized catalysts WERE evaluated for its photocatalytic activity in the degradation of sulfamethoxazole (SMX) under blue-LED irradiation (λ = 465 nm). Remarkably, high degradation efficiency was achieved using visible light, comparable to values reported in the literature despite employing a less powerful light source. Additionally, the toxicity of the treated water was assessed through the standardized luminescent inhibition biotest using Vibrio fischeri, providing insight into the environmental safety of the photocatalytic process.",
       "keywords": ["photocatalysis", "nanoparticles", "TiO2", "ZrO2", "visible light", "advanced oxidation processes"],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Oct, 2024"
     }
   },
@@ -239,9 +217,11 @@
     "id": 7,
     "imgSrc": "images/articles/07-elect-perf.jpg",
     "imgAlt": "Article image",
-    "journal": "Materials Today Chemistry",
-    "editorial": "Elsevier",
-    "contributors": ["Arias, N.P.", "Torres, D.A.", "Giraldo, O.H.", "Amaya, S.", "Aguirre, J.M."],
+    "journal": {
+      "name": "Materials Today Chemistry",
+      "url": "https://www.sciencedirect.com/journal/materials-today-chemistry"
+    },
+    "authors": ["Arias, N.P.", "Torres, D.A.", "Giraldo, O.H.", "Amaya, S.", "Aguirre, J.M."],
     "doi": "10.1016/j.mtchem.2024.102498",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -250,18 +230,14 @@
     },
     "es": {
       "title": "Electrical performance of non-stoichiometry manganese oxides",
-      "abstract": "Manganese oxides have been receiving considerable attention because of their performance as catalyst, and energy storage materials. Among them, hausmanite (Mn3O4) and bixbyite (Mn2O3) type of materials are used for catalytical reaction in which electron transfer reactions are involved. Several studies focus on their catalytic properties, but less attention has been paid to their electrical properties. In this work, Mn3O4 and Mn2O3 were prepared with thermal oxidation of manganese acetate at 400 °C, 600 °C and 800 °C. The XPS and XRD results revealed the formation of Mn3O4 at 400 °C, and a Mn2O3 type of structure for 600 °C and 800 °C. Rietveld refinement of these structures revealed a tetragonal unit cell structure for the Mn3O4 and cubic phase for Mn2O3. Electrical analysis by impedance spectroscopy showed a mixed conductor behavior for Mn3O4 since the conductivity depended on the frequency of the electric field. For the Mn3O4 phases at 400 °C and Mn2O3 synthesized at 600 °C and 800 °C the bulk conductivities were 3871 x 10-8 Ω-1cm-1, 9850 x 10-8 Ω-1cm-1, 16,790 x 10-8 Ω-1cm-1 respectively, indicating strong influence of the crystallographic phase and cell parameter. The DFT calculations corroborate the influence of the crystalline structure on the electrical behavior of the materials studied. Furthermore, a dielectric relaxation process was presented for Mn2O3, suggesting vacancies and the orientation of the local dipoles in this type of structures.",
+      "abstract": "This work aims to explore the synthesis and electrical/structural characterization of hausmanite and bixbyite-type manganese oxides obtained via thermal oxidation. SEM was used for morphological analysis, while XPS characterized the chemical environments of Mn and O. Crystalline phases were identified using XRD and Rietveld refinement. Impedance spectroscopy provided insights into conductivity, supported by Nyquist plots, equivalent circuits, permittivity, and dielectric modulus to understand charge transport. Conductivity findings were validated through density functional theory (DFT) calculations, contributing to the understanding of conduction mechanisms relevant to catalytic potential.",
       "keywords": [],
-      "language": "Inglés",
-      "category": "Artículo científico",
       "date": "Ene, 2025"
     },
     "en": {
       "title": "Electrical performance of non-stoichiometry manganese oxides",
-      "abstract": "Manganese oxides have been receiving considerable attention because of their performance as catalyst, and energy storage materials. Among them, hausmanite (Mn3O4) and bixbyite (Mn2O3) type of materials are used for catalytical reaction in which electron transfer reactions are involved. Several studies focus on their catalytic properties, but less attention has been paid to their electrical properties. In this work, Mn3O4 and Mn2O3 were prepared with thermal oxidation of manganese acetate at 400 °C, 600 °C and 800 °C. The XPS and XRD results revealed the formation of Mn3O4 at 400 °C, and a Mn2O3 type of structure for 600 °C and 800 °C. Rietveld refinement of these structures revealed a tetragonal unit cell structure for the Mn3O4 and cubic phase for Mn2O3. Electrical analysis by impedance spectroscopy showed a mixed conductor behavior for Mn3O4 since the conductivity depended on the frequency of the electric field. For the Mn3O4 phases at 400 °C and Mn2O3 synthesized at 600 °C and 800 °C the bulk conductivities were 3871 x 10-8 Ω-1cm-1, 9850 x 10-8 Ω-1cm-1, 16,790 x 10-8 Ω-1cm-1 respectively, indicating strong influence of the crystallographic phase and cell parameter. The DFT calculations corroborate the influence of the crystalline structure on the electrical behavior of the materials studied. Furthermore, a dielectric relaxation process was presented for Mn2O3, suggesting vacancies and the orientation of the local dipoles in this type of structures.",
+      "abstract": "This work aims to explore the synthesis and electrical/structural characterization of hausmanite and bixbyite-type manganese oxides obtained via thermal oxidation. SEM was used for morphological analysis, while XPS characterized the chemical environments of Mn and O. Crystalline phases were identified using XRD and Rietveld refinement. Impedance spectroscopy provided insights into conductivity, supported by Nyquist plots, equivalent circuits, permittivity, and dielectric modulus to understand charge transport. Conductivity findings were validated through density functional theory (DFT) calculations, contributing to the understanding of conduction mechanisms relevant to catalytic potential.",
       "keywords": [],
-      "language": "English",
-      "category": "Journal Article",
       "date": "Jan, 2025"
     }
   },
@@ -269,24 +245,22 @@
     "id": 8,
     "imgSrc": "images/articles/08-tatuajes.jpg",
     "imgAlt": "Article image",
-    "journal": "The Conversation",
-    "editorial": "The Conversation",
-    "contributors": ["Villa, M.", "Aguirre, J.M.", "Valero, E."],
+    "journal": {
+      "name": "The Conversation",
+      "url": "https://theconversation.com/us"
+    },
+    "authors": ["Villa, M.", "Aguirre, J.M.", "Valero, E."],
     "doi": "10.64628/AAO.urjgeqn5s",
     "es": {
       "title": "Tatuajes que salvarán vidas",
-      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
+      "abstract": "Los tatuajes inteligentes redefinirán el cuidado de la salud con avances cada vez más visionarios. Estos dispositivos, que integrarán tintas biocompatibles en lugar de las convencionales, modificarán su color, emitirán señales fluorescentes y sincronizarán datos con aplicaciones móviles para transmitir mediciones en tiempo real. Se proyecta un futuro en el que estos tatuajes no solo vigilarán parámetros como la glucosa en sangre, sino que también intervendrán activamente para preservar vidas mediante una supervisión continua y no invasiva del estado de salud.",
       "keywords": [],
-      "language": "Español",
-      "category": "Artículo de divulgación",
       "date": "May, 2025"
     },
     "en": {
       "title": "Tatuajes que salvarán vidas",
-      "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
+      "abstract": "Los tatuajes inteligentes redefinirán el cuidado de la salud con avances cada vez más visionarios. Estos dispositivos, que integrarán tintas biocompatibles en lugar de las convencionales, modificarán su color, emitirán señales fluorescentes y sincronizarán datos con aplicaciones móviles para transmitir mediciones en tiempo real. Se proyecta un futuro en el que estos tatuajes no solo vigilarán parámetros como la glucosa en sangre, sino que también intervendrán activamente para preservar vidas mediante una supervisión continua y no invasiva del estado de salud.",
       "keywords": [],
-      "language": "Spanish",
-      "category": "Divulgation article",
       "date": "May, 2025"
     }
   }
