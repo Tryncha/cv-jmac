@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { CopyIcon } from '../components/Icons';
 import Section from '../components/Section';
 import articlesData from '../data/articles.json';
 import { useSettings } from '../hooks/useSettings';
@@ -23,6 +22,12 @@ const mediaTranslation = {
 
 const articles = articlesData.reverse();
 
+interface Impact {
+  jm?: string;
+  sjr?: string;
+  jcr?: string;
+}
+
 interface ArticleProps {
   imgSrc: string;
   imgAlt: string;
@@ -31,36 +36,23 @@ interface ArticleProps {
   journal: string;
   authors: string[];
   date: string;
-  issn: string[];
   doi: string;
+  impact?: Impact;
 }
 
-const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn, doi }: ArticleProps) => {
+const journals = {
+  jm: 'Journal Metrics',
+  sjr: 'Scimago Journal Ranking',
+  jcr: 'Journal Citation Reports'
+};
+
+const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi, impact }: ArticleProps) => {
   const [isImageOpen, setIsImageOpen] = useState(false);
-  const [isCopied, setIsCopied] = useState(false);
 
   useModalProperties(isImageOpen, () => setIsImageOpen(false));
 
   const MAX_LENGTH = 700;
   const BASE_DOI_URL = 'https://doi.org';
-
-  async function copyUrl() {
-    if (isCopied) return null;
-
-    try {
-      await navigator.clipboard.writeText(`${BASE_DOI_URL}/${doi}`);
-      setIsCopied(true);
-      setTimeout(() => {
-        setIsCopied(false);
-      }, 4000);
-    } catch (error: unknown) {
-      if (error instanceof Error) {
-        console.error(error.message);
-      } else {
-        console.error('Unknown error:', error);
-      }
-    }
-  }
 
   return (
     <>
@@ -91,47 +83,51 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, issn
             className="h-60 w-full cursor-pointer border border-slate-200 bg-white object-cover p-4 shadow-sm"
           />
         </div>
-        <div className="flex w-3/4 flex-col px-4">
-          <span className="font-medium">{date}</span>
-          <span className="font-medium">{journal}</span>
-          <a
-            href={`${BASE_DOI_URL}/${doi}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
-          >
-            {title}
-          </a>
-          <span className="font-bold">{authors.join(', ')}</span>
-          <p className="my-4">{abstract.length > MAX_LENGTH ? `${abstract.slice(0, MAX_LENGTH)}...` : abstract}</p>
-          <span className="font-medium">ISSN: {issn.join(', ')}</span>
-          <div className="flex items-center">
-            <span className="font-medium">
-              DOI:{' '}
+        <div className="flex w-3/4 flex-col justify-center px-4">
+          <div className="flex items-center justify-between gap-20">
+            <div className="flex flex-col">
+              <span className="font-medium">{date}</span>
               <a
                 href={`${BASE_DOI_URL}/${doi}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-800 underline transition-colors hover:text-blue-600"
+                className="text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
               >
-                {doi}
+                {title}
               </a>
-            </span>
-            <div className="relative">
-              {isCopied && (
-                <div className="animate-fade-out pointer-events-none absolute left-9 inline rounded-sm bg-slate-600 px-3 text-center text-nowrap text-slate-50">
-                  <div className="absolute top-1 -left-1 size-3 rotate-45 bg-slate-600" />
-                  ¡Enlace copiado!
-                </div>
-              )}
-              <button
-                onClick={copyUrl}
-                className="mx-2 cursor-pointer align-middle"
-              >
-                <CopyIcon size="16" />
-              </button>
+
+              <span className="font-bold">{authors.join(', ')}</span>
+            </div>
+            <div className="flex flex-col items-end text-nowrap">
+              <span className="font-medium">{journal}</span>
+              {impact &&
+                (Object.entries(impact) as [keyof Impact, string][]).map(([key, impValue]) => (
+                  <a
+                    key={key}
+                    href={impValue}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-600 underline transition-colors hover:text-gray-900"
+                  >
+                    {journals[key]}
+                  </a>
+                ))}
             </div>
           </div>
+          <p className="my-4 text-justify">
+            {abstract.length > MAX_LENGTH ? `${abstract.slice(0, MAX_LENGTH)}...` : abstract}
+          </p>
+          <span className="font-medium">
+            DOI:{' '}
+            <a
+              href={`${BASE_DOI_URL}/${doi}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-800 underline transition-colors hover:text-blue-600"
+            >
+              {doi}
+            </a>
+          </span>
         </div>
       </article>
       <hr className="my-2 border-slate-300" />
@@ -155,8 +151,8 @@ const Articles = () => {
           journal={art.journal}
           authors={art.contributors}
           date={art[language].date}
-          issn={art.issn}
           doi={art.doi}
+          impact={art.impact}
         />
       ))}
     </section>

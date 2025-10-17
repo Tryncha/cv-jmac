@@ -6,7 +6,6 @@
     "journal": "Journal of the Brazilian Chemistry Society",
     "editorial": "Sociedade Brasileira de Quimica",
     "contributors": ["Aguirre, J.M.", "Gutiérrez, A.", "Giraldo, O."],
-    "issn": ["16784790, 01035053"],
     "doi": "10.1590/S0103-50532011000300019",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -37,13 +36,7 @@
     "journal": "Revista de la Sociedad Química del Perú",
     "editorial": "Sociedad Peruana de Química",
     "contributors": ["Giraldo, O.H.", "Arias, N.P.", "Aguirre, J.M."],
-    "issn": ["2309-8740", "1810-634X"],
     "doi": "10.37761/rsqp.v81i3.21",
-    "impact": {
-      "jm": "",
-      "sjr": "",
-      "jcr": ""
-    },
     "es": {
       "title": "Propiedades dieléctricas de hidróxidos dobles laminares de Mg:Al",
       "abstract": "Este trabajo describe la síntesis y caracterización de dos hidróxidos dobles laminares Mg2Al-NO3 sintetizados mediante el método de coprecipitación. El comportamiento eléctrico delos materiales fue evaluado por espectroscopía dieléctrica. Los resultados del análisis dedifracción de rayos X mostraron la formación de una estructura laminar; la presencia de todaslas especies en la estructura del material sintetizado se confirmó por absorción atómica yespectroscopía de infrarrojo. Por microscopía electrónica de transmisión se observó agregadosde partículas en forma de placas. Los resultados de espectroscopía dieléctrica obtenidosa temperatura ambiente muestran un comportamiento de polarización de orientación quesugiere la rotación de moléculas de agua a alta frecuencia y la rotación de aniones nitratoen el espacio interlaminar a baja frecuencia que puede ser responsable de la conductividadiónica observada en el material.",
@@ -68,7 +61,6 @@
     "journal": "Revista Colombiana de Química",
     "editorial": "Revista Colombiana de Química",
     "contributors": ["Giraldo, C.C.", "Ocampo, R.", "Ríos, L.A.", "Martínez, M.M.", "Aguirre, J.M."],
-    "issn": ["01202804"],
     "doi": "10.15446/rev.colomb.quim.v46n2.63028",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -113,10 +105,8 @@
     "journal": "DYNA (Colombia)",
     "editorial": "Universidad Nacional de Colombia",
     "contributors": ["Martínez, M.M.", "Ocampo, R.", "Aguirre, J.M.", "Giraldo, O.", "Ríos, L.A."],
-    "issn": ["00127353"],
     "doi": "10.15446/dyna.v85n206.68132",
     "impact": {
-      "jm": "",
       "sjr": "https://www.scimagojr.com/journalsearch.php?q=12600154771&tip=sid&clean=0",
       "jcr": "https://jcr.clarivate.com/jcr-jp/journal-profile?journal=DYNA-COLOMBIA&year=2013&fromPage=%2Fjcr%2Fsearch-results"
     },
@@ -162,7 +152,6 @@
       "Pérez, A.F.",
       "Carrasco, F."
     ],
-    "issn": ["23529407"],
     "doi": "10.1016/j.apmt.2023.101831",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -193,7 +182,6 @@
     "journal": "Catalysts",
     "editorial": "Multidisciplinary Digital Publishing Institute (MDPI)",
     "contributors": ["Aguirre, J.M.", "Moral, A.I.", "Bailón, E.", "Carrasco, F.", "Pérez, A.F."],
-    "issn": ["2073-4344"],
     "doi": "10.3390/catal14080474",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -224,7 +212,6 @@
     "journal": "Applied Surface Science",
     "editorial": "Elsevier",
     "contributors": ["Aguirre, J.M.", "Munguía, A.", "Moral, A.", "Pérez, A.F.", "Carrasco, F.", "Bailón, E."],
-    "issn": ["0169-4332"],
     "doi": "10.1016/j.apsusc.2024.160609",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -255,7 +242,6 @@
     "journal": "Materials Today Chemistry",
     "editorial": "Elsevier",
     "contributors": ["Arias, N.P.", "Torres, D.A.", "Giraldo, O.H.", "Amaya, S.", "Aguirre, J.M."],
-    "issn": ["2468-5194"],
     "doi": "10.1016/j.mtchem.2024.102498",
     "impact": {
       "jm": "https://www.journalmetrics.org/",
@@ -286,13 +272,7 @@
     "journal": "The Conversation",
     "editorial": "The Conversation",
     "contributors": ["Villa, M.", "Aguirre, J.M.", "Valero, E."],
-    "issn": ["2201-5639"],
     "doi": "10.64628/AAO.urjgeqn5s",
-    "impact": {
-      "jm": "",
-      "sjr": "",
-      "jcr": ""
-    },
     "es": {
       "title": "Tatuajes que salvarán vidas",
       "abstract": "Los tatuajes inteligentes para la salud cada día son más sofisticados. Los últimos desarrollos cambian de color, se ponen fluorescentes o permiten recibir mediciones en una app.",
