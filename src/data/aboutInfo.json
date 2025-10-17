@@ -24,22 +24,26 @@
     "email": [
       {
         "id": 0,
-        "institutionName": "Universidad Nacional de Colombia",
+        "institutionName": "Universidad Nacional de Colombia (UNAL)",
+        "institutionLogo": "logos/unal-sm.png",
         "address": "jmaguirrec@unal.edu.co"
       },
       {
         "id": 1,
-        "institutionName": "Universidad de Caldas",
+        "institutionName": "Universidad de Caldas (UCaldas)",
+        "institutionLogo": "logos/ucaldas-sm.png",
         "address": "jhon.aguirre@ucaldas.edu.co"
       },
       {
         "id": 2,
-        "institutionName": "Universidad de Granada",
+        "institutionName": "Universidad de Granada (UGR)",
+        "institutionLogo": "logos/ugr-sm.png",
         "address": "jmacor7@correo.ugr.es"
       },
       {
         "id": 3,
-        "institutionName": "Universidad de Castilla-La Mancha",
+        "institutionName": "Universidad de Castilla-La Mancha (UCLM)",
+        "institutionLogo": "logos/uclm-sm.png",
         "address": "JhonMauricio.Aguirre@uclm.es"
       }
     ]
@@ -67,22 +71,26 @@
     "email": [
       {
         "id": 0,
-        "institutionName": "National University of Colombia",
+        "institutionName": "National University of Colombia (UNAL)",
+        "institutionLogo": "logos/unal-sm.png",
         "address": "jmaguirrec@unal.edu.co"
       },
       {
         "id": 1,
-        "institutionName": "University of Caldas",
+        "institutionName": "University of Caldas (UCaldas)",
+        "institutionLogo": "logos/ucaldas-sm.png",
         "address": "jhon.aguirre@ucaldas.edu.co"
       },
       {
         "id": 2,
-        "institutionName": "University of Granada",
+        "institutionName": "University of Granada (UGR)",
+        "institutionLogo": "logos/ugr-sm.png",
         "address": "jmacor7@correo.ugr.es"
       },
       {
         "id": 3,
-        "institutionName": "University of Castilla-La Mancha",
+        "institutionName": "University of Castilla-La Mancha (UCLM)",
+        "institutionLogo": "logos/uclm-sm.png",
         "address": "JhonMauricio.Aguirre@uclm.es"
       }
     ]

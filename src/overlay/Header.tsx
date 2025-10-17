@@ -60,7 +60,9 @@ const Header = () => {
     <header className="z-30 flex w-full flex-col justify-between border-b border-slate-300 bg-slate-200 shadow-sm sm:fixed sm:top-0 sm:left-0 xl:flex-row xl:px-8">
       <div className="flex justify-center gap-4 px-8 pt-1 pb-2 xl:p-0">
         <div className="hidden md:block">
-          <BlockLogo size="80" />
+          <Link to="/">
+            <BlockLogo size="80" />
+          </Link>
         </div>
         <div className="flex flex-col justify-center">
           <Link

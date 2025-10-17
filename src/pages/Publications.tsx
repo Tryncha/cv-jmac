@@ -98,8 +98,8 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi,
 
               <span className="font-bold">{authors.join(', ')}</span>
             </div>
-            <div className="flex flex-col items-end text-nowrap">
-              <span className="font-medium">{journal}</span>
+            <div className="flex flex-col items-end">
+              <span className="font-medium text-nowrap">{journal}</span>
               {impact &&
                 (Object.entries(impact) as [keyof Impact, string][]).map(([key, impValue]) => (
                   <a
@@ -107,7 +107,7 @@ const Article = ({ imgSrc, imgAlt, title, abstract, journal, authors, date, doi,
                     href={impValue}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-600 underline transition-colors hover:text-gray-900"
+                    className="text-nowrap text-gray-600 underline transition-colors hover:text-gray-900"
                   >
                     {journals[key]}
                   </a>
@@ -246,8 +246,6 @@ const Media = () => {
               width="600"
               height="315"
               src="https://www.youtube.com/embed/GjyXu3OyeBI"
-              title="Dark Souls Dialogue - Hollow Merchant (Male)"
-              frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerPolicy="strict-origin-when-cross-origin"
               allowFullScreen
