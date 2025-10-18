@@ -20,11 +20,11 @@ const contact = contactData;
 const contactTranslation = {
   es: {
     sendMailTitle: 'Enviar un correo',
-    mainLinksTitle: 'Enlaces de interés'
+    mainLinksTitle: 'Conexiones académicas'
   },
   en: {
     sendMailTitle: 'Send mail',
-    mainLinksTitle: 'Links of interest'
+    mainLinksTitle: 'Academic connections'
   }
 };
 
