@@ -205,20 +205,21 @@ const Media = () => {
         title={`${mediaTranslation[language].podcastsTitle} (${mediaTranslation[language].availableLanguages} español)`}
       >
         {podcasts.map((pod) => (
-          <React.Fragment key={pod.id}>
+          <div
+            key={pod.id}
+            className="flex flex-col"
+          >
             <span className="my-2 px-4 text-justify whitespace-pre-line">
               {pod[language].date} - {pod[language].duration}
             </span>
-            <h3>
-              <a
-                href="https://open.spotify.com/episode/3S1HDJ3DtMTN0dXYFVWEUm?si=71f03fd5375a4052"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-4 text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
-              >
-                {pod[language].title}
-              </a>
-            </h3>
+            <a
+              href="https://open.spotify.com/episode/3S1HDJ3DtMTN0dXYFVWEUm?si=71f03fd5375a4052"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
+            >
+              {pod[language].title}
+            </a>
             <p className="px-4 font-medium">{pod[language].description}</p>
             {language === 'es' ? (
               <div className="m-4 flex flex-col border-l-4 border-slate-700 bg-slate-200 p-4 text-sm font-medium">
@@ -259,12 +260,12 @@ const Media = () => {
                 <span>&copy; Castilla-La Mancha Media, 2025. All rights reserved.</span>
               </div>
             )}
-          </React.Fragment>
+          </div>
         ))}
       </Section>
       <Section title="Videos">
-        <div className="flex">
-          <div className="ml-4 w-1/2">
+        <div className="mx-4 flex gap-8">
+          <div className="mt-4 flex flex-col">
             <h3 className="text-lg/6 font-bold">
               Vermú de nanociencia 2021: Materiales 3DOM e impresión 3D para Descontaminación ambiental
             </h3>
@@ -285,7 +286,7 @@ const Media = () => {
               </a>
             </span>
           </div>
-          <div className="mr-4 flex w-1/2 justify-center">
+          <div className="mr-4 hidden justify-center xl:flex">
             <iframe
               id="video"
               width="600"

@@ -64,7 +64,7 @@ const InstitutionMail = ({ institutionName, institutionLogo, address }: Institut
   }
 
   return (
-    <div className="my-8 flex flex-col items-center gap-4 hover:rounded-sm hover:bg-slate-50 2xl:flex-row">
+    <div className="mx-4 my-8 flex flex-col items-center gap-4 hover:rounded-sm hover:bg-slate-50 2xl:flex-row">
       <img
         src={institutionLogo}
         alt={institutionName}
@@ -73,7 +73,7 @@ const InstitutionMail = ({ institutionName, institutionLogo, address }: Institut
         className="aspect-video object-contain"
       />
       <div className="font-medium 2xl:w-100">
-        <h3 className="text-lg 2xl:text-nowrap">{institutionName}</h3>
+        <h3 className="text-center text-lg 2xl:text-left 2xl:text-nowrap">{institutionName}</h3>
         <div className="flex items-center justify-center 2xl:justify-normal">
           <a
             // href={`mailto:${address}?Subject=${EMAIL_SUBJECT}`}
