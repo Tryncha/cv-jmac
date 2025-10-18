@@ -20,8 +20,7 @@ const mediaTranslation = {
   }
 };
 
-// const articles = articlesData.reverse();
-const articles = articlesData;
+const articles = articlesData.reverse();
 
 interface Impact {
   jm?: string;
