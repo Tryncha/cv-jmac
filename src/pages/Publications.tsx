@@ -174,23 +174,83 @@ const Articles = () => {
   const { language } = settings;
 
   return (
-    <section>
-      {articles.map((art) => (
-        <Article
-          key={art.id}
-          id={art.id}
-          imgSrc={art.imgSrc}
-          imgAlt={art.imgAlt}
-          title={art[language].title}
-          abstract={art[language].abstract}
-          journal={art.journal}
-          authors={art.authors}
-          date={art[language].date}
-          doi={art.doi}
-          impact={art.impact}
-          keywords={art[language].keywords}
-        />
-      ))}
+    <section className="flex flex-col gap-4">
+      <div>
+        {articles.map((art) => (
+          <Article
+            key={art.id}
+            id={art.id}
+            imgSrc={art.imgSrc}
+            imgAlt={art.imgAlt}
+            title={art[language].title}
+            abstract={art[language].abstract}
+            journal={art.journal}
+            authors={art.authors}
+            date={art[language].date}
+            doi={art.doi}
+            impact={art.impact}
+            keywords={art[language].keywords}
+          />
+        ))}
+      </div>
+      <Section title={publicationsTranslation[language].other}>
+        <h3 className="px-4 text-center text-xl font-bold uppercase md:text-left">
+          {publicationsTranslation[language].books}
+        </h3>
+        <hr className="my-2 border-slate-300" />
+        {books.map((book) => (
+          <React.Fragment key={book.id}>
+            <div className="my-4 flex flex-col px-4 hover:rounded-sm hover:bg-slate-50">
+              <span className="font-medium">{book[language].production}</span>
+              <h3 className="text-lg font-semibold">{book[language].chapter}</h3>
+              <span className="font-medium">Libro: {book[language].title}</span>
+              <span className="font-semibold">{book[language].institution}</span>
+            </div>
+            <hr className="my-2 border-slate-300 xl:hidden" />
+          </React.Fragment>
+        ))}
+        <h3 className="px-4 text-center text-xl font-bold uppercase md:text-left">
+          {publicationsTranslation[language].presentations}
+        </h3>
+        <hr className="my-2 border-slate-300" />
+        {presentations.map((pres) => (
+          <React.Fragment key={pres.id}>
+            <div className="my-4 flex flex-col justify-between p-4 text-center hover:rounded-sm hover:bg-slate-50 md:flex-row md:py-2 md:text-left">
+              <div className="flex flex-col">
+                <span>
+                  {pres[language].conference} - {pres[language].participationType}
+                </span>
+                <h3 className="text-lg font-semibold">{pres[language].title}</h3>
+                <span>{pres[language].institution}</span>
+                <span>{pres[language].city}</span>
+              </div>
+              <div className="flex flex-col justify-center md:w-1/3 md:items-end">
+                <span className="font-semibold">{pres[language].date}</span>
+              </div>
+            </div>
+            <hr className="my-2 border-slate-300 xl:hidden" />
+          </React.Fragment>
+        ))}
+        <h3 className="px-4 text-center text-xl font-bold uppercase md:text-left">
+          {publicationsTranslation[language].results}
+        </h3>
+        <hr className="my-2 border-slate-300" />
+        {results.map((res) => (
+          <React.Fragment key={res.id}>
+            <div className="my-4 flex flex-col justify-between p-4 text-center hover:rounded-sm hover:bg-slate-50 md:flex-row md:py-2 md:text-left">
+              <div className="flex flex-col">
+                <span>{res[language].contributionLevel}</span>
+                <h3 className="text-lg font-semibold">{res[language].description}</h3>
+                <span>Investigador principal: {res[language].mainResearcher}</span>
+              </div>
+              <div className="flex flex-col justify-center md:w-1/3 md:items-end">
+                <span className="font-semibold">{res[language].date}</span>
+              </div>
+            </div>
+            <hr className="my-2 border-slate-300 xl:hidden" />
+          </React.Fragment>
+        ))}
+      </Section>
     </section>
   );
 };
@@ -323,13 +383,29 @@ const TabButton = ({ children, isActive, onClick }: TabButtonProps) => {
 const publicationsTranslation = {
   es: {
     articles: 'Artículos',
-    media: 'Multimedia'
+    media: 'Multimedia',
+    other: 'Otras publicaciones',
+    books: 'Libros',
+    presentations: 'Presentaciones',
+    results: 'Resultados científicos'
   },
   en: {
     articles: 'Articles',
-    media: 'Media'
+    media: 'Media',
+    other: 'Other publications',
+    books: 'Books',
+    presentations: 'Presentations',
+    results: 'Scientific results'
   }
 };
+
+import booksData from '../data/books.json';
+import presentationsData from '../data/presentations.json';
+import resultsData from '../data/results.json';
+
+const books = booksData;
+const presentations = presentationsData;
+const results = resultsData;
 
 const Publications = () => {
   const { settings } = useSettings();

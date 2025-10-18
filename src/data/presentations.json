@@ -1,0 +1,211 @@
+[
+  {
+    "id": 0,
+    "es": {
+      "title": "Amoniaco, la asignatura pendiente en control ambiental",
+      "conference": "XIX Young Science Symposium",
+      "participationType": "Ponencia oral",
+      "institution": "Universidad de Castilla-La Mancha",
+      "city": "Ciudad Real, Castilla-La Mancha, España",
+      "date": "Jul, 2025"
+    },
+    "en": {
+      "title": "Amoniaco, la asignatura pendiente en control ambiental",
+      "conference": "XIX Young Science Symposium",
+      "participationType": "Ponencia oral",
+      "institution": "Universidad de Castilla-La Mancha",
+      "city": "Ciudad Real, Castilla-La Mancha, España",
+      "date": "Jul, 2025"
+    }
+  },
+  {
+    "id": 1,
+    "es": {
+      "title": "Room temperature ammonia sensing with Ce/Pr mixed oxide and carbon nanotubes",
+      "conference": "XLV Reunión del Grupo Especializado de Electroquímica de la RSEQ. III ELECTROBIONET Workshop",
+      "participationType": "Ponencia oral",
+      "institution": "Electrobionet",
+      "city": "Tenerife, Islas Canarias, Canarias, España",
+      "date": "Jul, 2025"
+    },
+    "en": {
+      "title": "Room temperature ammonia sensing with Ce/Pr mixed oxide and carbon nanotubes",
+      "conference": "XLV Reunión del Grupo Especializado de Electroquímica de la RSEQ. III ELECTROBIONET Workshop",
+      "participationType": "Ponencia oral",
+      "institution": "Electrobionet",
+      "city": "Tenerife, Islas Canarias, Canarias, España",
+      "date": "Jul, 2025"
+    }
+  },
+  {
+    "id": 2,
+    "es": {
+      "title": "Nanopartículas de Óxidos de Ce, Zr, Zn y Ti para la Degradación de Contaminantes Emergentes",
+      "conference": "V Simposio Anual de la Unidad de Excelencia de Química",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Ene, 2023"
+    },
+    "en": {
+      "title": "Nanopartículas de Óxidos de Ce, Zr, Zn y Ti para la Degradación de Contaminantes Emergentes",
+      "conference": "V Simposio Anual de la Unidad de Excelencia de Química",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Ene, 2023"
+    }
+  },
+  {
+    "id": 3,
+    "es": {
+      "title": "Fotodegradación de Sulfametoxazol con nanoestructuras BiVO4, Ag/BiVO4 y G/BiVO4 empleando luz visible LED",
+      "conference": "I Jornada Jóvenes Investigadores del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Baeza, España",
+      "date": "Dic, 2022"
+    },
+    "en": {
+      "title": "Fotodegradación de Sulfametoxazol con nanoestructuras BiVO4, Ag/BiVO4 y G/BiVO4 empleando luz visible LED",
+      "conference": "I Jornada Jóvenes Investigadores del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Baeza, España",
+      "date": "Dic, 2022"
+    }
+  },
+  {
+    "id": 4,
+    "es": {
+      "title": "Fotodegradación de sulfametoxazol usando nanopartículas de semiconductores acoplados de ZnTi estimulados con luz azul",
+      "conference": "I Jornada Jóvenes Investigadores del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Baeza, España",
+      "date": "Dic, 2022"
+    },
+    "en": {
+      "title": "Fotodegradación de sulfametoxazol usando nanopartículas de semiconductores acoplados de ZnTi estimulados con luz azul",
+      "conference": "I Jornada Jóvenes Investigadores del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Baeza, España",
+      "date": "Dic, 2022"
+    }
+  },
+  {
+    "id": 5,
+    "es": {
+      "title": "Nanopartículas de Óxidos Metálicos como Fotocatalizadores Activos Bajo Luz Visible para la Eliminación de Contaminantes Emergentes de las Aguas",
+      "conference": "42a Reunión Ibérica de Adsorción (42RIA)",
+      "participationType": "Ponencia oral",
+      "institution": "Universidad Politécnica de Valencia",
+      "city": "Valencia, España",
+      "date": "Sep, 2022"
+    },
+    "en": {
+      "title": "Nanopartículas de Óxidos Metálicos como Fotocatalizadores Activos Bajo Luz Visible para la Eliminación de Contaminantes Emergentes de las Aguas",
+      "conference": "42a Reunión Ibérica de Adsorción (42RIA)",
+      "participationType": "Ponencia oral",
+      "institution": "Universidad Politécnica de Valencia",
+      "city": "Valencia, España",
+      "date": "Sep, 2022"
+    }
+  },
+  {
+    "id": 6,
+    "es": {
+      "title": "Metal Oxide M1M2.Np (M: Ce, Zr, Zn, Ti) Nanoparticles for the Photocatalytic Degradation of Organic Pollutants",
+      "conference": "XXXVIII Reunión Bienal de la Sociedad Española de Química",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Jun, 2022"
+    },
+    "en": {
+      "title": "Metal Oxide M1M2.Np (M: Ce, Zr, Zn, Ti) Nanoparticles for the Photocatalytic Degradation of Organic Pollutants",
+      "conference": "XXXVIII Reunión Bienal de la Sociedad Española de Química",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Jun, 2022"
+    }
+  },
+  {
+    "id": 7,
+    "es": {
+      "title": "Nanopartículas de Óxidos Metálicos M1M2.Np (M: Ce, Zr, Zn, Ti) Para La Degradación Fotocatalítica De Contaminantes Orgánicos",
+      "conference": "XV Reunión del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Abr, 2022"
+    },
+    "en": {
+      "title": "Nanopartículas de Óxidos Metálicos M1M2.Np (M: Ce, Zr, Zn, Ti) Para La Degradación Fotocatalítica De Contaminantes Orgánicos",
+      "conference": "XV Reunión del Grupo Español del Carbón",
+      "participationType": "Póster",
+      "institution": "Universidad de Granada",
+      "city": "Granada, España",
+      "date": "Abr, 2022"
+    }
+  },
+  {
+    "id": 8,
+    "es": {
+      "title": "Caracterización de Propiedades Dieléctricas de HDL",
+      "conference": "Escuela de Física de la Materia Condensada",
+      "participationType": "Póster",
+      "institution": "Universidad Tecnológica de Pereira",
+      "city": "Pereira, Colombia",
+      "date": "Sep, 2008"
+    },
+    "en": {
+      "title": "Caracterización de Propiedades Dieléctricas de HDL",
+      "conference": "Escuela de Física de la Materia Condensada",
+      "participationType": "Póster",
+      "institution": "Universidad Tecnológica de Pereira",
+      "city": "Pereira, Colombia",
+      "date": "Sep, 2008"
+    }
+  },
+  {
+    "id": 9,
+    "es": {
+      "title": "Materiales Tipo Hidrotalcita Intercalados Complejos metálicos de Piperazina Formados por Quelación en Estado Sólido Síntesis y Caracterización",
+      "conference": "Congreso Colombiano de Ingeniería Química",
+      "participationType": "Póster",
+      "institution": "Universidad Nacional de Colombia",
+      "city": "Manizales, Colombia",
+      "date": "Ago, 2005"
+    },
+    "en": {
+      "title": "Materiales Tipo Hidrotalcita Intercalados Complejos metálicos de Piperazina Formados por Quelación en Estado Sólido Síntesis y Caracterización",
+      "conference": "Congreso Colombiano de Ingeniería Química",
+      "participationType": "Póster",
+      "institution": "Universidad Nacional de Colombia",
+      "city": "Manizales, Colombia",
+      "date": "Ago, 2005"
+    }
+  },
+  {
+    "id": 10,
+    "es": {
+      "title": "Materiales 3DOM e Impresión 3D para Descontaminación Ambiental",
+      "conference": "Festival de Nanociencia y Nanotecnología 10ALAMENOS9",
+      "participationType": "Póster",
+      "institution": "Grupo Español del Carbón",
+      "city": "Zaragoza, Colombia",
+      "date": "Sep, 2021"
+    },
+    "en": {
+      "title": "Materiales 3DOM e Impresión 3D para Descontaminación Ambiental",
+      "conference": "Festival de Nanociencia y Nanotecnología 10ALAMENOS9",
+      "participationType": "Póster",
+      "institution": "Grupo Español del Carbón",
+      "city": "Zaragoza, Colombia",
+      "date": "Sep, 2021"
+    }
+  }
+]
