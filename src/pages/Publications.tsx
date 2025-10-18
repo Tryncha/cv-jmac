@@ -209,7 +209,16 @@ const Media = () => {
             <span className="my-2 px-4 text-justify whitespace-pre-line">
               {pod[language].date} - {pod[language].duration}
             </span>
-            <h3 className="px-4 text-lg/6 font-bold">{pod[language].title}</h3>
+            <h3>
+              <a
+                href="https://open.spotify.com/episode/3S1HDJ3DtMTN0dXYFVWEUm?si=71f03fd5375a4052"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-4 text-lg/6 font-bold text-blue-800 underline transition-colors hover:text-blue-600"
+              >
+                {pod[language].title}
+              </a>
+            </h3>
             <p className="px-4 font-medium">{pod[language].description}</p>
             {language === 'es' ? (
               <div className="m-4 flex flex-col border-l-4 border-slate-700 bg-slate-200 p-4 text-sm font-medium">
